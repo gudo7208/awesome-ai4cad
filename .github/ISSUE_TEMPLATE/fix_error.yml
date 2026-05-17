@@ -1,0 +1,31 @@
+name: Report Error
+description: Report a dead link, wrong category, duplicate, or other error
+title: "[Fix] "
+labels: ["fix"]
+body:
+  - type: dropdown
+    id: error_type
+    attributes:
+      label: Error Type
+      options:
+        - Dead link
+        - Wrong category / subsection
+        - Duplicate entry
+        - Incorrect metadata (author, venue, year)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Affected Paper
+      placeholder: "Paper title or line reference"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: "What's wrong and what should it be?"
+    validations:
+      required: true

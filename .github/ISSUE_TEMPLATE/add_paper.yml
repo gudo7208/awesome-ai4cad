@@ -1,0 +1,53 @@
+name: Add Paper
+description: Suggest a paper to add to the list
+title: "[Paper] "
+labels: ["paper"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper Title
+      placeholder: "e.g., CAD-Coder: Text-to-CAD Generation with Chain-of-Thought"
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: "e.g., Li et al."
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and Year
+      placeholder: "e.g., CVPR 2025, arXiv 2025"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Paper URL
+      placeholder: "https://arxiv.org/abs/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested Category
+      options:
+        - 2D CAD and Drawing Intelligence
+        - 3D CAD Generation and Reconstruction
+        - CAD Understanding and Retrieval
+        - Simulation and Design Optimization
+        - Manufacturing-Aware Design
+        - Datasets and Benchmarks
+        - Tools and Platforms
+        - Unsure / Other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      placeholder: "Brief description of why this paper is relevant, or suggested subsection"

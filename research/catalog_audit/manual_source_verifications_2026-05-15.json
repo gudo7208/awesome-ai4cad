@@ -1,0 +1,87 @@
+[
+  {
+    "url": "https://openreview.net/forum?id=kJzB6lQmcb",
+    "title": "Position: You Can't Manufacture a NeRF",
+    "evidence": "OpenReview paper page for the ICML 2025 position paper."
+  },
+  {
+    "url": "https://github.com/hducg/MFCAD",
+    "title": "MFCAD: A Dataset of 3D CAD Models with Machining Feature Labels",
+    "evidence": "GitHub repository description states it is a dataset of 3D CAD models with machining feature labels."
+  },
+  {
+    "url": "http://mathieu.delalandre.free.fr/projects/sesyd/",
+    "title": "SESYD: A Synthetic Document Database for Performance Evaluation",
+    "evidence": "Maintainer project page for the SESYD synthetic document database."
+  },
+  {
+    "url": "https://cadarena.dev/",
+    "title": "CAD Arena: Open Benchmark for AI-Generated Parametric CAD",
+    "evidence": "CAD Arena landing page describes the benchmark for AI-generated parametric CAD."
+  },
+  {
+    "url": "https://www.3ds.com/newsroom/press-releases/dassault-systemes-unveils-new-way-working-industry-ai-powered-virtual-companions",
+    "title": "Dassault Systemes Virtual Companions: AI-Powered Experts on 3DEXPERIENCE Platform",
+    "evidence": "Dassault Systemes press release introduces AI-powered Virtual Companions on the 3DEXPERIENCE platform."
+  },
+  {
+    "url": "https://www.autodesk.com/solutions/autodesk-ai/neural-technology",
+    "title": "Autodesk Neural CAD: 3D Generative AI Foundation Models for Design-to-Make",
+    "evidence": "Autodesk neural technology page describes neural CAD foundation models for geometry and buildings."
+  },
+  {
+    "url": "https://news.siemens.com/en-us/siemens-designcenter-nx-summer-2025/",
+    "title": "Siemens Design Copilot NX: AI Copilot for Product Engineering",
+    "evidence": "Siemens newsroom announcement describes Design Copilot NX in the Summer 2025 NX update."
+  },
+  {
+    "url": "https://news.siemens.com/en-us/digital-twin-composer-ces-2026/",
+    "title": "Siemens Digital Twin Composer for Industrial Metaverse Digital Twins",
+    "evidence": "Siemens newsroom announcement introduces Digital Twin Composer."
+  },
+  {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-omniverse-real-time-physics-digital-twins-with-industry-software-leaders",
+    "title": "NVIDIA Omniverse Blueprint for Real-Time Computer-Aided Engineering Digital Twins",
+    "evidence": "NVIDIA newsroom announcement describes the Omniverse Blueprint for real-time CAE digital twins."
+  },
+  {
+    "url": "https://www.neuralconcept.com/post/neural-concept-introduces-a-physics--and-geometry-aware-ai-design-copilot-extending-its-established-engineering-ai-platform",
+    "title": "Neural Concept: Physics- and Geometry-Aware AI Design Copilot for Engineering",
+    "evidence": "Neural Concept press release introduces the physics- and geometry-aware AI Design Copilot."
+  },
+  {
+    "url": "https://adam.new/",
+    "title": "Adam: AI-Native CAD Platform for Text-to-Parametric Design",
+    "evidence": "Adam product page describes an AI agent for CAD platforms."
+  },
+  {
+    "url": "https://www.getleo.ai/",
+    "title": "Leo AI: Large Mechanical Model for CAD-Aware Engineering Assistance",
+    "evidence": "Leo AI homepage describes an engineering AI platform and Large Mechanical Model."
+  },
+  {
+    "url": "https://zoo.dev/docs/faq",
+    "title": "Zoo.dev Text-to-CAD: Parametric CAD Generation via KCL Programming Language",
+    "evidence": "Zoo documentation FAQ describes Text-to-CAD producing editable parametric KCL code."
+  },
+  {
+    "url": "https://mecagent.com/",
+    "title": "MecAgent: AI Copilot for Mechanical CAD Software Automation",
+    "evidence": "MecAgent product page describes an AI copilot for mechanical CAD software."
+  },
+  {
+    "url": "https://luminary.ai/",
+    "title": "Luminary Cloud: Physics AI Factory for Real-Time Engineering Simulation",
+    "evidence": "Luminary Cloud homepage describes cloud-native engineering simulation and physics AI."
+  },
+  {
+    "url": "https://www.autodesk.com/autodesk-university/class/Equip-AI-with-Access-to-Your-Design-Data-and-Projects-Model-Context-Protocol-Autodesk-Platform-Services-2025",
+    "title": "Autodesk and Model Context Protocol: Making MCP Enterprise-Ready for CAD",
+    "evidence": "Autodesk University class page describes MCP access to Autodesk design data and projects."
+  },
+  {
+    "url": "https://github.com/bonninr/freecad_mcp",
+    "title": "FreecadMCP: Model Context Protocol Server for AI-Driven CAD Design",
+    "evidence": "GitHub repository describes FreecadMCP connecting FreeCAD to MCP-ready AI tools."
+  }
+]
