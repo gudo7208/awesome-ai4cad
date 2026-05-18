@@ -18,29 +18,6 @@ validation: "python3 scripts/validate_catalog.py"
 
 ---
 
-## Start Here
-
-- **Researchers:** use the table of contents to jump to the CAD task area you need.
-- **Maintainers and agents:** read [AGENTS.md](AGENTS.md) before editing. It defines source-of-truth files, validation commands, and data-confidence rules.
-- **Validation:** run `python3 scripts/validate_catalog.py` after catalog changes.
-
-## Corpus Snapshot
-
-This repository intentionally separates three denominators:
-
-| Denominator | Current Count | Source |
-|---|---:|---|
-| Markdown catalog entries | 709 | `README.md` list entries |
-| Deduplicated registry records | 638 | `research/papers/*.jsonl` |
-| Registry records dated 2024-2026 | 496 | `research/papers/*.jsonl` |
-
-Use these terms explicitly when citing counts. Do not collapse them into an undefined "papers" total.
-
-For the current catalog-entry confidence review, see
-[catalog_entry_audit_summary_2026-05-15.md](research/catalog_audit/catalog_entry_audit_summary_2026-05-15.md).
-
----
-
 ## Taxonomy
 
 ```text
@@ -84,7 +61,7 @@ AI for CAD
 ## Contents
 
 - [Surveys](#surveys)
-- [Foundational AI Techniques](#foundational-ai-techniques)
+- [Foundational CAD AI Papers](#foundational-cad-ai-papers)
 - [CAD Representations and Foundations](#cad-representations-and-foundations)
 - [2D CAD and Drawing Intelligence](#2d-cad-and-drawing-intelligence)
 - [3D CAD Generation and Reconstruction](#3d-cad-generation-and-reconstruction)
@@ -95,6 +72,7 @@ AI for CAD
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Tools and Platforms](#tools-and-platforms)
 - [Contributing](#contributing)
+- [Catalog Metadata](#catalog-metadata)
 
 ---
 
@@ -112,11 +90,24 @@ Overview and survey papers covering AI for CAD and related 3D generation domains
 
 ---
 
-## Foundational AI Techniques
+## Foundational CAD AI Papers
 
-Core deep learning architectures that underpin many AI+CAD methods, particularly for 3D point cloud and graph-based processing.
+Curated CAD-specific anchors that introduced reusable datasets, representations, or modeling paradigms later work repeatedly builds on. This section is intentionally selective; the longer category lists below remain chronological.
 
-**Landmark works:** PointNet/PointNet++ for point set learning; DGCNN for dynamic graph convolution; Geometric Deep Learning as the broader theoretical framework.
+| Area | Anchor paper | Why it matters |
+|---|---|---|
+| CAD construction sequences | [DeepCAD](https://arxiv.org/abs/2105.09492) | Established sketch-and-extrude sequence generation as a core CAD generative modeling setup. |
+| Programmatic CAD data | [Fusion 360 Gallery](https://arxiv.org/abs/2010.02392) | Provided human design sequences and an environment for programmatic CAD construction. |
+| Large-scale B-rep data | [ABC](https://arxiv.org/abs/1812.06216) | Became a common source dataset for geometric deep learning on CAD/B-rep geometry. |
+| Relational sketch geometry | [SketchGraphs](https://arxiv.org/abs/2007.08506) | Made constraint graphs and relational geometry a reusable learning target. |
+| Neural CSG parsing | [CSGNet](https://arxiv.org/abs/1712.08290) | Early neural approach for constructive solid geometry program recovery. |
+| B-rep representation learning | [BRepNet](https://arxiv.org/abs/2104.00706) | Established topological message passing over faces, edges, and coedges for solid models. |
+| Surface-aware B-rep learning | [UV-Net](https://arxiv.org/abs/2006.10211) | Combined UV-sampled surface grids with graph structure for B-rep understanding. |
+| Hierarchical CAD generation | [SkexGen](https://arxiv.org/abs/2207.04632) | Introduced disentangled codebooks for sketch and extrusion generation. |
+| B-rep generation | [BrepGen](https://arxiv.org/abs/2401.15563) | Helped move CAD generation from command sequences toward structured B-rep geometry. |
+
+<details>
+<summary>Related general AI background references</summary>
 
 - **Multi-Scale Latent Diffusion with Mamba+ for Complex Parametric Sequence** - Liyuan Deng, Yunpeng Bai, Yongkang Dai et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2511.17647)]
 - **CAD-Coder: Text-to-CAD Generation with Chain-of-Thought and Geometric Reward** - Yandong Guan, Xilin Wang, Ximing Xing et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2505.19713)]
@@ -127,13 +118,15 @@ Core deep learning architectures that underpin many AI+CAD methods, particularly
 - **PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation** - Qi et al.. *CVPR 2017*. [[Paper](https://arxiv.org/abs/1612.00593)]
 - **PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space** - Qi et al.. *NeurIPS 2017*. [[Paper](https://arxiv.org/abs/1706.02413)]
 
+</details>
+
 ---
 
 ## CAD Representations and Foundations
 
 Papers establishing core CAD representation paradigms (B-rep, CSG, sequence, code) that form the basis for generative and understanding methods.
 
-**Landmark works:** CSGNet for neural CSG parsing; BRepNet for topological message passing; SkexGen for disentangled CAD codebooks.
+**Representative anchors:** CSGNet for neural CSG parsing; BRepNet for topological message passing; SkexGen for disentangled CAD codebooks.
 
 - **BRepFormer: AutoRegressive Generation with B-rep Holistic Token Sequence Representation** - Jiahao Li, Yunpeng Bai, Yongkang Dai et al. *arXiv 2026*. [[Paper](https://arxiv.org/abs/2601.16771)]
 - **Masked BRep Autoencoder via Hierarchical Graph Transformer** - Yifei Li, Kang Wu, Wenming Wu et al. *arXiv 2026*. [[Paper](https://arxiv.org/abs/2603.14927)]
@@ -157,7 +150,7 @@ Papers establishing core CAD representation paradigms (B-rep, CSG, sequence, cod
 
 AI methods for interpreting, analyzing, and generating 2D engineering drawings, floor plans, P&ID diagrams, and circuit schematics.
 
-**Landmark works:** SymPoint for panoptic symbol spotting; FloorPlanCAD for drawing datasets; GAT-CADNet for graph-based symbol detection.
+**Representative anchors:** SymPoint for panoptic symbol spotting; FloorPlanCAD for drawing datasets; GAT-CADNet for graph-based symbol detection.
 
 ### Symbol Detection and Spotting
 
@@ -318,7 +311,7 @@ AI methods for interpreting, analyzing, and generating 2D engineering drawings, 
 
 Methods for generating parametric 3D CAD models from various inputs including text, images, point clouds, and sketches.
 
-**Landmark works:** DeepCAD for autoregressive CAD sequence generation; SkexGen for disentangled codebook generation; recent code-generation methods for LLM-native CAD.
+**Representative anchors:** DeepCAD for autoregressive CAD sequence generation; SkexGen for disentangled codebook generation; recent code-generation methods for LLM-native CAD.
 
 ### Autoregressive Sequence Models
 
@@ -502,7 +495,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 Representation learning, feature recognition, retrieval, and semantic understanding of CAD models.
 
-**Landmark works:** BRepNet and UV-Net for boundary representation learning; SketchGraphs for relational geometry modeling.
+**Representative anchors:** BRepNet and UV-Net for boundary representation learning; SketchGraphs for relational geometry modeling.
 
 ### B-Rep Representation Learning
 
@@ -596,7 +589,7 @@ Representation learning, feature recognition, retrieval, and semantic understand
 
 AI-accelerated simulation surrogates, physics-informed methods, and topology optimization.
 
-**Landmark works:** Fourier Neural Operator for PDE surrogates; Physics-Informed Neural Networks for physics-constrained learning; TopoDiff and related models for generative topology optimization.
+**Representative anchors:** Fourier Neural Operator for PDE surrogates; Physics-Informed Neural Networks for physics-constrained learning; TopoDiff and related models for generative topology optimization.
 
 ### Neural Operators and FEA Surrogates
 
@@ -749,7 +742,7 @@ AI-accelerated simulation surrogates, physics-informed methods, and topology opt
 
 Design for manufacturing, additive manufacturing, assembly planning, and CAD/CAM integration.
 
-**Landmark works:** MeshCNN for mesh-based learning applicable to manufacturing; InverseCSG for reverse engineering; recent DfAM methods that integrate topology optimization with additive-manufacturing constraints.
+**Representative anchors:** MeshCNN for mesh-based learning applicable to manufacturing; InverseCSG for reverse engineering; recent DfAM methods that integrate topology optimization with additive-manufacturing constraints.
 
 ### Design for Manufacturing (DFM)
 
@@ -1086,6 +1079,21 @@ Run the catalog validator before submitting maintenance changes:
 ```bash
 python3 scripts/validate_catalog.py
 ```
+
+## Catalog Metadata
+
+This repository intentionally separates three denominators:
+
+| Denominator | Current Count | Source |
+|---|---:|---|
+| Markdown catalog entries | 709 | `README.md` list entries |
+| Deduplicated registry records | 638 | `research/papers/*.jsonl` |
+| Registry records dated 2024-2026 | 496 | `research/papers/*.jsonl` |
+
+Use these terms explicitly when citing counts. Do not collapse them into an undefined "papers" total.
+
+For the current catalog-entry confidence review, see
+[catalog_entry_audit_summary_2026-05-15.md](research/catalog_audit/catalog_entry_audit_summary_2026-05-15.md).
 
 ---
 
