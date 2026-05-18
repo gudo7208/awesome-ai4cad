@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 709
+catalog_entries: 723
 deduplicated_registry_records: 638
 registry_records_2024_2026: 496
 entry_format: "Markdown list item with title, authors, venue/year, and Paper URL"
@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-709_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-723_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-638_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -318,7 +318,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 - **AGDC: Autoregressive Generation of Variable-Length Sequences with Joint Discrete and Continuous Spaces** - Yeonsang Shin, Insoo Kim, Bongkeun Kim et al.. *arXiv 2026*. [[Paper](https://arxiv.org/abs/2601.05680)]
 - **Position: You Can't Manufacture a NeRF** - Marta An Kimmel, Mueed Ur Rehman, Yonatan Bisk et al. *ICML 2025*. [[Paper](https://openreview.net/forum?id=kJzB6lQmcb)]
 - **CAD-SIGNet: CAD Language Inference from Point Clouds using Layer-wise Sketch Instance Guided Attention** - Mohammad Sadil Khan, Elona Dupont, Sk Aziz Ali et al.. *CVPR 2024*. [[Paper](https://arxiv.org/abs/2402.17678)]
-- **FlexCAD: Unified and Versatile Controllable CAD Generation with Fine-tuned Large Language Models** - Zhanwei Zhang, Shizhao Sun, Wenxiao Wang et al.. *ICLR 2025*. [[Paper](https://arxiv.org/abs/2411.05823)]
+- **FlexCAD: Unified and Versatile Controllable CAD Generation with Fine-tuned Large Language Models** - Zhanwei Zhang, Shizhao Sun, Wenxiao Wang et al.. *ICLR 2025*. [[Paper](https://arxiv.org/abs/2411.05823)] [[Code](https://github.com/microsoft/FlexCAD)]
 - **Img2CAD: Conditioned 3D CAD Model Generation from Single Image with Structured Visual Geometry** - Tianrun Chen, Chunan Yu, Yuanqi Hu et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2410.03417)]
 - **Img2CAD: Reverse Engineering 3D CAD Models from Images through VLM-Assisted Conditional Factorization** - Yang You, Mikaela Angelina Uy, Jiaqi Han et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2408.01437)]
 - **ContrastCAD: Contrastive Learning-based Representation Learning for Computer-Aided Design Models** - Minseop Jung, Minseong Kim, Jibum Kim. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2404.01645)]
@@ -338,7 +338,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 - **RECAD: Revisiting CAD Model Generation by Learning Raster Sketch** - Pu Li, Wenhao Zhang, Jianwei Guo et al.. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2503.00928)]
 - **Feasibility Enhancement for 3D CAD Generation** - Chikaha Tsuji, Enrique Flores Medina, Harshit Gupta et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2505.23287)]
 - **Physically Grounded 3D Shape Generation for Industrial Design** - Yingxuan You, Chen Zhao, Hantao Zhang et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2512.00422)]
-- **GenCAD: Image-Conditioned Computer-Aided Design Generation with Transformer-Based Contrastive Representation and Diffusion Priors** - Md Ferdous Alam, Faez Ahmed. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2409.16294)]
+- **GenCAD: Image-Conditioned Computer-Aided Design Generation with Transformer-Based Contrastive Representation and Diffusion Priors** - Md Ferdous Alam, Faez Ahmed. *TMLR 2025*. [[Paper](https://arxiv.org/abs/2409.16294)] [[Code](https://github.com/ferdous-alam/GenCAD)]
 - **Shaping Realities: Enhancing 3D Generative AI with Fabrication Constraints** - Faruqi et al.. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2404.10142)]
 
 ### LLM and VLM-Based Generation
@@ -384,7 +384,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 - **CMT: A Cascade MAR with Topology Predictor for Multimodal Conditional CAD Generation** - Wu et al.. *ICCV 2025*. [[Paper](https://arxiv.org/abs/2504.20830)]
 - **Learning B-Rep in Graph Structure for Efficient CAD Generation** - Weilin Lai, Tie Xu, Hu Wang. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2507.04765)]
 - **Transformer-Based B-rep Geometric Feature Recognition** - Yongkang Dai, Xiaoshui Huang, Yunpeng Bai et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2504.07378)]
-- **BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry** - Xiang Xu, Joseph G. Lambourne, Pradeep Kumar Jayaraman et al.. *SIGGRAPH 2024*. [[Paper](https://arxiv.org/abs/2401.15563)]
+- **BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry** - Xiang Xu, Joseph G. Lambourne, Pradeep Kumar Jayaraman et al.. *SIGGRAPH 2024*. [[Paper](https://arxiv.org/abs/2401.15563)] [[Code](https://github.com/samxuxiang/BrepGen)]
 - **DiffCSG: Differentiable CSG via Rasterization** - Haocheng Yuan, Adrien Bousseau, Hao Pan et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2409.01421)]
 - **Learning Efficient Surface Representations for 3D Solids** - Jiajie Fan, Babak Gholami, Thomas Back et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2411.10848)]
 - **A Unified Differentiable Boolean Operator with Fuzzy Logic** - Hsueh-Ti Derek Liu, Maneesh Agrawala, Cem Yuksel et al. *SIGGRAPH 2024*. [[Paper](https://arxiv.org/abs/2407.10954)]
@@ -401,7 +401,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 - **Point2Primitive: CAD Reconstruction from Point Cloud by Direct Primitive Prediction** - Xinzhu Ma, Cheng Wang, Chen Tang et al.. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2505.02043)]
 - **NeurCADRecon: Neural Representation for Reconstructing CAD Surfaces by Enforcing Zero Gaussian Curvature** - Qiujie Dong, Rui Xu, Pengfei Wang et al. *SIGGRAPH 2024*. [[Paper](https://arxiv.org/abs/2404.13420)]
 - **TransCAD: A Hierarchical Transformer for CAD Sequence Inference from Point Clouds** - Elona Dupont, Kseniya Cherenkova, Dimitrios Mallis et al.. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2407.12702)]
-- **CAD-Recode: Reverse Engineering CAD Code from Point Clouds** - Danila Rukhovich, Elona Dupont, Dimitrios Mallis et al.. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2412.14042)]
+- **CAD-Recode: Reverse Engineering CAD Code from Point Clouds** - Danila Rukhovich, Elona Dupont, Dimitrios Mallis et al.. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2412.14042)] [[Code](https://github.com/filaPro/cad-recode)]
 - **PS-CAD: Local Geometry Guidance via Prompting and Selection for CAD Reconstruction** - Bingchen Yang, Haiyong Jiang, Hao Pan et al. *ACM TOG 2024*. [[Paper](https://arxiv.org/abs/2405.15188)]
 - **P2CADNet: An End-to-End Reconstruction Network for Parametric 3D CAD Model from Point Clouds** - Zhihao Zong, Fazhi He, Rubin Fan et al. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2310.02638)]
 - **Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds** - Yujia Liu, Anton Obukhov, Jan Dirk Wegner et al.. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2312.04962)]
@@ -593,6 +593,7 @@ AI-accelerated simulation surrogates, physics-informed methods, and topology opt
 
 ### Neural Operators and FEA Surrogates
 
+- **MechAgents: Agent-Based LLM Modeling for Autonomous FEM Problem Solving** - Ni, Buehler. *Extreme Mechanics Letters 2024*. [[Paper](https://arxiv.org/abs/2311.08166)] [[Code](https://github.com/lamm-mit/MechAgents)]
 - **NOEM: Efficient and Scalable Finite Element Method Enabled by Reusable Neural Operators** - Weihang Ouyang, Yeonjong Shin, Si-Wei Liu et al. *Nature Computational Science 2026*. [[Paper](https://doi.org/10.1038/s43588-026-00974-2)]
 - **A Graph Neural Network Surrogate for 3D Finite Element Modeling: Accelerated Full-Field Parameter Identification in Aluminum Alloy 6DR1** - Ossama Abou Ali Modad, Mustapha Makki, Abdallah Chehade et al. *Modelling and Simulation in Materials Science and Engineering 2026*. [[Paper](https://doi.org/10.1186/s41313-026-00075-7)]
 - **Efficient Dilated Squeeze and Excitation Neural Operator for Differential Equations** - Prajwal Chauhan, Salah Eddine Choutri, Saif Eddin Jabari. *arXiv preprint 2026*. [[Paper](https://arxiv.org/abs/2601.17407)]
@@ -912,11 +913,11 @@ Papers analyzing open problems, technical challenges, and long-term research dir
 
 - **Agent-Aided Design for Dynamic CAD Models** - Adler et al.. *CAIS 2026*. [[Paper](https://arxiv.org/abs/2604.15184)]
 - **BrepCoder: A Unified Multimodal Large Language Model for Multi-task B-rep Reasoning** - Kim et al.. *arXiv 2026*. [[Paper](https://arxiv.org/abs/2602.22284)]
-- **cadrille: Multi-modal CAD Reconstruction with Online Reinforcement Learning** - Kolodiazhnyi et al.. *ICLR 2026 (Oral)*. [[Paper](https://arxiv.org/abs/2505.22914)]
+- **cadrille: Multi-modal CAD Reconstruction with Online Reinforcement Learning** - Kolodiazhnyi et al.. *ICLR 2026 (Oral)*. [[Paper](https://arxiv.org/abs/2505.22914)] [[Code](https://github.com/col14m/cadrille)]
 - **CADFusion: Text-to-CAD Generation Through Infusing Visual Feedback in Large Language Models** - Wang et al.. *ICML 2025*. [[Paper](https://arxiv.org/abs/2501.19054)]
 - **CAD-GPT: Synthesising CAD Construction Sequence with Spatial Reasoning-Enhanced Multimodal LLMs** - Wang et al.. *AAAI 2025*. [[Paper](https://arxiv.org/abs/2412.19663)]
 - **CADDreamer: CAD Object Generation from Single-view Images** - Li et al.. *CVPR 2025*. [[Paper](https://arxiv.org/abs/2502.20732)]
-- **CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers** - Mallis et al.. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2412.13810)]
+- **CAD-Assistant: Tool-Augmented VLLMs as Generic CAD Task Solvers** - Mallis et al.. *ICCV 2025*. [[Paper](https://arxiv.org/abs/2412.13810)] [[Code](https://github.com/dimitrismallis/CAD-Assistant)]
 
 ### Mid-Term Directions
 
@@ -950,8 +951,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **Synthetic Generation Tool of Digital Measurement Device CAD Model Datasets for Fine-tuning Large Vision-Language Models** - Joao Valente, Atabak Dehban, Rodrigo Ventura. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2508.21732)]
 - **A Large-Scale CAD Drawings Dataset and New Baseline for Panoptic Symbol Spotting** - Ruifeng Luo, Zhengjie Liu, Tianxiao Cheng et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2503.22346)]
 - **IEC3D-AD: A 3D Dataset of Industrial Equipment Components for Unsupervised Point Cloud Anomaly Detection** - Bingyang Guo, Hongjie Li, Ruiyun Yu et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2511.03267)]
-- **CAD-MLLM: Unifying Multimodality-Conditioned CAD Generation With MLLM** - Xu et al.. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2411.04954)]
-- **Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts** - Khan et al.. *NeurIPS 2024 Spotlight*. [[Paper](https://arxiv.org/abs/2409.17106)]
+- **CAD-MLLM: Unifying Multimodality-Conditioned CAD Generation With MLLM** - Xu et al.. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2411.04954)] [[Code](https://github.com/CAD-MLLM/CAD-MLLM)]
+- **Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts** - Khan et al.. *NeurIPS 2024 Spotlight*. [[Paper](https://arxiv.org/abs/2409.17106)] [[Code](https://github.com/SadilKhan/Text2CAD)]
 - **Slice-100K: A Multimodal Dataset for Extrusion-based 3D Printing** - Anushrut Jignasu, Kelly O. Marshall, Ankush Kumar Mishra et al. *NeurIPS 2024 D&B Track*. [[Paper](https://arxiv.org/abs/2407.04180)]
 - **From Engineering Diagrams to Graphs** - Jan Marius Sturmer, Marius Graumann, Tobias Koch. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2411.13929)]
 - **Objaverse: A Universe of Annotated 3D Objects** - Deitke et al.. *CVPR 2023*. [[Paper](https://arxiv.org/abs/2212.08051)]
@@ -982,7 +983,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 - **CAD Arena: Open Benchmark for AI-Generated Parametric CAD** - CAD Arena Team. *Online Platform 2025*. [[Paper](https://cadarena.dev/)]
 - **Mamba-CAD: State Space Model For 3D Computer-Aided Design Generative Modeling** - Xueyang Li, Yunzhong Lou, Yu Song et al. *arXiv 2026*. [[Paper](https://arxiv.org/abs/2603.00439)]
-- **BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement** - Yuhao Du, Shunian Chen, Wenbo Zan et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2412.14203)]
+- **BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement** - Yuhao Du, Shunian Chen, Wenbo Zan et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2412.14203)] [[Code](https://github.com/FreedomIntelligence/BlenderLLM)]
 - **Geometric Deep Learning for Computer-Aided Design: A Survey** - Negar Heidari, Alexandros Iosifidis. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2402.17695)]
 
 ---
@@ -1030,6 +1031,19 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **Text-to-CAD Generation Through Infusing Visual Feedback in Large Language Models** - Wang et al.. *arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2501.19054)]
 - **Autodesk and Model Context Protocol: Making MCP Enterprise-Ready for CAD** - Autodesk. *Technical Blog 2025*. [[Paper](https://www.autodesk.com/autodesk-university/class/Equip-AI-with-Access-to-Your-Design-Data-and-Projects-Model-Context-Protocol-Autodesk-Platform-Services-2025)]
 - **FreecadMCP: Model Context Protocol Server for AI-Driven CAD Design** - bonninr (open-source). *GitHub 2025*. [[Paper](https://github.com/bonninr/freecad_mcp)]
+- **CAD Skills: Agent Skills for Parametric CAD Generation via build123d** - earthtojake (open-source). *GitHub 2025*. [[Paper](https://github.com/earthtojake/text-to-cad)]
+- **CADAM: Open-Source Text-to-CAD Web Application with OpenSCAD-WASM** - Adam-CAD (open-source). *GitHub 2026*. [[Paper](https://github.com/Adam-CAD/CADAM)]
+- **HiCAD: AI-Driven Parametric 3D CAD Modeling Platform with JSCAD and Multi-LLM Support** - MrXujiang (open-source). *GitHub 2025*. [[Paper](https://github.com/MrXujiang/HiCAD)]
+- **CQAsk: Open-Source LLM CAD Generation Tool using CadQuery** - OpenOrion (open-source). *GitHub 2024*. [[Paper](https://github.com/OpenOrion/CQAsk)]
+- **multiCAD-mcp: MCP Server for Controlling AutoCAD/ZWCAD/BricsCAD via AI Assistants** - AnCode666 (open-source). *GitHub 2025*. [[Paper](https://github.com/AnCode666/multiCAD-mcp)]
+- **CAD Agent: AI-Driven CAD Modeling with Visual Feedback Loop (build123d + MCP)** - Svetlana-DAO-LLC (open-source). *GitHub 2025*. [[Paper](https://github.com/Svetlana-DAO-LLC/cad-agent)]
+- **gNucleus Text-to-CAD MCP: MCP Server for Generative CAD Part and Assembly Design** - gNucleus (open-source). *GitHub 2025*. [[Paper](https://github.com/gNucleus/text-to-cad-mcp)]
+- **cadquery-mcp-server: MCP Server for CAD Generation and Verification with CadQuery** - rishigundakaram (open-source). *GitHub 2025*. [[Paper](https://github.com/rishigundakaram/cadquery-mcp-server)]
+- **FreeCAD MCP: Model Context Protocol Server with FEM Analysis Support** - neka-nat (open-source). *GitHub 2025*. [[Paper](https://github.com/neka-nat/freecad-mcp)]
+- **Dingcad: Live-Reload CAD Scripting with ManifoldCAD and QuickJS** - yacineMTB (open-source). *GitHub 2025*. [[Paper](https://github.com/yacineMTB/dingcad)]
+- **OpenSCAD Agent: Claude Code-Powered 3D Modeling Agent for 3D Printable Designs** - iancanderson (open-source). *GitHub 2025*. [[Paper](https://github.com/iancanderson/openscad-agent)]
+- **CodeToCAD: Vendor-Agnostic Code-Based CAD Automation Framework** - CodeToCAD (open-source). *GitHub 2024*. [[Paper](https://github.com/CodeToCAD/CodeToCAD)]
+- **Curated Code CAD: A Comprehensive List of Code-Based CAD Tools and Frameworks** - Irev-Dev (open-source). *GitHub 2024*. [[Paper](https://github.com/Irev-Dev/curated-code-cad)]
 - **The Power of Small LLMs in Geometry Generation for Physical Simulations** - Ossama Shafiq, Bahman Ghiassi, Alessio Alexiadis. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2503.18178)]
 - **DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces** - Mohammad Sadil Khan, Muhammad Usama, Rolandos Alexandros Potamias et al. *arXiv 2026*. [[Paper](https://arxiv.org/abs/2603.05607)]
 - **Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding** - Jiahao Li, Qingwang Zhang, Qiuyu Chen et al. *arXiv 2026*. [[Paper](https://arxiv.org/abs/2603.11831)]
