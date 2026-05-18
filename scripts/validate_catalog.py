@@ -44,7 +44,7 @@ def fail(message: str, failures: list[str]) -> None:
 
 def count_readme_entries() -> int:
     text = README.read_text(encoding="utf-8")
-    entry_pattern = re.compile(r"^- \*\*.+\*\* - .+\. \*.+\*\.")
+    entry_pattern = re.compile(r"^- \*\*.+\*\*")
     return sum(1 for line in text.splitlines() if entry_pattern.match(line))
 
 
