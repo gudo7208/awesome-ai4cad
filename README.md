@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 552
+catalog_entries: 553
 deduplicated_registry_records: 638
 registry_records_2024_2026: 496
 entry_format: "Markdown list item with title, authors, venue/year, and Paper URL"
@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-552_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-553_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-638_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -264,6 +264,7 @@ AI methods for interpreting, analyzing, and generating 2D engineering drawings, 
 - **AMSnet: A Netlist Dataset for AMS Circuits** — Introduces a large-scale netlist dataset for analog and mixed-signal circuit design automation. *Zhuofu Tao, Yichen Shi, Yiru Huo et al., arXiv 2024*. [[Paper](https://arxiv.org/abs/2405.09045)]
 - **PCBDet** — Proposes an efficient edge-deployable deep neural network for automatic PCB component detection. *Brian Li, Steven Palayew, Francis Li et al., arXiv 2023*. [[Paper](https://arxiv.org/abs/2301.09268)]
 - **Hand-Drawn Electrical Circuit Recognition** — Recognizes hand-drawn electrical circuit diagrams using object detection and node recognition. *Rachala Rohith Reddy, Mahesh Raveendranatha Panicker, arXiv 2021*. [[Paper](https://arxiv.org/abs/2106.11559)]
+- **SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations** — Generates PCB schematics from semantic-grounded code representations using generative AI. *Luo et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2605.30345)]
 
 ### Architectural Floor Plan Analysis
 
@@ -485,18 +486,18 @@ Representation learning, feature recognition, retrieval, and semantic understand
 
 - **BRepFormer: Transformer-Based B-rep Geometric Feature Recognition** — Applies transformer architecture to recognize geometric features directly from B-rep CAD models. *Yongkang Dai, Xiaoshui Huang, Yunpeng Bai et al., ACM ICMR 2025*. [[Paper](https://arxiv.org/abs/2504.07378)]
 - **Leveraging Vision-Language Models for Manufacturing Feature Recognition in CAD Designs** — Uses vision-language models to recognize manufacturing features in CAD designs without task-specific training. *Lequn Chen, Muhammad Tayyab Khan, Ye Han Ng et al., arXiv 2024*. [[Paper](https://arxiv.org/abs/2411.02810)]
-- **AAGNet: Automatic Machining Feature Recognition using Geometric Attributed Adjacency Graphs** — Recognizes machining features automatically using graph neural networks on attributed adjacency graphs. *Hongjin Wu, Ang Liu, Kai Wu, Computer-Aided Design 2024*.
+- **AAGNet: Automatic Machining Feature Recognition using Geometric Attributed Adjacency Graphs** — Recognizes machining features automatically using graph neural networks on attributed adjacency graphs. *Hongjin Wu, Ang Liu, Kai Wu, Computer-Aided Design 2024*. [[Paper](https://doi.org/10.1016/j.rcim.2023.102661)]
 - **CNC-Net: Self-Supervised Learning for CNC Machining Operations** — Proposes self-supervised learning to recognize CNC machining operations from 3D shapes. *Mohsen Yavartanoo, Sangmin Hong, Reyhaneh Neshatavar et al., arXiv 2023*. [[Paper](https://arxiv.org/abs/2312.09925)]
 - **Simplified Learning of CAD Features Leveraging a Deep Residual Autoencoder** — Employs a deep residual autoencoder to simplify learning of CAD feature representations. *Authors, arXiv 2022*. [[Paper](https://arxiv.org/abs/2202.10099)]
 - **Geometry based Machining Feature Retrieval with Inductive Transfer Learning** — Retrieves machining features from geometric data using inductive transfer learning. *Sai Sree Harsha, Bharadwaj Manda, Ramanathan Muthuganapathy, arXiv 2021*. [[Paper](https://arxiv.org/abs/2108.11838)]
 - **A Learning-based Approach to Feature Recognition of Engineering Shapes** — Presents a learning-based method for recognizing features in engineering shape models. *Authors, arXiv 2021*. [[Paper](https://arxiv.org/abs/2112.07962)]
-- **FeatureNet: Machining Feature Recognition Based on 3D Convolution Neural Network** — Introduces 3D CNN for machining feature recognition from volumetric CAD representations. *Zhibo Zhang, Prakhar Jaiswal, Rahul Rai, CAD 2018*.
+- **FeatureNet: Machining Feature Recognition Based on 3D Convolution Neural Network** — Introduces 3D CNN for machining feature recognition from volumetric CAD representations. *Zhibo Zhang, Prakhar Jaiswal, Rahul Rai, CAD 2018*. [[Paper](https://doi.org/10.1016/j.cad.2018.03.006)]
 - **FeatureFox: Sample-Efficient Panoptic Graph Segmentation for Machining Feature Recognition in B-Rep 3D-CAD Models** — Recognizes machining features on B-rep models via sample-efficient panoptic graph segmentation. *Fuchs et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2604.26770)]
 
 ### CAD Model Retrieval
 
 - **OSCAR: Open-Set CAD Retrieval from a Language Prompt and a Single Image** — Retrieves CAD models from open-set databases using combined language and single-image queries. *Tessa Pulli, Jean-Baptiste Weibel, Peter Hoenig et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2601.07333)]
-- **CADGCL: Unsupervised Retrieval of CAD Models via Boundary Representations** — Proposes unsupervised graph contrastive learning for CAD retrieval using B-Rep structures. *Authors, The Visual Computer 2025*. [[Paper]]
+- **CADGCL: Unsupervised Retrieval of CAD Models via Boundary Representations** — Proposes unsupervised graph contrastive learning for CAD retrieval using B-Rep structures. *Qin et al., The Visual Computer 2025*. [[Paper](https://doi.org/10.1007/s00371-025-03949-y)]
 - **SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation** — Augments paired shape-caption data to improve cross-modal 3D shape retrieval. *Authors, arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.19128)]
 - **GC-CAD: Self-supervised Graph Neural Network for Mechanical CAD Retrieval** — Introduces a self-supervised graph neural network with graph contrastive learning for CAD retrieval. *Yuhan Quan, Huan Zhao, Jinfeng Yi et al., arXiv 2024*. [[Paper](https://arxiv.org/abs/2406.08863)]
 - **Leveraging Cross-View Correspondence and Cross-Modal Mining for 3D Retrieval** — Exploits cross-view correspondence and cross-modal mining to enhance 3D object retrieval. *Authors, arXiv 2024*. [[Paper](https://arxiv.org/abs/2405.04103)]
@@ -586,7 +587,7 @@ AI-accelerated simulation surrogates, physics-informed methods, and topology opt
 
 - **Equation Discovery, Parametric Simulation, and Optimization Using PINN for Heat Conduction** — Combines equation discovery with parametric PINN simulation for heat conduction optimization. *PINN Heat Opt authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2510.25925)]
 - **PINNsAgent: Automated PDE Surrogation with Large Language Models** — Uses LLM agents to automate physics-informed neural network construction for PDE surrogate modeling. *PINNsAgent authors, ICML 2025*. [[Paper](https://arxiv.org/abs/2501.12053)]
-- **Physics-Informed Diffusion Models** — Integrates physical constraints into diffusion models for generating physically consistent samples. *Bastek et al., ICLR 2025*.
+- **Physics-Informed Diffusion Models** — Integrates physical constraints into diffusion models for generating physically consistent samples. *Bastek et al., ICLR 2025*. [[Paper](https://arxiv.org/abs/2403.14404)]
 - **eXtended Physics-Informed Neural Network Method for Fracture Mechanics Problems** — Extends PINNs with enrichment functions to model crack discontinuities in fracture mechanics. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2509.13952)]
 - **Physics-Informed Neural Operator for Learning Partial Differential Equations** — Proposes a neural operator architecture incorporating physical equations to learn PDE solution mappings. *Li et al., ACM/JMS 2024*. [[Paper](https://arxiv.org/abs/2111.03794)]
 - **Physics-Informed Neural Networks and Extensions: A Review** — Surveys PINN methodologies, training strategies, and extensions across scientific computing applications. *PINN Review authors, arXiv preprint 2024*. [[Paper](https://arxiv.org/abs/2408.16806)]
@@ -613,12 +614,12 @@ AI-accelerated simulation surrogates, physics-informed methods, and topology opt
 ### Generative and LLM-Driven Topology Optimization
 
 - **Multi-Material Multi-Physics Topology Optimization with Physics-Informed Gaussian Process Priors** — Integrates physics-informed Gaussian process priors into multi-material, multi-physics topology optimization. *Authors, arXiv preprint 2026*. [[Paper](https://arxiv.org/abs/2602.17783)]
-- **Toward Large Language Model-Driven Symbolic Topology Optimisation for Rapid Structural Concept Generation in Manufacturable Design** — Uses LLMs to drive symbolic topology optimization for rapid, manufacturable structural concept generation. *Authors, Journal of Manufacturing and Materials Processing 2026*.
+- **Toward Large Language Model-Driven Symbolic Topology Optimisation for Rapid Structural Concept Generation in Manufacturable Design** — Uses LLMs to drive symbolic topology optimization for rapid, manufacturable structural concept generation. *Al Ali, Journal of Manufacturing and Materials Processing 2026*. [[Paper](https://doi.org/10.3390/jmmp10040117)]
 - **Using Hand-Drawn Inputs for Diffusion-Based Topology Optimization** — Leverages hand-drawn sketches as inputs to guide diffusion-based topology optimization. *Authors, arXiv preprint 2026*. [[Paper](https://arxiv.org/abs/2603.18960)]
 - **Guiding Topology Optimization Diffusion with Human Preferences** — Incorporates human preference feedback to steer diffusion-model-based topology optimization results. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2508.01589)]
-- **Two-Stage Multiobjective Topology Optimization Method via SwinUnet with Enhanced Generalization** — Proposes a two-stage SwinUnet approach for multiobjective topology optimization with improved generalization. *Authors, Scientific Reports 2025*.
-- **Diffusion Models for Topology Optimization in 3D Printing Applications** — Applies diffusion models to generate topology-optimized structures tailored for 3D printing. *Authors, Journal of Applied Physics 2025*.
-- **Multiphysics Design Optimization via Generative Adversarial Networks** — Employs GANs to accelerate multiphysics design optimization across coupled physical domains. *Authors, Journal of Mechanical Design 2022*.
+- **Two-Stage Multiobjective Topology Optimization Method via SwinUnet with Enhanced Generalization** — Proposes a two-stage SwinUnet approach for multiobjective topology optimization with improved generalization. *Xiang et al., Scientific Reports 2025*. [[Paper](https://doi.org/10.1038/s41598-025-92793-0)]
+- **Diffusion Models for Topology Optimization in 3D Printing Applications** — Applies diffusion models to generate topology-optimized structures tailored for 3D printing. *Bekbolat et al., Journal of Applied Physics 2025*. [[Paper](https://doi.org/10.1063/5.0246189)]
+- **Multiphysics Design Optimization via Generative Adversarial Networks** — Employs GANs to accelerate multiphysics design optimization across coupled physical domains. *Kazemi et al., Journal of Mechanical Design 2022*. [[Paper](https://doi.org/10.1115/1.4055377)]
 
 ### AI-Driven Generative Design
 
@@ -647,8 +648,8 @@ Design for manufacturing, additive manufacturing, assembly planning, and CAD/CAM
 - **Kolmogorov-Arnold Networks-Based Tolerance-Aware Manufacturability Assessment Integrating Design-for-Manufacturing Principles** — Uses Kolmogorov-Arnold networks for tolerance-aware manufacturability assessment integrating DFM principles. *arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2601.06334)]
 - **Enhancing the Product Quality of the Injection Process Using eXplainable Artificial Intelligence** — Applies explainable AI to enhance product quality in injection molding processes. *arXiv preprint / Processes 2025*. [[Paper](https://arxiv.org/abs/2503.02338)]
 - **Machine Learning-Based Manufacturing Cost Prediction from 2D Engineering Drawings via Geometric Features** — Predicts manufacturing costs from 2D engineering drawings using geometric feature extraction and ML. *arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2508.12440)]
-- **Data-Driven Prediction of Casting Defects in Magnesium High-Pressure Die Casting Using Machine Learning** — Predicts casting defects in magnesium high-pressure die casting using data-driven ML models. *International Journal of Metalcasting 2025*.
-- **An Artificial Intelligence Application for In-Process Springback Control of Sheet Metal Bending** — Applies AI for real-time springback control during sheet metal bending processes. *ASME J. Manufacturing Science and Engineering 2025*.
+- **Data-Driven Prediction of Casting Defects in Magnesium High-Pressure Die Casting Using Machine Learning** — Predicts casting defects in magnesium high-pressure die casting using data-driven ML models. *Pachandrin et al., International Journal of Metalcasting 2025*. [[Paper](https://doi.org/10.1007/s40962-025-01592-w)]
+- **An Artificial Intelligence Application for In-Process Springback Control of Sheet Metal Bending** — Applies AI for real-time springback control during sheet metal bending processes. *Fann et al., ASME J. Manufacturing Science and Engineering 2025*. [[Paper](https://doi.org/10.1115/1.4067740)]
 - **DRL-Based Injection Molding Process Parameter Optimization for Adaptive and Profitable Production** — Uses deep reinforcement learning to optimize injection molding parameters for adaptive production. *arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2505.10988)]
 - **Advancing Welding Defect Detection in Maritime Operations via Adapt-WeldNet** — Proposes Adapt-WeldNet for improved welding defect detection in maritime operations. *arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2508.00381)]
 - **Adapting CLIP for Few-Shot Image Inspection in Manufacturing Quality Control** — Adapts CLIP for few-shot visual inspection in manufacturing quality control settings. *arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2501.12596)]
@@ -660,7 +661,7 @@ Design for manufacturing, additive manufacturing, assembly planning, and CAD/CAM
 
 - **Discovery of Feasible 3D Printing Configurations for Metal Alloys via AI-Driven Adaptive Experimental Design** — Uses AI-driven adaptive experiments to identify viable printing parameters for metal alloy additive manufacturing. *Authors, arXiv preprint 2026*. [[Paper](https://arxiv.org/abs/2601.17587)]
 - **Graph Neural Network-Based Topology Optimization for Self-Supporting Structures in Additive Manufacturing** — Applies graph neural networks to topology optimization that ensures self-supporting structures without post-processing. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2508.19169)]
-- **Generative Artificial Intelligence in Lattice Structure Design for Additive Manufacturing: A Critical Review** — Reviews generative AI methods for designing lattice structures tailored to additive manufacturing constraints. *Authors, eScience of Additive Manufacturing 2025*.
+- **Generative Artificial Intelligence in Lattice Structure Design for Additive Manufacturing: A Critical Review** — Reviews generative AI methods for designing lattice structures tailored to additive manufacturing constraints. *Su et al., eScience of Additive Manufacturing 2025*. [[Paper](https://doi.org/10.36922/esam025110006)]
 - **Additive Manufacturing Processes Protocol Prediction by Artificial Intelligence using X-ray Computed Tomography Data** — Predicts AM process protocols from X-ray CT scan data using artificial intelligence models. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2501.14306)]
 - **Sample-Efficient Bayesian Transfer Learning for Online Machine Parameter Optimization** — Proposes Bayesian transfer learning to efficiently optimize manufacturing machine parameters with limited samples. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2503.15928)]
 - **Real-Time Decision-Making for Digital Twin in Additive Manufacturing with Model Predictive Control** — Integrates model predictive control with digital twins for real-time AM process decisions. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2501.07601)]
@@ -675,7 +676,7 @@ Design for manufacturing, additive manufacturing, assembly planning, and CAD/CAM
 - **Fabrica: Dual-Arm Assembly of General Multi-Part Objects via Integrated Planning and Learning** — Integrates planning and learning for dual-arm robotic assembly of general multi-part objects. *Tian et al., CoRL 2025 (Best Paper Award)*. [[Paper](https://arxiv.org/abs/2506.05168)]
 - **Hierarchical Hybrid Learning for Long-Horizon Contact-Rich Robotic Assembly** — Proposes hierarchical hybrid learning to solve long-horizon contact-rich assembly tasks. *Sun et al., CoRL 2025*. [[Paper](https://arxiv.org/abs/2409.16451)]
 - **REASSEMBLE: A Multimodal Dataset for Contact-rich Robotic Assembly and Disassembly** — Introduces a multimodal benchmark dataset for contact-rich robotic assembly and disassembly research. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2502.05086)]
-- **Tolerance Allocation of Complex Systems Based on Supervised Machine Learning and Adaptive Sampling** — Applies supervised learning with adaptive sampling to optimize tolerance allocation in complex systems. *Authors, International Journal of Advanced Manufacturing Technology 2025*.
+- **Tolerance Allocation of Complex Systems Based on Supervised Machine Learning and Adaptive Sampling** — Applies supervised learning with adaptive sampling to optimize tolerance allocation in complex systems. *Dantan et al., International Journal of Advanced Manufacturing Technology 2025*. [[Paper](https://doi.org/10.1007/s00170-025-17336-3)]
 - **Contact-Rich Robotic Assembly in Construction via Diffusion Policy Learning** — Applies diffusion-based policy learning to contact-rich robotic assembly tasks in construction. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2511.17774)]
 - **Large-Scale Multi-Robot Assembly Planning for Autonomous Manufacturing** — Proposes scalable planning methods for coordinating multiple robots in large-scale assembly tasks. *Kyle Brown, Dylan M. Asmar, Mac Schwager et al., arXiv 2023*. [[Paper](https://arxiv.org/abs/2311.00192)]
 - **Statistical Tolerance Allocation Design Considering Form Errors Based on Rigid Assembly Simulation and Deep Q-Network** — Uses deep Q-network with rigid assembly simulation to optimize statistical tolerance allocation under form errors. *Ci He, Shuyou Zhang, Lemiao Qiu et al., International Journal of Advanced Manufacturing Technology 2021*. [[Paper](https://doi.org/10.1007/s00170-020-06283-w)]
@@ -789,12 +790,12 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **AutoMate: A Dataset and Learning Approach for Automatic Mating of CAD Assemblies** — Provides a dataset and methods for predicting mate constraints in CAD assemblies. *Jones et al., SIGGRAPH 2021*. [[Paper](https://arxiv.org/abs/2105.12238)]
 - **Synthetic 3D Data Generation Pipeline for Geometric Deep Learning in Architecture** — Presents a pipeline for generating synthetic 3D architectural data for deep learning. *Stojanovic et al., arXiv 2021*. [[Paper](https://arxiv.org/abs/2104.12564)]
 - **SketchGraphs: A Large-Scale Dataset for Modeling Relational Geometry in Computer-Aided Design** — Offers a large-scale dataset of parametric CAD sketches with geometric and constraint graphs. *Seff et al., ICML 2020 Workshop*. [[Paper](https://arxiv.org/abs/2007.08506)]
-- **A Large-Scale Annotated Mechanical Components Benchmark for Classification and Retrieval Tasks with Deep Neural Networks** — Introduces an annotated benchmark of mechanical components for 3D classification and retrieval. *Kim et al., ECCV 2020*.
-- **MFCAD: A Dataset of 3D CAD Models with Machining Feature Labels** — Provides labeled CAD models annotated with machining feature types for recognition tasks. *Cao et al., CAD Journal 2020*.
+- **A Large-Scale Annotated Mechanical Components Benchmark for Classification and Retrieval Tasks with Deep Neural Networks** — Introduces an annotated benchmark of mechanical components for 3D classification and retrieval. *Kim et al., ECCV 2020*. [[Paper](https://doi.org/10.1007/978-3-030-58523-5_11)]
+- **MFCAD: A Dataset of 3D CAD Models with Machining Feature Labels** — Provides labeled CAD models annotated with machining feature types for recognition tasks. *Cao et al., CAD Journal 2020*. [[Paper](https://github.com/hducg/MFCAD)]
 - **ABC: A Big CAD Model Dataset For Geometric Deep Learning** — Offers one million CAD models with ground-truth geometry for geometric deep learning. *Koch et al., CVPR 2019*. [[Paper](https://arxiv.org/abs/1812.06216)]
 - **ShapeNet: An Information-Rich 3D Model Repository** — Provides a richly annotated large-scale repository of 3D shapes organized by WordNet taxonomy. *Chang et al., arXiv 2015*. [[Paper](https://arxiv.org/abs/1512.03012)]
 - **3D ShapeNets: A Deep Representation for Volumetric Shapes** — Introduces a large-scale 3D shape dataset and a deep volumetric representation for recognition. *Wu et al., CVPR 2015*. [[Paper](https://arxiv.org/abs/1406.5670)]
-- **SESYD: A Synthetic Document Database for Performance Evaluation** — Provides synthetic engineering drawing symbols and diagrams for document recognition benchmarking. *Delalandre et al., DAS 2010*. [[Paper](https://hal.inria.fr/inria-00516776)]
+- **SESYD: A Synthetic Document Database for Performance Evaluation** — Provides synthetic engineering drawing symbols and diagrams for document recognition benchmarking. *Delalandre et al., DAS 2010*. [[Paper](https://doi.org/10.1007/s10032-010-0120-x)]
 - **CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design with Large Language Models** — Provides a large CAD-program dataset and framework enabling vision-language models to generate complex design histories. *Pyatov et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2605.01925)]
 
 ### Evaluation Metrics
