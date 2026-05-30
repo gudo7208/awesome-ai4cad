@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 555
+catalog_entries: 552
 deduplicated_registry_records: 638
 registry_records_2024_2026: 496
 entry_format: "Markdown list item with title, authors, venue/year, and Paper URL"
@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-555_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-552_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-638_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -194,7 +194,6 @@ AI methods for interpreting, analyzing, and generating 2D engineering drawings, 
 
 ### 2D-3D Annotation Mapping
 
-- **Drawing2CAD: Sequence-to-Sequence Learning for CAD Generation from Vector Drawings** — Proposes a sequence-to-sequence framework to generate CAD models from 2D vector drawings. *Feiwei Qin, Shichao Lu, Junhao Hou et al., ACM MM 2025*. [[Paper](https://arxiv.org/abs/2508.18733)]
 - **CAD2Program: From 2D CAD Drawings to 3D Parametric Models** — Converts 2D CAD drawings into 3D parametric modeling programs via learned mappings. *Xilin Wang, Jia Zheng, Yuanchao Hu et al., AAAI 2025*. [[Paper](https://arxiv.org/abs/2412.11892)]
 
 ### Compliance Checking
@@ -501,7 +500,6 @@ Representation learning, feature recognition, retrieval, and semantic understand
 - **SCA3D: Enhancing Cross-modal 3D Retrieval via 3D Shape and Caption Paired Data Augmentation** — Augments paired shape-caption data to improve cross-modal 3D shape retrieval. *Authors, arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.19128)]
 - **GC-CAD: Self-supervised Graph Neural Network for Mechanical CAD Retrieval** — Introduces a self-supervised graph neural network with graph contrastive learning for CAD retrieval. *Yuhan Quan, Huan Zhao, Jinfeng Yi et al., arXiv 2024*. [[Paper](https://arxiv.org/abs/2406.08863)]
 - **Leveraging Cross-View Correspondence and Cross-Modal Mining for 3D Retrieval** — Exploits cross-view correspondence and cross-modal mining to enhance 3D object retrieval. *Authors, arXiv 2024*. [[Paper](https://arxiv.org/abs/2405.04103)]
-- **Self-supervised Graph Neural Network for Mechanical CAD Retrieval** — Applies self-supervised graph neural networks to learn representations for mechanical CAD retrieval. *Wang et al., arXiv 2024*. [[Paper](https://arxiv.org/abs/2406.08863)]
 - **FastCAD: Real-Time CAD Retrieval and Alignment from Scans and Videos** — Enables real-time CAD model retrieval and alignment from RGB-D scans and video streams. *Gumeli et al., arXiv 2024*. [[Paper](https://arxiv.org/abs/2403.15161)]
 - **HOC-Search: Efficient CAD Model and Pose Retrieval from RGB-D Scans** — Proposes hierarchical optimization for efficient joint CAD model and pose retrieval from RGB-D data. *Stefan Ainetter, Sinisa Stekovic, Friedrich Fraundorfer et al., 3DV 2024*. [[Paper](https://arxiv.org/abs/2309.06107)]
 - **Fine-Tuned but Zero-Shot 3D Shape Sketch View Similarity and Retrieval** — Enables zero-shot sketch-based 3D shape retrieval using fine-tuned view similarity without task-specific training data. *Tisse et al., arXiv 2023*. [[Paper](https://arxiv.org/abs/2306.08541)]
@@ -588,7 +586,7 @@ AI-accelerated simulation surrogates, physics-informed methods, and topology opt
 
 - **Equation Discovery, Parametric Simulation, and Optimization Using PINN for Heat Conduction** — Combines equation discovery with parametric PINN simulation for heat conduction optimization. *PINN Heat Opt authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2510.25925)]
 - **PINNsAgent: Automated PDE Surrogation with Large Language Models** — Uses LLM agents to automate physics-informed neural network construction for PDE surrogate modeling. *PINNsAgent authors, ICML 2025*. [[Paper](https://arxiv.org/abs/2501.12053)]
-- **Physics-Informed Diffusion Models** — Integrates physical constraints into diffusion models for generating physically consistent samples. *Bastek et al., ICLR 2025*. [[Paper](URL)]
+- **Physics-Informed Diffusion Models** — Integrates physical constraints into diffusion models for generating physically consistent samples. *Bastek et al., ICLR 2025*.
 - **eXtended Physics-Informed Neural Network Method for Fracture Mechanics Problems** — Extends PINNs with enrichment functions to model crack discontinuities in fracture mechanics. *Authors, arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2509.13952)]
 - **Physics-Informed Neural Operator for Learning Partial Differential Equations** — Proposes a neural operator architecture incorporating physical equations to learn PDE solution mappings. *Li et al., ACM/JMS 2024*. [[Paper](https://arxiv.org/abs/2111.03794)]
 - **Physics-Informed Neural Networks and Extensions: A Review** — Surveys PINN methodologies, training strategies, and extensions across scientific computing applications. *PINN Review authors, arXiv preprint 2024*. [[Paper](https://arxiv.org/abs/2408.16806)]
@@ -852,7 +850,6 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **TOOLCAD** — Leverages tool-using LLMs with reinforcement learning for text-to-CAD generation. *Gong et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2604.07960)]
 - **Clarify Before You Draw** — Introduces proactive agents that ask clarifying questions for robust text-to-CAD generation. *Yuan et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2602.03045)]
 - **PLLM** — Proposes pseudo-labeling large language models for CAD program synthesis. *Li et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2602.12561)]
-- **Tool-Using LLMs in Text-to-CAD** — Explores reinforcement learning to enable LLM tool use for CAD generation. *Yifei Gong, Xing Wu, Wenda Liu et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2604.07960)]
 - **Procedural 3D Generation with LLMs** — Enables parametric editing and procedural generation of 3D shapes via large language models. *Fadlullah Raji, Stefano Petrangeli, Matheus Gadelha et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2601.12234)]
 - **From Idea to CAD** — Presents a language model-driven multi-agent system for collaborative CAD design. *Ocker et al., arXiv 2025*. [[Paper](https://arxiv.org/abs/2503.04417)]
 - **Text-to-CadQuery** — Proposes a new paradigm for CAD generation using scalable large model capabilities. *Xie and Ju, arXiv 2025*. [[Paper](https://arxiv.org/abs/2505.06507)]
