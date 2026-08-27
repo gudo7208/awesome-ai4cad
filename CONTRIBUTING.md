@@ -7,7 +7,7 @@ Thank you for contributing! This list aims to be the most comprehensive resource
 ### Entry Format
 
 ```markdown
-- **Paper Title** — One-sentence AI+CAD contribution. *Author1, Author2, Author3 et al., Venue Year*. [[Paper](URL)]
+- **Paper Title** — One-sentence AI+CAD contribution. *Author1, Author2, Author3 et al., Venue Year*. [[2505.19713](https://arxiv.org/abs/2505.19713)]
 ```
 
 Rules:
@@ -15,7 +15,7 @@ Rules:
 - Summarize the concrete AI+CAD contribution in one sentence
 - List up to 3 authors, then "et al."
 - Venue = conference/journal name + year (e.g., `*CVPR 2025*`, `*arXiv 2025*`)
-- Link to arXiv when available; otherwise use DOI or official publisher URL
+- Link to arXiv when available and use its identifier without the version suffix as the label (for example, `[[2505.19713](https://arxiv.org/abs/2505.19713)]`); otherwise use a source-specific label with a DOI, publisher, dataset, project, product, or code URL
 - Sort by year (newest first) within each subsection
 - Run `python3 scripts/validate_catalog.py` before opening a PR
 
