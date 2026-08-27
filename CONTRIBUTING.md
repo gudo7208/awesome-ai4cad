@@ -7,11 +7,12 @@ Thank you for contributing! This list aims to be the most comprehensive resource
 ### Entry Format
 
 ```markdown
-- **Paper Title** - Author1, Author2, Author3 et al.. *Venue Year*. [[Paper](URL)]
+- **Paper Title** — One-sentence AI+CAD contribution. *Author1, Author2, Author3 et al., Venue Year*. [[Paper](URL)]
 ```
 
 Rules:
 - Use the official paper title (no abbreviations)
+- Summarize the concrete AI+CAD contribution in one sentence
 - List up to 3 authors, then "et al."
 - Venue = conference/journal name + year (e.g., `*CVPR 2025*`, `*arXiv 2025*`)
 - Link to arXiv when available; otherwise use DOI or official publisher URL
