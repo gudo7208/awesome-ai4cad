@@ -39,7 +39,8 @@ python3 scripts/validate_catalog.py
 ## Editing Rules
 
 - Keep changes surgical. Do not reorder large catalog sections unless the task is explicitly taxonomy cleanup.
-- Preserve the entry format: `- **Title** — One-sentence AI+CAD contribution. *Authors, Venue Year*. [[Paper](URL)]`.
+- Preserve the entry format: `- **Title** — One-sentence AI+CAD contribution. *Authors, Venue Year*. [[2505.19713](https://arxiv.org/abs/2505.19713)]`.
 - Prefer arXiv links when available; otherwise use DOI, publisher, or official project URLs.
+- Label arXiv links with the identifier without a version suffix (for example, `2505.19713`); use source-specific labels such as `Paper`, `Dataset`, `Code`, `Project`, or `Product` for non-arXiv URLs.
 - Avoid local absolute paths.
 - Do not commit cache directories, virtual environments, or generated Python bytecode.
