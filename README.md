@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 582
+catalog_entries: 595
 deduplicated_registry_records: 638
 registry_records_2024_2026: 496
 entry_format: "Markdown list item with title, authors, venue/year, and Paper URL"
@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-582_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-595_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-638_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -553,7 +553,7 @@ Representation learning, feature recognition, retrieval, and semantic understand
 
 - **Geometry-Conditioned Instance Segmentation for Industrial Objects** — Proposes geometry-conditioned methods for instance segmentation of industrial CAD objects. *Li et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2602.20551)]
 - **Repurposing 3D Generative Model for Part Segmentation** — Repurposes pretrained 3D generative models to perform part segmentation tasks. *Wu et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2603.16869)]
-- **Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering** — Provides comprehensive B-Rep annotations enabling geometric deep learning for CAD modeling and reverse engineering. *Wenjie Niu, Qiang Zou, arXiv 2025*. [[Paper](https://arxiv.org/abs/2603.12605)]
+- **A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering** — Releases more than 10 million multimodal annotations over more than one million CAD models for scan-, sketch-, text-, and B-rep-learning tasks. *Pritham K. Jena, Bhavika Baburaj, Tushar Anand et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2603.12605)]
 - **Joint Neural SDF Reconstruction and Semantic Segmentation for CAD Models** — Jointly reconstructs signed distance fields and performs semantic segmentation on CAD models. *Chen et al., arXiv 2025*. [[Paper](https://arxiv.org/abs/2510.03837)]
 - **Few-shot Structure-Informed Machinery Part Segmentation with Foundation Models and Graph Neural Networks** — Combines foundation models and graph neural networks for few-shot machinery part segmentation. *Zhang et al., arXiv 2025*. [[Paper](https://arxiv.org/abs/2501.10080)]
 - **Label-Efficient Part Segmentation** — Proposes label-efficient methods to reduce annotation cost for 3D part segmentation. *Liu et al., arXiv 2025*. [[Paper](https://arxiv.org/abs/2501.07434)]
@@ -794,8 +794,10 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Dataset Papers
 
+- **A Synthetic 3D Gear Dataset for Manufacturing Quality Inspection (MFGNet-Gear)** — Releases 24,000 paired meshes and point clouds across 12 parametric gear designs and four quality classes, with a reproducible defect-generation pipeline. *Ruo-Syuan Mei, Chenhui Shao, arXiv 2026*. [[Paper](https://arxiv.org/abs/2607.16288)]
 - **FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs and Kernel-Validated Feature Histories** — Releases 100K executable, kernel-validated CAD programs aligned with feature histories, STEP geometry, renders, and text. *Jizong Zhan, arXiv 2026*. [[Paper](https://arxiv.org/abs/2606.17696)] [[Code](https://github.com/Cad-Kernel/FllumaOne-100K)]
 - **Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data** — Synthesizes a million-scale dataset of interpretable CAD programs using agentic methods without real data. *Willis et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2604.24479)]
+- **STEP-Parts: Geometric Partitioning of Boundary Representations for Large-Scale CAD Processing** — Releases a deterministic STEP-to-supervision toolchain and precomputed instance labels for approximately 180K DeepCAD/ABC models. *Shen Fan, Mikołaj Kida, Przemyslaw Musialski, arXiv 2026*. [[Paper](https://arxiv.org/abs/2604.14927)]
 - **Benchmarking Multimodal Models on Architectural and Engineering Drawings Understanding** — Benchmarks multimodal models on their ability to understand architectural and engineering drawings. *Zhang et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2601.04819)]
 - **Geometrically Constrained Parametric History-based CAD Dataset** — Introduces a CAD dataset with geometric constraints and parametric modeling history. *Authors et al., arXiv 2025*. [[Paper](https://arxiv.org/abs/2602.19171)]
 - **Objaverse++: Curated 3D Object Dataset with Quality Annotations** — Provides a curated large-scale 3D object dataset enhanced with quality annotations. *Authors et al., arXiv 2025*. [[Paper](https://arxiv.org/abs/2504.07334)]
@@ -842,6 +844,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **PhysicsBench: A Unified Leaderboard for Generative and Predictive Models in Engineering Design and Simulation** — Standardizes evaluation of geometry generation and physical prediction across CAD, CFD, and FEA tasks and data scales. *Sang Won Lee, Hyogu Jeong, Namwoo Kang, arXiv 2026*. [[Paper](https://arxiv.org/abs/2608.24056)] [[Code](https://github.com/Narnialabs/leaderboard)]
 - **CADEngBench: It Looks Like CAD, but Does It Work? Evaluating Parametric Design, Assembly Reasoning, and Physics Simulation** — Tests CAD systems through parametric perturbations, functional edits, DFM checks, matched FEA, and joint grounding. *Harmanjot Singh, Abhra Dubey, Jorge Alejandro Amador Herrera, arXiv 2026*. [[Paper](https://arxiv.org/abs/2608.09296)]
 - **OmniMech: All-in-one Multimodal Mechanical Benchmark for 3D Reconstruction** — Pairs dimensioned engineering drawings with native CAD, STEP, B-rep, renderings, and annotations for executable reconstruction and agentic reasoning. *Taiting Lu, Runze Liu, Ziwei Dong et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2608.05539)]
+- **BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling** — Provides 324 natural-language editing tasks over IFC building models with geometric, semantic, and topological evaluation. *Bharathi Kannan Nithyanantham, Clemens Kujat, Tobias Sesterhenn et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2606.20146)]
 - **UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD** — Unifies point, text, image, and sketch CAD reconstruction, generation, and question answering in one benchmark and model. *Jingyuan Chen, Sheng Jin, Haopeng Sun et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2606.05058)]
 - **CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation** — Provides 18K multimodal CAD-program tasks with geometry, execution, and program-quality metrics. *Anna C. Doris, Jacob Thomas Sony, Ghadi Nehme et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2605.10873)]
 - **CAD Arena: Open Benchmark for AI-Generated Parametric CAD** — Provides an open platform for evaluating and comparing AI-generated parametric CAD models. *CAD Arena Team, Online Platform 2025*.
@@ -859,7 +862,12 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Commercial CAD with AI Features
 
-- **Dassault Systemes Virtual Companions** — Introduces AI-powered expert assistants on the 3DEXPERIENCE platform for industrial workflows. *Dassault Systemes, Technical Platform 2026*. [[Paper](https://www.3ds.com/newsroom/press-releases/dassault-systemes-expands-3dexperience-ai-native-agentic-platform-new-virtual-companion-skills-co-engineer-humans)]
+- **SOLIDWORKS Design AI Virtual Companions** — Embeds AURA and LEO in SOLIDWORKS for parametric CAD generation, assembly planning, legacy B-rep conversion, drawing generation, and model-error diagnosis. *Dassault Systèmes, Technical Platform 2026*. [[Paper](https://www.solidworks.com/product/solidworks-design/ai-overview)]
+- **Onshape Labs FeatureScript MCP Server** — Connects AI clients to Onshape's native FeatureScript workflow to generate, execute, test, and refine reusable parametric CAD features from natural language. *Onshape / PTC, Technical Platform 2026*. [[Paper](https://www.onshape.com/en/blog/featurescript-mcp-server-enables-text-code-cad)]
+- **PTC Creo 13 AI Assistant** — Adds an embedded conversational assistant for contextual CAD guidance and workflow support inside Creo 13. *PTC, Technical Platform 2026*. [[Paper](https://www.ptc.com/en/news/2026/ptc-brings-ai-powered-guidance-to-the-design-environment-with-creo-13)]
+- **Ansys GeomAI** — Learns from reference geometries to generate new engineering concepts grounded in geometric and design constraints. *Ansys / Synopsys, Technical Platform 2026*. [[Paper](https://ansys.synopsys.com/blog/introducing-ansys-geomai-software)]
+- **Autodesk Fusion AI** — Integrates natural-language assistance, editable geometry generation, automated drawings, sketch constraints, generative design, and CAM automation into Fusion. *Autodesk, Technical Platform 2026*. [[Paper](https://www.autodesk.com/products/fusion-360/ai-automation)]
+- **CloudNC CAM Assist** — Generates machining strategies, toolpaths, cutting parameters, machinability feedback, cycle-time estimates, and fixture geometry inside major CAM systems. *CloudNC, Technical Platform 2026*. [[Paper](https://www.cloudnc.com/)]
 - **AI-Assisted Analysis and Synthesis of Engineering Systems from Multimodal Engineering Data** — Proposes AI methods to analyze and synthesize engineering systems from multimodal data sources. *H. Sinan Bank, Daniel R. Herber, IISE 2026*. [[Paper](https://arxiv.org/abs/2603.00251)]
 - **Large Language Models for Computer-Aided Design: A Survey** — Surveys applications of large language models across CAD tasks and workflows. *Zhang et al., arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2505.08137)]
 - **A Multidisciplinary Design and Optimization (MDO) Agent Driven by Large Language Models** — Proposes an LLM-driven agent for automated multidisciplinary design optimization. *Guo et al., arXiv preprint 2025*. [[Paper](https://arxiv.org/abs/2511.17511)]
@@ -875,6 +883,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### AI-Native CAD Platforms
 
+- **Backflip AI** — Converts 3D scans, STL files, and meshes into editable parametric CAD models with feature trees, including an available Autodesk Fusion add-in. *Backflip, Technical Platform 2026*. [[Paper](https://www.backflip.ai/)]
+- **DraftAid** — Automates production-ready 2D fabrication drawings from 3D CAD models while applying company templates, dimensioning rules, and drafting standards. *DraftAid, Technical Platform 2026*. [[Paper](https://draftaid.io/)]
 - **Neural Concept: Physics- and Geometry-Aware AI Design Copilot for Engineering** — Accelerates engineering design with AI that understands physical constraints and 3D geometry. *Neural Concept, Technical Platform 2025*.
 - **Adam: AI-Native CAD Platform for Text-to-Parametric Design** — Generates editable parametric CAD models from natural language descriptions. *Adam (YC W25), Technical Platform 2025*.
 - **Leo AI: Large Mechanical Model for CAD-Aware Engineering Assistance** — Applies a domain-specific large model to assist mechanical engineers within CAD environments. *Leo AI, Technical Platform 2025*.
@@ -884,6 +894,9 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Open-Source Tools and Frameworks
 
+- **MAC (Multi-Agent CAD)** — Implements a four-agent build123d pipeline with structured state transfer, executable geometry checks, repair loops, and a reproducible feature benchmark. *Tsinghua University IEI Lab, GitHub 2026*. [[Paper](https://github.com/Pan-Chera/Multi-Agent-CAD)]
+- **Text23D Mechanical** — Provides a local conversational CAD workspace with CadQuery and FreeCAD backends, editable artifacts, provider adapters, and streamed agent execution. *Text23D, GitHub 2026*. [[Paper](https://github.com/zqf3229294/Text23D)]
+- **Sphaire** — Runs AI-assisted parametric CAD in the browser using OpenCascade/Replicad, inspectable construction code, geometry validation, DFM checks, and local or hosted model providers. *Sphaire contributors, GitHub 2026*. [[Paper](https://github.com/PranavChahal/sphaire-web)]
 - **Chamfer** — Provides a kernel-verified text/image-to-parametric-CAD agent harness with reproducible geometry-oracle benchmarks. *SmartAI, GitHub 2026*. [[Paper](https://github.com/SmartAI/Chamfer)]
 - **TOOLCAD** — Leverages tool-using LLMs with reinforcement learning for text-to-CAD generation. *Gong et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2604.07960)]
 - **PLLM** — Proposes pseudo-labeling large language models for CAD program synthesis. *Li et al., arXiv 2026*. [[Paper](https://arxiv.org/abs/2602.12561)]
@@ -959,7 +972,7 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 582 | `README.md` list entries |
+| Markdown catalog entries | 595 | `README.md` list entries |
 | Deduplicated registry records | 638 | `research/papers/*.jsonl` |
 | Registry records dated 2024-2026 | 496 | `research/papers/*.jsonl` |
 
