@@ -15,7 +15,7 @@ Optimize for evidence, reproducibility, and small diffs.
 
 | Artifact | Purpose | Notes |
 |---|---|---|
-| `README.md` | Public catalog and human navigation | Contains 555 Markdown catalog entries. |
+| `README.md` | Public catalog and human navigation | Contains 595 Markdown catalog entries. |
 | `research/papers/*.jsonl` | Machine-readable registry | Deduplicates to 638 unique records in the current snapshot. |
 | `research/catalog_audit/` | Catalog confidence audit | Documents per-entry verification status and manual source checks. |
 
@@ -23,7 +23,7 @@ Optimize for evidence, reproducibility, and small diffs.
 
 - Use exact counts only when they are directly reproducible from local files or a cited external source.
 - Do not describe the catalog with an undefined rounded paper count. Use:
-  - `555 Markdown catalog entries`
+  - `595 Markdown catalog entries`
   - `638 deduplicated JSONL registry records`
 - Do not introduce projected counts, inferred percentages, or market/workflow statistics without a source and a note about the denominator.
 - If a number comes from an individual paper and has not been independently checked, phrase it as a reported result.
@@ -39,7 +39,7 @@ python3 scripts/validate_catalog.py
 ## Editing Rules
 
 - Keep changes surgical. Do not reorder large catalog sections unless the task is explicitly taxonomy cleanup.
-- Preserve the entry format: `- **Title** - Authors. *Venue Year*. [[Paper](URL)]`.
+- Preserve the entry format: `- **Title** — One-sentence AI+CAD contribution. *Authors, Venue Year*. [[Paper](URL)]`.
 - Prefer arXiv links when available; otherwise use DOI, publisher, or official project URLs.
 - Avoid local absolute paths.
 - Do not commit cache directories, virtual environments, or generated Python bytecode.
