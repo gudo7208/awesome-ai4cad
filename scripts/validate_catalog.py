@@ -17,6 +17,7 @@ SURVEY_FILES = [
     ROOT / "README.md",
     ROOT / "AGENTS.md",
     ROOT / "CONTRIBUTING.md",
+    ROOT / ".github" / "PULL_REQUEST_TEMPLATE.md",
 ]
 
 EXPECTED = {
@@ -26,6 +27,9 @@ EXPECTED = {
 }
 
 BANNED_PATTERNS = {
+    r"\[\[Paper\]\(https?://(?:www\.)?arxiv\.org/abs/": (
+        "Label arXiv links with their identifier instead of 'Paper'."
+    ),
     r"700\+ papers": "Use a defined denominator instead of '700+ papers'.",
     r"over 700 papers": "Use a defined denominator instead of 'over 700 papers'.",
     r"approximately 60%": "Do not publish an unreproducible recent-paper percentage.",
