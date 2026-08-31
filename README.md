@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 595
+catalog_entries: 598
 deduplicated_registry_records: 638
 registry_records_2024_2026: 496
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-595_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-598_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-638_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -731,8 +731,8 @@ Design for manufacturing, additive manufacturing, assembly planning, and CAD/CAM
 - **Deep Neural Implicit Representation of Accessibility for Multi-Axis Manufacturing** — Encodes tool accessibility as a deep implicit representation for multi-axis machining planning. *Authors, Computer-Aided Design 2024*. [[2409.02115](https://arxiv.org/abs/2409.02115)]
 - **Automatic Feature Recognition and Dimensional Attributes Extraction From CAD Models for Hybrid Additive-Subtractive Manufacturing** — Extracts manufacturing features and dimensions from CAD models for hybrid manufacturing workflows. *Authors, arXiv preprint 2024*. [[2408.06891](https://arxiv.org/abs/2408.06891)]
 - **BrepMFR: Enhancing Machining Feature Recognition in B-rep Models through Deep Learning and Domain Adaptation** — Combines deep learning with domain adaptation to recognize machining features in B-rep CAD models. *Zhang et al., Computer Aided Geometric Design 2024*. [[Paper](https://doi.org/10.1016/j.cagd.2024.102318)]
-- **BRepGAT: Graph Neural Network to Segment Machining Feature Faces in a B-rep Model** — Uses graph attention networks to segment machining feature faces directly from B-rep models. *Authors, ResearchGate / Journal 2024*. [[Paper](https://www.researchgate.net)]
-- **Real-Time Tool-Path Planning Using Deep Learning for Subtractive Manufacturing** — Proposes a deep learning approach for real-time tool-path planning in subtractive manufacturing. *Authors, ResearchGate / Journal 2024*. [[Paper](https://www.researchgate.net)]
+- **BRepGAT: Graph Neural Network to Segment Machining Feature Faces in a B-rep Model** — Uses graph attention networks to segment machining feature faces directly from B-rep models. *Jinwon Lee, Changmo Yeo, Sang-Uk Cheon et al., Journal of Computational Design and Engineering 2023*. [[Paper](https://doi.org/10.1093/jcde/qwad106)]
+- **Real-Time Tool-Path Planning Using Deep Learning for Subtractive Manufacturing** — Proposes a deep learning approach for real-time tool-path planning in subtractive manufacturing. *Yi-Fei Feng, Hong-Yu Ma, Li-Yong Shen et al., IEEE Transactions on Industrial Informatics 2024*. [[Paper](https://doi.org/10.1109/TII.2023.3342474)]
 - **Large Language Models for Manufacturing** — Explores applications of large language models to manufacturing processes and decision-making. *Yixin Tian et al., arXiv preprint 2024*. [[2410.21418](https://arxiv.org/abs/2410.21418)]
 - **Co-Optimization of Tool Orientations, Kinematic Redundancy, and Waypoint Timing for Robot-Assisted Manufacturing** — Jointly optimizes tool orientations, redundancy resolution, and timing for robotic machining paths. *Authors, arXiv preprint 2024*. [[2409.13448](https://arxiv.org/abs/2409.13448)]
 - **Learning-Based Toolpath Planner on Diverse Graphs for 3D Printing** — Learns toolpath planning strategies over graph representations for additive manufacturing. *Yuming Huang et al., arXiv preprint 2024*. [[2408.09198](https://arxiv.org/abs/2408.09198)]
@@ -841,6 +841,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Benchmark Challenges
 
+- **ParamCAD-AgentBench** — Releases an executable long-horizon benchmark with 2,409 kernel-validated parametric CAD models and 4,818 paired language-agent tasks across core and challenge splits. *ParamCAD-AgentBench contributors, GitHub 2026*. [[Benchmark](https://github.com/Fasuiker/ParamCAD-AgentBench)]
+- **ParaEval** — Evaluates executed Rhino/Grasshopper parametric designs across runtime validity, measured geometry, visual intent, and headless structural solvability with explicit abstention for unmeasurable layers. *Magnus Huber / Technical University of Munich, GitHub 2026*. [[Benchmark](https://github.com/magnush01/ParaEval)]
 - **PhysicsBench: A Unified Leaderboard for Generative and Predictive Models in Engineering Design and Simulation** — Standardizes evaluation of geometry generation and physical prediction across CAD, CFD, and FEA tasks and data scales. *Sang Won Lee, Hyogu Jeong, Namwoo Kang, arXiv 2026*. [[2608.24056](https://arxiv.org/abs/2608.24056)] [[Code](https://github.com/Narnialabs/leaderboard)]
 - **CADEngBench: It Looks Like CAD, but Does It Work? Evaluating Parametric Design, Assembly Reasoning, and Physics Simulation** — Tests CAD systems through parametric perturbations, functional edits, DFM checks, matched FEA, and joint grounding. *Harmanjot Singh, Abhra Dubey, Jorge Alejandro Amador Herrera, arXiv 2026*. [[2608.09296](https://arxiv.org/abs/2608.09296)]
 - **OmniMech: All-in-one Multimodal Mechanical Benchmark for 3D Reconstruction** — Pairs dimensioned engineering drawings with native CAD, STEP, B-rep, renderings, and annotations for executable reconstruction and agentic reasoning. *Taiting Lu, Runze Liu, Ziwei Dong et al., arXiv 2026*. [[2608.05539](https://arxiv.org/abs/2608.05539)]
@@ -894,6 +896,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Open-Source Tools and Frameworks
 
+- **build123d-mcp** — Exposes iterative build123d/OpenCascade modeling, rendering, inspection, repair, measurement, and STEP/STL/SVG/DXF export to AI clients through MCP. *Paul Fremantle, GitHub 2026*. [[Project](https://github.com/pzfreo/build123d-mcp)]
 - **MAC (Multi-Agent CAD)** — Implements a four-agent build123d pipeline with structured state transfer, executable geometry checks, repair loops, and a reproducible feature benchmark. *Tsinghua University IEI Lab, GitHub 2026*. [[Paper](https://github.com/Pan-Chera/Multi-Agent-CAD)]
 - **Text23D Mechanical** — Provides a local conversational CAD workspace with CadQuery and FreeCAD backends, editable artifacts, provider adapters, and streamed agent execution. *Text23D, GitHub 2026*. [[Paper](https://github.com/zqf3229294/Text23D)]
 - **Sphaire** — Runs AI-assisted parametric CAD in the browser using OpenCascade/Replicad, inspectable construction code, geometry validation, DFM checks, and local or hosted model providers. *Sphaire contributors, GitHub 2026*. [[Paper](https://github.com/PranavChahal/sphaire-web)]
@@ -972,7 +975,7 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 595 | `README.md` list entries |
+| Markdown catalog entries | 598 | `README.md` list entries |
 | Deduplicated registry records | 638 | `research/papers/*.jsonl` |
 | Registry records dated 2024-2026 | 496 | `research/papers/*.jsonl` |
 
@@ -981,7 +984,7 @@ Use these terms explicitly when citing counts. Do not collapse them into an unde
 For the latest full catalog-entry confidence review, see
 [catalog_entry_audit_summary_2026-05-30.md](research/catalog_audit/catalog_entry_audit_summary_2026-05-30.md).
 The subsequent incremental review is documented in
-[catalog_increment_review_2026-08-27.md](research/catalog_audit/catalog_increment_review_2026-08-27.md).
+[catalog_increment_review_2026-08-31.md](research/catalog_audit/catalog_increment_review_2026-08-31.md).
 
 ---
 
