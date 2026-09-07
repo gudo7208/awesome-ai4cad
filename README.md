@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 598
+catalog_entries: 602
 deduplicated_registry_records: 638
 registry_records_2024_2026: 496
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-598_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-602_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-638_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -255,6 +255,7 @@ AI methods for interpreting, analyzing, and generating 2D engineering drawings, 
 
 ### Electrical and Circuit Schematics
 
+- **Learning to Ground Before Reading: Unified PCB Engineering Drawing Parsing with Compact Vision-Language Models** — Parses full-page PCB engineering drawings into localized region classes, bounding boxes, and structured text or table content with a compact VLM. *Jinghao Liu, Xingrun Liu, Gengchen Sun et al., arXiv 2026*. [[2608.29268](https://arxiv.org/abs/2608.29268)]
 - **OmniRouting: A Semantic-Coupled Multimodal Benchmark for Constraint-Aware Spatial Reasoning in PCB Routing** — Evaluates multimodal models on PCB routing under geometric, electrical, connectivity, and manufacturability constraints. *Taiting Lu, Kaiyuan Lin, Ziwei Dong et al., arXiv 2026*. [[2608.04434](https://arxiv.org/abs/2608.04434)]
 - **SINA: A Circuit Schematic Image-to-Netlist Generator Using Artificial Intelligence** — Converts circuit schematic images to netlists using AI-based recognition and extraction. *Saoud Aldowaish, Yashwanth Karumanchi, Kai-Chen Chiang et al., arXiv 2026*. [[2601.22114](https://arxiv.org/abs/2601.22114)]
 - **OmniSch: A Multimodal PCB Schematic Benchmark For Structured Diagram Visual Reasoning** — Introduces a multimodal benchmark for visual reasoning over PCB schematic diagrams. *Taiting Lu, Kaiyuan Lin, Yuxin Tian et al., arXiv 2026*. [[2604.00270](https://arxiv.org/abs/2604.00270)]
@@ -316,6 +317,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### LLM and VLM-Based Generation
 
+- **VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence** — Maps text, renders, engineering drawings, and photographs to executable CAD programs and uses a domain harness for assembly mating and placement. *Guanlin Li, Zhichao Huang, Huimu Yu et al., arXiv 2026*. [[2609.03811](https://arxiv.org/abs/2609.03811)]
 - **ExpConCAD: Experience-Guided Text-to-CAD Generation from Shape Descriptions with Implicit Spatial Constraints** — Recovers construction structure and retrieves prior design experience to complete spatial constraints omitted from text descriptions. *Jingyao Liu, Jinkang Tang, Chen Huang et al., arXiv 2026*. [[2608.24760](https://arxiv.org/abs/2608.24760)]
 - **Test-Time Scaling for CAD Generation via Verifier-Free Consensus Selection** — Selects a parametric CAD program by geometric or topological agreement within a sampled candidate pool without a separate verifier. *Aaron Haag, Altay Kacan, Bertram Fuchs et al., arXiv 2026*. [[2608.09706](https://arxiv.org/abs/2608.09706)]
 - **IndustryForge-27B: A Domain-Enhanced Multimodal Foundation Model for Industrial CAD** — Fine-tunes a multimodal model across CAD visual reasoning, parametric code, assemblies, and industrial software APIs. *Nianchen Deng, Jiaxin Ai, Tao Hu et al., arXiv 2026*. [[2607.28050](https://arxiv.org/abs/2607.28050)]
@@ -385,6 +387,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Image to CAD
 
+- **RealCAD: Towards Real-World Image-to-CAD Reconstruction under Domain Shift and Parameter Bias** — Reconstructs editable CAD command sequences from real photographs while correcting parameter bias, with the paired OpenRealCAD dataset. *Yihe Sun, Ziyu Lu, Kaihua Tang et al., arXiv 2026*. [[2608.30617](https://arxiv.org/abs/2608.30617)] [[Code](https://github.com/sunyh39/RealCAD)]
 - **IterCAD: Iterative Program Repair for CAD Code Generation from Orthographic Views** — Generates parametric CAD code from dimensioned orthographic drawings through repeated visual comparison and program repair. *Yuchuan Wu, Ke Niu, Haiyang Yu et al., ACM MM 2026*. [[2608.24020](https://arxiv.org/abs/2608.24020)]
 - **Spline-Based Boundary Representations for Sparse View Reconstruction and Simulation Using Isogeometric Analysis** — Reconstructs watertight multi-patch B-spline boundary representations from sparse images for CAD and simulation workflows. *Davor Dobrota, Vsevolod Skorokhodov, Chenghao Xu et al., arXiv 2026*. [[2607.26234](https://arxiv.org/abs/2607.26234)]
 - **Ortho2CAD: 3D CAD generation from orthographic drawings using vision language models** — Converts raster orthographic drawings into editable CadQuery code using supervised fine-tuning and geometry-grounded reinforcement learning. *Aditya Joglekar, Amit Regmi, Kenji Shimada et al., arXiv 2026*. [[2607.08891](https://arxiv.org/abs/2607.08891)]
@@ -467,6 +470,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Multi-Modal CAD Generation
 
+- **MIRAGE-CAD: Construction-Mediated Multimodal Generation of Executable CAD Programs** — Converts text, images, point clouds, or STEP/B-Rep geometry into construction plans and OpenCASCADE-executable Python CAD programs. *Jizong Zhan, arXiv 2026*. [[2608.28669](https://arxiv.org/abs/2608.28669)] [[Code](https://github.com/Cad-Kernel/MIRAGE-CAD)]
 - **Captioning and Generating 3D Content via Multi-modal Large Language Models** — Leverages multi-modal LLMs to jointly caption and generate 3D content. *Authors, arXiv 2026*. [[2601.21798](https://arxiv.org/abs/2601.21798)]
 - **Text-Image Conditioned 3D Generation** — Generates 3D assets conditioned on both text and image inputs. *Authors, arXiv 2026*. [[2603.21295](https://arxiv.org/abs/2603.21295)]
 - **Omni123: Unified Native 3D Generation and Editing within a Multimodal Framework** — Unifies 3D generation and editing natively within a single multimodal framework. *Authors, arXiv 2026*. [[2604.02289](https://arxiv.org/abs/2604.02289)]
@@ -975,7 +979,7 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 598 | `README.md` list entries |
+| Markdown catalog entries | 602 | `README.md` list entries |
 | Deduplicated registry records | 638 | `research/papers/*.jsonl` |
 | Registry records dated 2024-2026 | 496 | `research/papers/*.jsonl` |
 
@@ -984,7 +988,7 @@ Use these terms explicitly when citing counts. Do not collapse them into an unde
 For the latest full catalog-entry confidence review, see
 [catalog_entry_audit_summary_2026-05-30.md](research/catalog_audit/catalog_entry_audit_summary_2026-05-30.md).
 The subsequent incremental review is documented in
-[catalog_increment_review_2026-08-31.md](research/catalog_audit/catalog_increment_review_2026-08-31.md).
+[catalog_increment_review_2026-09-07.md](research/catalog_audit/catalog_increment_review_2026-09-07.md).
 
 ---
 
