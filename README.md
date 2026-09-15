@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 602
+catalog_entries: 605
 deduplicated_registry_records: 638
 registry_records_2024_2026: 496
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-602_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-605_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-638_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -317,6 +317,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### LLM and VLM-Based Generation
 
+- **CIT-CAD: Constraint Intent Tree-based CAD Code Generation and Verification** — Represents construction intent as explicit constraints that guide CadQuery generation, detect violations, and localize repairs. *Yali Du, Hui Sun, San-Zhuo Xi et al., arXiv 2026*. [[2609.07434](https://arxiv.org/abs/2609.07434)]
 - **VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence** — Maps text, renders, engineering drawings, and photographs to executable CAD programs and uses a domain harness for assembly mating and placement. *Guanlin Li, Zhichao Huang, Huimu Yu et al., arXiv 2026*. [[2609.03811](https://arxiv.org/abs/2609.03811)]
 - **ExpConCAD: Experience-Guided Text-to-CAD Generation from Shape Descriptions with Implicit Spatial Constraints** — Recovers construction structure and retrieves prior design experience to complete spatial constraints omitted from text descriptions. *Jingyao Liu, Jinkang Tang, Chen Huang et al., arXiv 2026*. [[2608.24760](https://arxiv.org/abs/2608.24760)]
 - **Test-Time Scaling for CAD Generation via Verifier-Free Consensus Selection** — Selects a parametric CAD program by geometric or topological agreement within a sampled candidate pool without a separate verifier. *Aaron Haag, Altay Kacan, Bertram Fuchs et al., arXiv 2026*. [[2608.09706](https://arxiv.org/abs/2608.09706)]
@@ -495,6 +496,7 @@ Representation learning, feature recognition, retrieval, and semantic understand
 
 ### B-Rep Representation Learning
 
+- **Learn the Solid, Not the File: Canonical Inputs for Neural Networks on CAD Boundary Representations** — Builds a solid-derived region graph that is invariant to B-rep repartitioning, kernel round-trips, and rigid motions. *Heinrich Jiang, Hager Yasser Mohamed, Alexander Hitt et al., arXiv 2026*. [[2609.11573](https://arxiv.org/abs/2609.11573)]
 - **Masked Topology Modeling for Self-Supervised Learning on Parametric CAD** — Pretrains B-rep encoders by reconstructing masked adjacency, convexity, and curve topology. *Heinrich Jiang, Jennifer Jang, arXiv 2026*. [[2607.20642](https://arxiv.org/abs/2607.20642)]
 - **Pointer-CAD v2: Plan-Then-Construct CAD Generation with Dimension-Aware Parametric Precision** — Separates planning from construction and preserves metric dimensions for precise parametric CAD generation. *Dacheng Qi, Chenyu Wang, Jingwei Xu et al., arXiv 2026*. [[2606.29301](https://arxiv.org/abs/2606.29301)]
 - **BRepMAE: Self-Supervised Masked BRep Autoencoders for Machining Feature Recognition** — Pre-trains masked autoencoders on B-Rep data for self-supervised machining feature recognition. *Can Yao, Kang Wu, Zuheng Zheng et al., arXiv 2026*. [[2602.22701](https://arxiv.org/abs/2602.22701)]
@@ -684,6 +686,7 @@ Design for manufacturing, additive manufacturing, assembly planning, and CAD/CAM
 
 ### Design for Manufacturing (DFM)
 
+- **LLM-Aided Design for Manufacturing: A Multi-Agent System for Intent-Preserving Redesign of CAD for Improved Manufacturability** — Iteratively edits CadQuery programs through DFM review, compilation, and visual verification while preserving design intent. *Kojo Welbeck, Xiangyu Shi, Zahra Sadeghi et al., arXiv 2026*. [[2609.05559](https://arxiv.org/abs/2609.05559)]
 - **AIMold: An Autonomous AI-based Pipeline for Complex Mold Design** — Predicts demolding directions and auxiliary components and constructs parting surfaces for complex mold assemblies. *Pengyun Qiu, Shuo Wang, Zeyuan Chen et al., ECCV 2026*. [[2608.00800](https://arxiv.org/abs/2608.00800)]
 - **Kolmogorov-Arnold Networks-Based Tolerance-Aware Manufacturability Assessment Integrating Design-for-Manufacturing Principles** — Uses Kolmogorov-Arnold networks for tolerance-aware manufacturability assessment integrating DFM principles. *arXiv preprint 2025*. [[2601.06334](https://arxiv.org/abs/2601.06334)]
 - **Enhancing the Product Quality of the Injection Process Using eXplainable Artificial Intelligence** — Applies explainable AI to enhance product quality in injection molding processes. *arXiv preprint / Processes 2025*. [[2503.02338](https://arxiv.org/abs/2503.02338)]
@@ -979,7 +982,7 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 602 | `README.md` list entries |
+| Markdown catalog entries | 605 | `README.md` list entries |
 | Deduplicated registry records | 638 | `research/papers/*.jsonl` |
 | Registry records dated 2024-2026 | 496 | `research/papers/*.jsonl` |
 
@@ -988,7 +991,7 @@ Use these terms explicitly when citing counts. Do not collapse them into an unde
 For the latest full catalog-entry confidence review, see
 [catalog_entry_audit_summary_2026-05-30.md](research/catalog_audit/catalog_entry_audit_summary_2026-05-30.md).
 The subsequent incremental review is documented in
-[catalog_increment_review_2026-09-07.md](research/catalog_audit/catalog_increment_review_2026-09-07.md).
+[catalog_increment_review_2026-09-14.md](research/catalog_audit/catalog_increment_review_2026-09-14.md).
 
 ---
 
