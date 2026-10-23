@@ -21,9 +21,9 @@ SURVEY_FILES = [
 ]
 
 EXPECTED = {
-    "readme_entries": 643,
-    "jsonl_dedup_records": 675,
-    "jsonl_2024_2026_records": 533,
+    "readme_entries": 644,
+    "jsonl_dedup_records": 676,
+    "jsonl_2024_2026_records": 534,
 }
 
 BANNED_PATTERNS = {

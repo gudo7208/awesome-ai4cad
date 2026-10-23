@@ -1,9 +1,9 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 643
-deduplicated_registry_records: 675
-registry_records_2024_2026: 533
+catalog_entries: 644
+deduplicated_registry_records: 676
+registry_records_2024_2026: 534
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
 validation: "python3 scripts/validate_catalog.py"
 -->
@@ -12,8 +12,8 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-643_entries-blue)
-![Registry](https://img.shields.io/badge/Registry-675_unique_records-green)
+![Catalog](https://img.shields.io/badge/Catalog-644_entries-blue)
+![Registry](https://img.shields.io/badge/Registry-676_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
@@ -978,6 +978,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Research on AI Tools and Deployment
 
+- **Introducing SKY-001: The First World Model for Engineering** — Research preview using hierarchical composition and a construction world model to generate visual CAD/BIM design plans; executable, editable CAD feature histories remain future work, and public code or weights are not verified. *Skyfall Research, Technical Blog 2026*. [[Project](https://skyfall.ai/sky-001)] [[Blog](https://skyfall.ai/blog/introducing-sky-001)]
 - **LLM-based Visual Code Completion for Aerospace Geometric Design** — Adds a ReAct-style Grasshopper copilot, Wingbuilder geometry library, and 18-task aerospace benchmark. *Hau Kit Yong, Robert Marsh, Edmar A. Silva et al., arXiv 2026*. [[2606.16806](https://arxiv.org/abs/2606.16806)]
 - **Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design** — Explores a metacognitive co-regulation loop for supervising agentic AI in engineering design tasks. *Xu et al., arXiv 2026*. [[2603.24768](https://arxiv.org/abs/2603.24768)]
 - **Is Academia Catching Up with Industry Demands? AI for CAE User Experience -- A Multivocal Literature Review** — Multivocal literature review comparing academic and industry perspectives on AI for CAE user experience. *Authors et al., arXiv 2025*. [[2507.16586](https://arxiv.org/abs/2507.16586)]
@@ -1020,9 +1021,9 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 643 | `README.md` list entries |
-| Deduplicated registry records | 675 | `research/papers/*.jsonl` |
-| Registry records dated 2024-2026 | 533 | `research/papers/*.jsonl` |
+| Markdown catalog entries | 644 | `README.md` list entries |
+| Deduplicated registry records | 676 | `research/papers/*.jsonl` |
+| Registry records dated 2024-2026 | 534 | `research/papers/*.jsonl` |
 
 Use these terms explicitly when citing counts. Do not collapse them into an undefined "papers" total.
 
