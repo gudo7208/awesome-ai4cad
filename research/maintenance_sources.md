@@ -67,3 +67,22 @@ reproduction of a paper's reported results or a product's reliability.
 
 No single source family, query, or pass establishes exhaustive coverage. Report
 the actual source families checked and preserve unresolved gaps.
+
+## Engineering-model follow-up
+
+Keep explicit watch points for [Spectral Labs research](https://www.spectrallabs.ai/research),
+[Zoo research and releases](https://zoo.dev/blog), [MecAgent releases](https://mecagent.com/release),
+[ClassCAD.ai](https://classcad.ai/), [Motif](https://motif.io/blog),
+[BIMLOGIQ updates](https://bimlogiq.com/whats-new), and
+[Adam CAD migration workflows](https://adam.new/migrations).
+Follow a research report's actual model/dataset links into Hugging Face; inspect
+cards and file listings independently. A Space is a demo, not proof of released
+weights. A gated model card is not unrestricted download access. A public MCP
+repository does not make its commercial geometry engine open source.
+
+For each source, check for a newly named model, a changed existing product,
+and an execution/evaluation environment. Deduplicate those roles by contribution:
+update an existing product entry for a renamed or expanded capability; retain a
+separate technical report only when it supplies a distinct method or evaluation.
+Record exact launch dates from changelogs rather than secondary announcement
+coverage; undated current pages establish a review snapshot, not a launch date.
