@@ -1,0 +1,39 @@
+action,kind,title,section,discovery_source,primary_url,registry_action
+added,paper,UniBRep: Learning Unified Geometry and Topology for Image-conditioned B-Rep Generation,Image to CAD,arxiv-focused-sweep,https://arxiv.org/abs/2610.04092,added
+added,paper,CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use,Point Cloud to CAD,arxiv-focused-sweep,https://arxiv.org/abs/2610.09127,added
+added,paper,ReliCAD: From Uncertain LLM Generation to Reliable Parametric CAD Modeling,LLM and VLM-Based Generation,arxiv-focused-sweep,https://arxiv.org/abs/2609.22325,added
+added,paper,Rethinking Human Intent-to-CAD: Parametric CAD Model Generation via Cooperative Multi-Task Alignment and Spatial-Aware Reinforcement Learning,Multi-Modal CAD Generation,arxiv-focused-sweep,https://arxiv.org/abs/2610.15681,added
+added,paper,PrimitiveCAD: An LLM-Based Point-to-CAD Reconstruction with Primitive-Aware Tokenization and Operation Alignment,Point Cloud to CAD,arxiv-focused-sweep,https://arxiv.org/abs/2610.08698,added
+added,paper,StepCAD: Mesh-to-CAD Code Generation via LLM Policy and Geometry-Guided Search,Point Cloud to CAD,arxiv-focused-sweep,https://arxiv.org/abs/2610.03799,added
+added,paper,CADForge: Agentic Single-View CAD Reconstruction with Explicit Geometry Reasoning,Image to CAD,arxiv-focused-sweep,https://arxiv.org/abs/2610.04262,added
+added,paper,CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design,Benchmark Challenges,arxiv-focused-sweep,https://arxiv.org/abs/2609.16251,added
+added,paper,Look Where You Can: Active View Selection for CAD Reconstruction under Occlusion,Image to CAD,arxiv-focused-sweep,https://arxiv.org/abs/2610.11954,added
+added,paper,Automated Assembly Instruction Generation from CAD Models Using Grounded Large Language Models: A Human-in-the-Loop Framework,Assembly Planning and Tolerance,arxiv-focused-sweep,https://arxiv.org/abs/2610.11896,added
+added,paper,DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents,Reinforcement Learning-Enhanced Generation,arxiv-focused-sweep,https://arxiv.org/abs/2610.21755,added
+added,paper,A Real-World CAD Segmentation Benchmark: Comparing Rule-Based and Learning-Based Approaches through Hole Detection,B-Rep Segmentation,arxiv-focused-sweep,https://arxiv.org/abs/2610.13466,added
+added,paper,LED-BENCH: A Benchmark for Large-format Engineering Drawing Understanding,Drawing Understanding and Benchmarks,arxiv-focused-sweep,https://arxiv.org/abs/2610.19571,added
+added,paper,CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly,Assembly Planning and Tolerance,arxiv-focused-sweep,https://arxiv.org/abs/2609.17263,added
+added,paper,BrepForge: Factorized B-rep Synthesis via Wireframe Composition and Boundary-Conditioned Surface Instantiation,B-Rep and CSG Generation,arxiv-focused-sweep,https://arxiv.org/abs/2605.19411,added
+added,paper,CAD-Refiner: A Unified Framework for CAD Generation and Iterative Editing,CAD Editing,cvf-proceedings,https://openaccess.thecvf.com/content/CVPR2026/html/Yuan_CAD-Refiner_A_Unified_Framework_for_CAD_Generation_and_Iterative_Editing_CVPR_2026_paper.html,added
+added,paper,Bidirectional Query-Driven Generation of Parametric CAD Sketch,Autoregressive Sequence Models,cvf-proceedings,https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Bidirectional_Query-Driven_Generation_of_Parametric_CAD_Sketch_CVPR_2026_paper.html,added
+added,paper,CADLoop: An Equivariant-Aware Skill-Grounded Loop for CAD Data Curation,Dataset Papers,cvf-workshop-proceedings,https://openaccess.thecvf.com/content/CVPR2026W/NeXD/html/Zhang_CADLoop_An_Equivariant-Aware_Skill-Grounded_Loop_for_CAD_Data_Curation_CVPRW_2026_paper.html,added
+added,paper,PP-Brep: Few-Shot B-rep Classification with Hybrid Graph Representation,Shape Classification,cvf-proceedings,https://openaccess.thecvf.com/content/CVPR2026/html/Hao_PP-Brep_Few-Shot_B-rep_Classification_with_Hybrid_Graph_Representation_CVPR_2026_paper.html,added
+added,paper,BRepFacetGen: Reverse Engineering B-Reps By Generative Face Segmentation,B-Rep and CSG Generation,springer-proceedings-and-author-page,https://doi.org/10.1007/978-3-032-37258-1_35,added
+added,paper,State-CAD: Precise and iterative CAD modeling with structured state representation and reinforcement learning,Reinforcement Learning-Enhanced Generation,publisher-journal-index,https://doi.org/10.1016/j.cad.2026.104128,added
+added,paper,Mind-CAD: An interpretable multimodal framework for image-guided CAD DSL generation and editing,CAD Editing,publisher-journal-index,https://doi.org/10.1016/j.cad.2026.104126,added
+added,project,agentcad (jdilla1277),Open-Source Tools and Frameworks,github-and-official-site,https://github.com/jdilla1277/agentcad,added
+added,project,AgentCAD (n3r),Open-Source Tools and Frameworks,github-repository-search,https://github.com/n3r/AgentCAD,added
+added,project,AgentSCAD,Open-Source Tools and Frameworks,github-topic-discovery,https://github.com/Kevoyuan/AgentSCAD,added
+added,project,nurb,AI-Native CAD Platforms,github-repository-search,https://github.com/Shpigford/nurb,added
+added,dataset,ABC-1M: Autodesk Deduplicated Solids,Dataset Papers,author-page-to-hugging-face,https://huggingface.co/datasets/ADSKAILab/ABC-1M,added
+added,dataset,ECCV 2026 CAD Challenge: Render + TechDraw to STEP BRep,Benchmark Challenges,official-workshop-to-hugging-face,https://huggingface.co/datasets/jingwei-xu-00/eccv2026-cad-challenge-data,added
+added,product,Onshape AI Advisor,Commercial CAD with AI Features,vendor-release-notes,https://www.onshape.com/en/resource-center/what-is-new/propagate-configuration-inputs-references-persistent-center-mass-indicator-assemblies-ar-view-android,added
+added,product,NX X Manufacturing AI Make Machining Suggestion,Commercial CAD with AI Features,vendor-release-notes,https://blogs.sw.siemens.com/nx-manufacturing/whats-new-in-nx-for-manufacturing-2606-june-2026/,added
+updated,existing,DualBrep: A Dual-Field Continuous Representation for B-rep Modelling,,source-reverification,https://arxiv.org/abs/2606.31579,unchanged
+updated,existing,Flatten The Complex,,source-reverification,https://arxiv.org/abs/2601.17733,unchanged
+updated,existing,CME-CAD,,source-reverification,https://arxiv.org/abs/2512.23333,unchanged
+updated,existing,CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design with Large Language Models,,source-reverification,https://arxiv.org/abs/2605.01925,unchanged
+updated,existing,BrepGaussian,,source-reverification,https://arxiv.org/abs/2602.21105,unchanged
+updated,existing,Linkify: Learning from Interface-Augmented Assembly Graphs,,source-reverification,https://arxiv.org/abs/2607.01205,unchanged
+updated,existing,DreamCAD,,source-reverification,https://arxiv.org/abs/2603.05607,unchanged
+updated,existing,CAD Skills,,source-reverification,https://github.com/earthtojake/text-to-cad,unchanged

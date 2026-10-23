@@ -1,0 +1,658 @@
+{
+  "review_date": "2026-10-23",
+  "added": [
+    {
+      "arxiv_id": "2610.04092",
+      "title": "UniBRep: Learning Unified Geometry and Topology for Image-conditioned B-Rep Generation",
+      "authors": [
+        "Haiyang Ying",
+        "Allen Tu",
+        "Jiaye Wu"
+      ],
+      "section": "Image to CAD",
+      "method_summary": "Recovers explicit B-reps from images using a feature-mesh intermediate representation and geometry-guided surface and topology construction.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.04092",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.09127",
+      "title": "CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use",
+      "authors": [
+        "Gennadiy Savrasov",
+        "Maksim Elistratov",
+        "Nikita Gavrilov"
+      ],
+      "section": "Point Cloud to CAD",
+      "method_summary": "Coordinates learned proposals, geometric tools, numerical optimization, and executed feedback to reconstruct parametric programs from meshes.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.09127",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2609.22325",
+      "title": "ReliCAD: From Uncertain LLM Generation to Reliable Parametric CAD Modeling",
+      "authors": [
+        "Peng Zheng",
+        "Xintong Dong",
+        "Chuanyang Li"
+      ],
+      "section": "LLM and VLM-Based Generation",
+      "method_summary": "Combines explicit design specifications, constraint-aware instructions, CAD-kernel execution, and evidence-guided verification and repair.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2609.22325",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.15681",
+      "title": "Rethinking Human Intent-to-CAD: Parametric CAD Model Generation via Cooperative Multi-Task Alignment and Spatial-Aware Reinforcement Learning",
+      "authors": [
+        "Qingwang Zhang",
+        "Jiahao Li",
+        "Xiangdong Zhou"
+      ],
+      "section": "Multi-Modal CAD Generation",
+      "method_summary": "Introduces HiCAD sketch-text-code data and combines multi-task alignment with spatial-aware reinforcement learning for intent-to-CAD generation.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.15681",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "verification_url": "https://arxiv.org/html/2610.15681v1",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.08698",
+      "title": "PrimitiveCAD: An LLM-Based Point-to-CAD Reconstruction with Primitive-Aware Tokenization and Operation Alignment",
+      "authors": [
+        "Jian Gao",
+        "Kailin Bi",
+        "Jiamin Xu"
+      ],
+      "section": "Point Cloud to CAD",
+      "method_summary": "Preserves reconstruction features through primitive-aware point tokens, CAD-operation alignment, and feature-line reinforcement rewards.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.08698",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.03799",
+      "title": "StepCAD: Mesh-to-CAD Code Generation via LLM Policy and Geometry-Guided Search",
+      "authors": [
+        "Ghadi Nehme",
+        "Faez Ahmed"
+      ],
+      "section": "Point Cloud to CAD",
+      "method_summary": "Combines a state-conditioned CAD policy with geometry-guided program search and introduces the ARCADE-1.5M program dataset.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.03799",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.04262",
+      "title": "CADForge: Agentic Single-View CAD Reconstruction with Explicit Geometry Reasoning",
+      "authors": [
+        "Keyang Lu",
+        "Zhifei Yang",
+        "Tianao Dong"
+      ],
+      "section": "Image to CAD",
+      "method_summary": "Decomposes images into components, reasons about geometric constraints, and refines CadQuery programs with review and reusable tool memory.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.04262",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2609.16251",
+      "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
+      "authors": [
+        "Zihan Dong",
+        "Yuanzhe Liu",
+        "Zhiyuan Ma"
+      ],
+      "section": "Benchmark Challenges",
+      "method_summary": "Evaluates GUI agents on 200 FreeCAD tasks with executable checks over saved geometry, constraints, manufacturing state, and simulation outputs.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2609.16251",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.11954",
+      "title": "Look Where You Can: Active View Selection for CAD Reconstruction under Occlusion",
+      "authors": [
+        "Kartik Bali",
+        "Mahish Guru",
+        "Yiderigun Borjigin"
+      ],
+      "section": "Image to CAD",
+      "method_summary": "Learns feasible view selection jointly with CadQuery generation to reconstruct scene-embedded objects under occlusion.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.11954",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.11896",
+      "title": "Automated Assembly Instruction Generation from CAD Models Using Grounded Large Language Models: A Human-in-the-Loop Framework",
+      "authors": [
+        "Aaron Dsouza",
+        "Mohammed Azeez Khan",
+        "Ashutosh Mishra"
+      ],
+      "section": "Assembly Planning and Tolerance",
+      "method_summary": "Explores STEP-grounded assembly manuals using a typed product graph, deterministic ordering, and human review in a six-part case study.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.11896",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Six-part proof-of-concept; broader generalization and geometric validation remain open.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.21755",
+      "title": "DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
+      "authors": [
+        "Yufeng Peng",
+        "Yixin Zhang",
+        "Ziyi Liu"
+      ],
+      "section": "Reinforcement Learning-Enhanced Generation",
+      "method_summary": "Learns CAD action policies through a domain-native harness, trajectory-derived supervision, and geometry-grounded online reinforcement learning.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.21755",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.13466",
+      "title": "A Real-World CAD Segmentation Benchmark: Comparing Rule-Based and Learning-Based Approaches through Hole Detection",
+      "authors": [
+        "Kai Schütte",
+        "Edgar Heinert",
+        "Matthias Rottmann"
+      ],
+      "section": "B-Rep Segmentation",
+      "method_summary": "Compares rule-based and learned hole detection on human-annotated engineering CAD and tests cross-domain generalization.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.13466",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "verification_url": "https://arxiv.org/html/2610.13466v1",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2610.19571",
+      "title": "LED-BENCH: A Benchmark for Large-format Engineering Drawing Understanding",
+      "authors": [
+        "Ke Li",
+        "Tianyi Wang",
+        "Enning You"
+      ],
+      "section": "Drawing Understanding and Benchmarks",
+      "method_summary": "Evaluates fine-grained understanding and distributed-evidence reasoning over large mechanical, architectural, and transportation drawings.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2610.19571",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2609.17263",
+      "title": "CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly",
+      "authors": [
+        "Fabian Harlacher",
+        "Christian Friedrich"
+      ],
+      "section": "Assembly Planning and Tolerance",
+      "method_summary": "Combines learned CAD relation extraction, human verification, and geometric-symbolic reasoning for robotic assembly and disassembly planning.",
+      "venue": "arXiv",
+      "source_url": "https://arxiv.org/abs/2609.17263",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "arxiv_id": "2605.19411",
+      "title": "BrepForge: Factorized B-rep Synthesis via Wireframe Composition and Boundary-Conditioned Surface Instantiation",
+      "authors": [
+        "Jing Li",
+        "Yihang Fu",
+        "Falai Chen"
+      ],
+      "section": "B-Rep and CSG Generation",
+      "method_summary": "Factorizes B-rep synthesis into structural wireframe composition and boundary-conditioned surface construction.",
+      "venue": "SIGGRAPH",
+      "source_url": "https://arxiv.org/abs/2605.19411",
+      "resource_type": "paper",
+      "discovery_source": "arxiv-focused-sweep",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "CAD-Refiner: A Unified Framework for CAD Generation and Iterative Editing",
+      "authors": [
+        "Meng Yuan",
+        "Dawei Lin",
+        "Hongxia Xie"
+      ],
+      "section": "CAD Editing",
+      "method_summary": "Unifies multimodal CAD generation and editing through topology graphs, sequence injection, and geometry-aware feedback.",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yuan_CAD-Refiner_A_Unified_Framework_for_CAD_Generation_and_Iterative_Editing_CVPR_2026_paper.html",
+      "venue": "CVPR",
+      "resource_type": "paper",
+      "discovery_source": "cvf-proceedings",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "Bidirectional Query-Driven Generation of Parametric CAD Sketch",
+      "authors": [
+        "Yang Liu",
+        "Daxuan Ren",
+        "Yijie Ding"
+      ],
+      "section": "Autoregressive Sequence Models",
+      "method_summary": "Completes partial parametric sketches with bidirectional context, confidence-guided expansion, and executable-instruction validation.",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Bidirectional_Query-Driven_Generation_of_Parametric_CAD_Sketch_CVPR_2026_paper.html",
+      "venue": "CVPR",
+      "resource_type": "paper",
+      "discovery_source": "cvf-proceedings",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "CADLoop: An Equivariant-Aware Skill-Grounded Loop for CAD Data Curation",
+      "authors": [
+        "Haozhe Zhang",
+        "Miaomiao Chen",
+        "Kaichen Liu"
+      ],
+      "section": "Dataset Papers",
+      "method_summary": "Repairs near-miss CAD programs through symbolic geometric constraints and AST edits to curate verified program-geometry pairs.",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026W/NeXD/html/Zhang_CADLoop_An_Equivariant-Aware_Skill-Grounded_Loop_for_CAD_Data_Curation_CVPRW_2026_paper.html",
+      "venue": "CVPR Workshops",
+      "resource_type": "paper",
+      "discovery_source": "cvf-workshop-proceedings",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "PP-Brep: Few-Shot B-rep Classification with Hybrid Graph Representation",
+      "authors": [
+        "Jiacheng Hao",
+        "Chunying Liu",
+        "Hao Guo"
+      ],
+      "section": "Shape Classification",
+      "method_summary": "Studies few-shot CAD classification using a hybrid graph representation of B-rep geometry.",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hao_PP-Brep_Few-Shot_B-rep_Classification_with_Hybrid_Graph_Representation_CVPR_2026_paper.html",
+      "venue": "CVPR",
+      "resource_type": "paper",
+      "discovery_source": "cvf-proceedings",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "BRepFacetGen: Reverse Engineering B-Reps By Generative Face Segmentation",
+      "authors": [
+        "Ka-Hei Hui",
+        "Vikas Thamizharasan",
+        "Pradeep Kumar Jayaraman"
+      ],
+      "section": "B-Rep and CSG Generation",
+      "method_summary": "Models ambiguous CAD face decomposition generatively to reconstruct B-reps from continuous geometric representations.",
+      "source_url": "https://doi.org/10.1007/978-3-032-37258-1_35",
+      "venue": "ECCV",
+      "resource_type": "paper",
+      "discovery_source": "springer-proceedings-and-author-page",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "State-CAD: Precise and iterative CAD modeling with structured state representation and reinforcement learning",
+      "authors": [
+        "Dawei Lin",
+        "Yuanning Liu"
+      ],
+      "section": "Reinforcement Learning-Enhanced Generation",
+      "method_summary": "Combines an updatable geometry-and-topology state representation with reinforcement learning for iterative CAD refinement.",
+      "source_url": "https://doi.org/10.1016/j.cad.2026.104128",
+      "venue": "Computer-Aided Design",
+      "resource_type": "paper",
+      "discovery_source": "publisher-journal-index",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "Mind-CAD: An interpretable multimodal framework for image-guided CAD DSL generation and editing",
+      "authors": [
+        "Meng Yuan",
+        "Dawei Lin",
+        "Hongxia Xie"
+      ],
+      "section": "CAD Editing",
+      "method_summary": "Supports interpretable image-guided CAD DSL generation and instruction-driven editing with a modular reasoning framework.",
+      "source_url": "https://doi.org/10.1016/j.cad.2026.104126",
+      "venue": "Computer-Aided Design",
+      "resource_type": "paper",
+      "discovery_source": "publisher-journal-index",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "official-metadata-and-abstract",
+      "limitations": "Source-level curation only; experiments were not independently reproduced.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "agentcad (jdilla1277)",
+      "authors": [
+        "James Dillard"
+      ],
+      "section": "Open-Source Tools and Frameworks",
+      "method_summary": "Provides a local build123d CLI and MCP server with STEP export, rendering, geometry metrics, validation, and version comparison.",
+      "source_url": "https://github.com/jdilla1277/agentcad",
+      "venue": "GitHub",
+      "resource_type": "project",
+      "discovery_source": "github-and-official-site",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "source-and-release-inspection",
+      "license": "Apache-2.0",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "AgentCAD (n3r)",
+      "authors": [
+        "n3r contributors"
+      ],
+      "section": "Open-Source Tools and Frameworks",
+      "method_summary": "Offers agent-first build123d modeling, validated assemblies, structured execution feedback, a browser UI, and an MCP interface.",
+      "source_url": "https://github.com/n3r/AgentCAD",
+      "venue": "GitHub",
+      "resource_type": "project",
+      "discovery_source": "github-repository-search",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "source-and-release-inspection",
+      "license": "Apache-2.0",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "AgentSCAD",
+      "authors": [
+        "Kevoyuan contributors"
+      ],
+      "section": "Open-Source Tools and Frameworks",
+      "method_summary": "Generates editable OpenSCAD programs from natural language with a local workspace, geometry checks, and STL export.",
+      "source_url": "https://github.com/Kevoyuan/AgentSCAD",
+      "venue": "GitHub",
+      "resource_type": "project",
+      "discovery_source": "github-topic-discovery",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "source-and-release-inspection",
+      "license": "MIT",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "nurb",
+      "authors": [
+        "Ordinary Systems"
+      ],
+      "section": "AI-Native CAD Platforms",
+      "method_summary": "Provides agent-assisted B-rep modeling, parameter controls, printability checks, and STEP/3MF export under the FSL-1.1-MIT source-available license.",
+      "source_url": "https://github.com/Shpigford/nurb",
+      "venue": "Source-Available Platform",
+      "resource_type": "project",
+      "discovery_source": "github-repository-search",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "source-and-release-inspection",
+      "license": "FSL-1.1-MIT; source-available, not classified as open source.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "ABC-1M: Autodesk Deduplicated Solids",
+      "authors": [
+        "Autodesk AI Lab"
+      ],
+      "section": "Dataset Papers",
+      "method_summary": "Releases processed ABC solids with geometry and topology attributes and explicit train, validation, and test splits for CAD learning.",
+      "source_url": "https://huggingface.co/datasets/ADSKAILab/ABC-1M",
+      "venue": "Dataset Release",
+      "resource_type": "dataset",
+      "discovery_source": "author-page-to-hugging-face",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "source-and-release-inspection",
+      "license": "MIT (dataset card)",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "ECCV 2026 CAD Challenge: Render + TechDraw to STEP BRep",
+      "authors": [
+        "ECCV CAD Challenge organizers"
+      ],
+      "section": "Benchmark Challenges",
+      "method_summary": "Pairs renders and engineering views with STEP targets and supplies public inputs, evaluation examples, and a hosted challenge evaluator.",
+      "source_url": "https://huggingface.co/datasets/jingwei-xu-00/eccv2026-cad-challenge-data",
+      "venue": "Workshop Challenge",
+      "resource_type": "dataset",
+      "discovery_source": "official-workshop-to-hugging-face",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "source-and-release-inspection",
+      "license": "Per-asset attribution and restrictions; inspect ACKNOWLEDGEMENTS_AND_LICENSES.md.",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "Onshape AI Advisor",
+      "authors": [
+        "Onshape / PTC"
+      ],
+      "section": "Commercial CAD with AI Features",
+      "method_summary": "Provides in-workspace conversational CAD guidance, including an iPhone and iPad interface released in October 2026.",
+      "source_url": "https://www.onshape.com/en/resource-center/what-is-new/propagate-configuration-inputs-references-persistent-center-mass-indicator-assemblies-ar-view-android",
+      "venue": "Technical Platform",
+      "resource_type": "product",
+      "discovery_source": "vendor-release-notes",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "source-and-release-inspection",
+      "registry_action": "added",
+      "catalog_action": "added"
+    },
+    {
+      "title": "NX X Manufacturing AI Make Machining Suggestion",
+      "authors": [
+        "Siemens Digital Industries Software"
+      ],
+      "section": "Commercial CAD with AI Features",
+      "method_summary": "Adds geometry-driven generative machining suggestions alongside history-based strategies in the NX 2606 CAM workflow.",
+      "source_url": "https://blogs.sw.siemens.com/nx-manufacturing/whats-new-in-nx-for-manufacturing-2606-june-2026/",
+      "venue": "Technical Platform",
+      "resource_type": "product",
+      "discovery_source": "vendor-release-notes",
+      "year": 2026,
+      "last_verified": "2026-10-23",
+      "verification_level": "source-and-release-inspection",
+      "registry_action": "added",
+      "catalog_action": "added"
+    }
+  ],
+  "updated": [
+    {
+      "title": "DualBrep: A Dual-Field Continuous Representation for B-rep Modelling",
+      "source_url": "https://arxiv.org/abs/2606.31579",
+      "action": "updated",
+      "reason": "Author publication page confirms SIGGRAPH 2026.",
+      "verification_url": "https://samxuxiang.github.io/"
+    },
+    {
+      "title": "Flatten The Complex",
+      "source_url": "https://arxiv.org/abs/2601.17733",
+      "action": "updated",
+      "reason": "Full title and venue confirmed by the SIGGRAPH official program.",
+      "verification_url": "https://s2026.conference-schedule.org/presentation/?id=papers_1189&sess=sess142"
+    },
+    {
+      "title": "CME-CAD",
+      "source_url": "https://arxiv.org/abs/2512.23333",
+      "action": "updated",
+      "reason": "Correct authors and venue from CVF proceedings.",
+      "verification_url": "https://openaccess.thecvf.com/CVPR2026?day=all"
+    },
+    {
+      "title": "CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design with Large Language Models",
+      "source_url": "https://arxiv.org/abs/2605.01925",
+      "action": "updated",
+      "reason": "Expand verified authors and update accepted venue from CVF.",
+      "verification_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Pyatov_CADFS_A_Big_CAD_Program_Dataset_and_Framework_for_Computer-Aided_CVPR_2026_paper.html"
+    },
+    {
+      "title": "BrepGaussian",
+      "source_url": "https://arxiv.org/abs/2602.21105",
+      "action": "updated",
+      "reason": "Correct authors and venue from CVF proceedings.",
+      "verification_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yu_BrepGaussian_CAD_reconstruction_from_Multi-View_Images_with_Gaussian_Splatting_CVPR_2026_paper.html"
+    },
+    {
+      "title": "Linkify: Learning from Interface-Augmented Assembly Graphs",
+      "source_url": "https://arxiv.org/abs/2607.01205",
+      "action": "updated",
+      "reason": "Publisher journal record confirms publication.",
+      "verification_url": "https://www.sciencedirect.com/science/article/pii/S0010448526001053"
+    },
+    {
+      "title": "DreamCAD",
+      "source_url": "https://arxiv.org/abs/2603.05607",
+      "action": "updated",
+      "reason": "Official ECCV accepted-paper listing confirms venue.",
+      "verification_url": "https://eccv.ecva.net/Conferences/2026/AcceptedPapers"
+    },
+    {
+      "title": "CAD Skills",
+      "source_url": "https://github.com/earthtojake/text-to-cad",
+      "action": "updated",
+      "reason": "Repository creation date, current name, and capabilities checked in source; replaces stale CAD Skills / 2025 metadata."
+    }
+  ]
+}
