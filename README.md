@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-612_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-613_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-645_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
