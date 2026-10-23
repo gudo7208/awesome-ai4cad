@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 612
+catalog_entries: 613
 deduplicated_registry_records: 645
 registry_records_2024_2026: 503
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
@@ -901,6 +901,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 - **Backflip AI** — Converts 3D scans, STL files, and meshes into editable parametric CAD models with feature trees, including an available Autodesk Fusion add-in. *Backflip, Technical Platform 2026*. [[Paper](https://www.backflip.ai/)]
 - **DraftAid** — Automates production-ready 2D fabrication drawings from 3D CAD models while applying company templates, dimensioning rules, and drafting standards. *DraftAid, Technical Platform 2026*. [[Paper](https://draftaid.io/)]
+- **Luphra** — Beta AI-assisted CAD platform that develops designs from text, photos, or sketches through chat, offers STL and available STEP solid-geometry exports (without implying native feature history), and quotes eligible physical prints; generated designs require human review. *Luphra, Technical Platform 2026*. [[Product](https://www.luphra.com/)]
 - **Neural Concept: Physics- and Geometry-Aware AI Design Copilot for Engineering** — Accelerates engineering design with AI that understands physical constraints and 3D geometry. *Neural Concept, Technical Platform 2025*.
 - **Adam: AI-Native CAD Platform for Text-to-Parametric Design** — Generates editable parametric CAD models from natural language descriptions. *Adam (YC W25), Technical Platform 2025*.
 - **Leo AI: Large Mechanical Model for CAD-Aware Engineering Assistance** — Applies a domain-specific large model to assist mechanical engineers within CAD environments. *Leo AI, Technical Platform 2025*.
@@ -989,7 +990,7 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 612 | `README.md` list entries |
+| Markdown catalog entries | 613 | `README.md` list entries |
 | Deduplicated registry records | 645 | `research/papers/*.jsonl` |
 | Registry records dated 2024-2026 | 503 | `research/papers/*.jsonl` |
 

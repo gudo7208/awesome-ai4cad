@@ -21,7 +21,7 @@ SURVEY_FILES = [
 ]
 
 EXPECTED = {
-    "readme_entries": 612,
+    "readme_entries": 613,
     "jsonl_dedup_records": 645,
     "jsonl_2024_2026_records": 503,
 }

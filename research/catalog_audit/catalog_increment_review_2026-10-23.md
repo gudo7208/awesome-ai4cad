@@ -34,14 +34,14 @@ was created merely from a paper's claim of a release.
 - RealCADBench (`2609.03773`) was revisited at the paper-record level, but no new
   accessible asset release was established in this pass. The previous release
   verification requirement remains unresolved, so it remains deferred.
-- The existing Luphra PR #3 was inspected. Its historical 595 → 596 count patch
-  cannot be applied to the current catalog as written. This paper increment does
-  not decide the product's inclusion or close the contributor's PR.
+- During this update, main independently merged the Luphra resolution in PR #7.
+  This increment preserves that product entry and reconciles its additional
+  catalog count; it does not post contributor-facing comments.
 - Generic 3D mesh generation and EDA-only search results were excluded.
 
 ## Registry and validation
 
-- README catalog entries: 605 → 612.
+- README catalog entries: 606 → 613 (rebased on the concurrent Luphra update).
 - Deduplicated JSONL records: 638 → 645.
 - JSONL records dated 2024–2026: 496 → 503.
 - Seven new records are stored in `research/papers/maintenance_2026-10-23.jsonl`;
