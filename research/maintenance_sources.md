@@ -25,7 +25,13 @@ adequate coverage of this catalog.
    available splits/files, task definition, evaluation access, and license notes.
 7. Read first-party CAD/CAM vendor release notes. Distinguish available features,
    beta access, demos, and roadmap claims; record concrete native-CAD capability.
-8. Diff specialist curated lists and use DBLP/Crossref-style indexes to discover
+8. Search engineering AI startup/lab research blogs and model launch announcements,
+   including world models and CAD/BIM construction models. Use social discussion
+   as discovery leads, then verify first-party technical details and access status.
+   Check code, weight files, and licenses separately; a visual construction rollout
+   does not establish executable, editable CAD output. The SKY-001 follow-up
+   exposed this gap in the earlier source sweep.
+9. Diff specialist curated lists and use DBLP/Crossref-style indexes to discover
    omissions, then verify candidates against first-party sources.
 
 ## Scope and evidence
