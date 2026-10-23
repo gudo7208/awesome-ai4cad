@@ -1,9 +1,9 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 606
-deduplicated_registry_records: 638
-registry_records_2024_2026: 496
+catalog_entries: 613
+deduplicated_registry_records: 645
+registry_records_2024_2026: 503
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
 validation: "python3 scripts/validate_catalog.py"
 -->
@@ -12,8 +12,8 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-606_entries-blue)
-![Registry](https://img.shields.io/badge/Registry-638_unique_records-green)
+![Catalog](https://img.shields.io/badge/Catalog-612_entries-blue)
+![Registry](https://img.shields.io/badge/Registry-645_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
@@ -209,6 +209,7 @@ AI methods for interpreting, analyzing, and generating 2D engineering drawings, 
 
 ### Floor Plan and Drawing Generation
 
+- **DrawingsDreamer: A Unified Multi-View Engineering Drawings Generation Model** — Generates multi-view vector engineering drawings with hierarchical tokenization that preserves local geometry and view alignment. *Shurui Liu, Weide Chen, Changwang Yi et al., arXiv 2026*. [[2609.35242](https://arxiv.org/abs/2609.35242)]
 - **Unified Vector Floorplan Generation via Markup Representation** — Generates vector floor plans using a unified markup language representation. *Authors, arXiv 2026*. [[2604.04859](https://arxiv.org/abs/2604.04859)]
 - **A Two-Level Codebook Based Network for End-to-End Vector Floorplan Generation** — Uses a two-level codebook to encode and generate vector floor plans end-to-end. *Authors, arXiv 2026*. [[2602.07100](https://arxiv.org/abs/2602.07100)]
 - **HouseMind: Tokenization Allows Multimodal Large Language Models to Understand, Generate and Edit Architectural Floor Plans** — Enables multimodal LLMs to understand, generate, and edit floor plans via tokenization. *Sizhong Qin, Ramon Elias Weber, Xinzheng Lu, CVPR 2026*. [[2603.11640](https://arxiv.org/abs/2603.11640)]
@@ -317,6 +318,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### LLM and VLM-Based Generation
 
+- **Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling** — Combines visual reasoning with ID-based geometry selection, coordinate conversion, and deterministic CAD kernel operations. *Xi Cheng, Chenxi Zhai, Hang Cheng et al., arXiv 2026*. [[2609.22688](https://arxiv.org/abs/2609.22688)]
 - **CIT-CAD: Constraint Intent Tree-based CAD Code Generation and Verification** — Represents construction intent as explicit constraints that guide CadQuery generation, detect violations, and localize repairs. *Yali Du, Hui Sun, San-Zhuo Xi et al., arXiv 2026*. [[2609.07434](https://arxiv.org/abs/2609.07434)]
 - **VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence** — Maps text, renders, engineering drawings, and photographs to executable CAD programs and uses a domain harness for assembly mating and placement. *Guanlin Li, Zhichao Huang, Huimu Yu et al., arXiv 2026*. [[2609.03811](https://arxiv.org/abs/2609.03811)]
 - **ExpConCAD: Experience-Guided Text-to-CAD Generation from Shape Descriptions with Implicit Spatial Constraints** — Recovers construction structure and retrieves prior design experience to complete spatial constraints omitted from text descriptions. *Jingyao Liu, Jinkang Tang, Chen Huang et al., arXiv 2026*. [[2608.24760](https://arxiv.org/abs/2608.24760)]
@@ -342,6 +344,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Reinforcement Learning-Enhanced Generation
 
+- **ConCAD: Constraint-Aware Image-to-CAD Generation with Dual-Granularity Rewards** — Combines code-level constraint and execution-level geometry rewards for image-to-CAD generation with analytic B-rep constraint evaluation. *Chenxi Zhai, Xi Cheng, Hang Cheng et al., arXiv 2026*. [[2609.34494](https://arxiv.org/abs/2609.34494)]
 - **RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation** — Trains an agent to turn execution feedback into outcome-aligned critiques and iterative CAD code revisions. *Shuhao Yan, Changhao He, Peng Hu et al., arXiv 2026*. [[2608.05714](https://arxiv.org/abs/2608.05714)]
 - **CME-CAD** — Heterogeneous collaborative multi-expert reinforcement learning framework for CAD code generation. *Zhang et al., arXiv 2025*. [[2512.23333](https://arxiv.org/abs/2512.23333)]
 - **ReCAD** — Reinforcement learning enhanced parametric CAD model generation with vision-language models. *Jiahao Li, Yusheng Luo, Yunzhong Lou et al., AAAI 2026 (Oral)*. [[2512.06328](https://arxiv.org/abs/2512.06328)]
@@ -421,6 +424,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### CAD Editing
 
+- **AgenticCADedit: A Stateful, Tool-Mediated Agentic Approach to Multimodal 3D CAD Editing** — Edits persistent CAD state through incremental actions with geometry inspection, highlighted selections, and operation-level rollback. *Saptarshi Neil Sinha, Mika Silvan Goschke, Paul Julius Kühn et al., arXiv 2026*. [[2609.29621](https://arxiv.org/abs/2609.29621)]
 - **TraceCAD: Trace-Guided Repair for Agentic CAD Generation** — Preserves requirements, modeling steps, failures, and repair outcomes to localize and validate bounded CAD program edits. *Fengxiao Fan, Jingzhe Ni, Fan Sang et al., arXiv 2026*. [[2608.03062](https://arxiv.org/abs/2608.03062)]
 - **ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation** — Distills expert CATIA workflows into an agent that produces editable native B-reps. *Yunhan Xu, Qifeng Wu, Xunjin Li et al., arXiv 2026*. [[2607.05750](https://arxiv.org/abs/2607.05750)]
 - **IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing** — Closes the loop between multimodal requests, executable CAD, visual feedback, and editing. *Tao Hu, Jiaxin Ai, Licheng Wen et al., arXiv 2026*. [[2606.13368](https://arxiv.org/abs/2606.13368)]
@@ -840,6 +844,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Evaluation Metrics
 
+- **DepthBenchCAD: When Does Deeper Auditing Yield More Reliable Conclusions?** — Analyzes how task coverage, independent generations, and parameter-edit audit depth affect CAD evaluation reliability under fixed budgets. *Hongye Yang, Zhihao Xie, Shengjun Xiong et al., arXiv 2026*. [[2609.15122](https://arxiv.org/abs/2609.15122)]
 - **Quantitative Evaluation of 3D Models Generation by Large Language Models** — Proposes quantitative metrics to assess quality of 3D models generated by LLMs. *Authors, arXiv 2025*. [[2509.07010](https://arxiv.org/abs/2509.07010)]
 - **CAD-Judge: Toward Efficient Morphological Grading and Verification for Text-to-CAD Generation** — Introduces an automated judge for morphological grading and verification of text-to-CAD outputs. *Authors, arXiv 2025*. [[2508.04002](https://arxiv.org/abs/2508.04002)]
 - **Generating CAD Code with Vision-Language Models for 3D Designs** — Leverages vision-language models to generate CAD code and evaluates output fidelity. *Authors, ICLR 2025*. [[2410.05340](https://arxiv.org/abs/2410.05340)]
@@ -848,6 +853,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Benchmark Challenges
 
+- **Can It Actually Work? Synthesizing Functional CAD Mechanisms** — Introduces FunCAD-Harness and FunCADBench to verify generated mechanisms through candidate-specific physical simulation tests. *Wenqian Zhang, Yangyi Huang, Zigeng Xu et al., arXiv 2026*. [[2610.26861](https://arxiv.org/abs/2610.26861)]
+- **EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?** — Benchmarks professional engineering agents across CAD, CAE, CAM, BIM, EDA, and DCC using artifact-centric domain verifiers. *Hongcheng Gao, Hailong Qu, Yu Lei et al., arXiv 2026*. [[2609.37686](https://arxiv.org/abs/2609.37686)]
 - **ParamCAD-AgentBench** — Releases an executable long-horizon benchmark with 2,409 kernel-validated parametric CAD models and 4,818 paired language-agent tasks across core and challenge splits. *ParamCAD-AgentBench contributors, GitHub 2026*. [[Benchmark](https://github.com/Fasuiker/ParamCAD-AgentBench)]
 - **ParaEval** — Evaluates executed Rhino/Grasshopper parametric designs across runtime validity, measured geometry, visual intent, and headless structural solvability with explicit abstention for unmeasurable layers. *Magnus Huber / Technical University of Munich, GitHub 2026*. [[Benchmark](https://github.com/magnush01/ParaEval)]
 - **PhysicsBench: A Unified Leaderboard for Generative and Predictive Models in Engineering Design and Simulation** — Standardizes evaluation of geometry generation and physical prediction across CAD, CFD, and FEA tasks and data scales. *Sang Won Lee, Hyogu Jeong, Namwoo Kang, arXiv 2026*. [[2608.24056](https://arxiv.org/abs/2608.24056)] [[Code](https://github.com/Narnialabs/leaderboard)]
@@ -983,16 +990,17 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 606 | `README.md` list entries |
-| Deduplicated registry records | 638 | `research/papers/*.jsonl` |
-| Registry records dated 2024-2026 | 496 | `research/papers/*.jsonl` |
+| Markdown catalog entries | 613 | `README.md` list entries |
+| Deduplicated registry records | 645 | `research/papers/*.jsonl` |
+| Registry records dated 2024-2026 | 503 | `research/papers/*.jsonl` |
 
 Use these terms explicitly when citing counts. Do not collapse them into an undefined "papers" total.
 
 For the latest full catalog-entry confidence review, see
 [catalog_entry_audit_summary_2026-05-30.md](research/catalog_audit/catalog_entry_audit_summary_2026-05-30.md).
 The subsequent incremental review is documented in
-[catalog_increment_review_2026-09-14.md](research/catalog_audit/catalog_increment_review_2026-09-14.md).
+[catalog_increment_review_2026-09-14.md](research/catalog_audit/catalog_increment_review_2026-09-14.md) and
+[catalog_increment_review_2026-10-23.md](research/catalog_audit/catalog_increment_review_2026-10-23.md).
 
 ---
 
