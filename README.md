@@ -1,9 +1,9 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 613
-deduplicated_registry_records: 645
-registry_records_2024_2026: 503
+catalog_entries: 643
+deduplicated_registry_records: 675
+registry_records_2024_2026: 533
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
 validation: "python3 scripts/validate_catalog.py"
 -->
@@ -12,8 +12,8 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-613_entries-blue)
-![Registry](https://img.shields.io/badge/Registry-645_unique_records-green)
+![Catalog](https://img.shields.io/badge/Catalog-643_entries-blue)
+![Registry](https://img.shields.io/badge/Registry-675_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
@@ -129,7 +129,7 @@ Papers establishing core CAD representation paradigms (B-rep, CSG, sequence, cod
 **Representative anchors:** CSGNet for neural CSG parsing; BRepNet for topological message passing; SkexGen for disentangled CAD codebooks.
 
 - **CADIR: A Cross-Backend Editable Intermediate Representation for Agentic CAD Generation** — Represents CAD construction as an executable graph with explicit dependencies, diagnostics, and cross-backend feature reconstruction. *Yu Liu, Jingzhe Ni, Yiming Chen et al., arXiv 2026*. [[2608.00891](https://arxiv.org/abs/2608.00891)]
-- **DualBrep: A Dual-Field Continuous Representation for B-rep Modelling** — Encodes B-rep geometry and topology jointly in a continuous dual-field representation. *Yilin Liu, Pradeep Jayaraman, Chinthala Reddy et al., arXiv 2026*. [[2606.31579](https://arxiv.org/abs/2606.31579)]
+- **DualBrep: A Dual-Field Continuous Representation for B-rep Modelling** — Encodes B-rep geometry and topology jointly in a continuous dual-field representation. *Yilin Liu, Pradeep Jayaraman, Chinthala Reddy et al., SIGGRAPH 2026*. [[2606.31579](https://arxiv.org/abs/2606.31579)]
 - **Bridging CAD and Data-Driven Design: Attributed Feature Graphs for Engineering Design** — Preserves parametric features and dependencies for interpretable CAD-native surrogate modeling. *Abhishek Indupally, Ibraheem Alawadhi, Satchit Ramnath et al., ASME IDETC-CIE 2026*. [[2606.06405](https://arxiv.org/abs/2606.06405)]
 - **Masked BRep Autoencoder via Hierarchical Graph Transformer** — Learns B-rep representations through masked autoencoding on hierarchical graph transformers. *Xu et al., arXiv 2026*. [[2603.14927](https://arxiv.org/abs/2603.14927)]
 - **CAD-Coder: A New Paradigm for CAD Generation with Scalable Large Model Capabilities** — Generates CAD models by leveraging scalable large language model code generation. *Li et al., arXiv 2025*. [[2505.06507](https://arxiv.org/abs/2505.06507)]
@@ -181,6 +181,7 @@ AI methods for interpreting, analyzing, and generating 2D engineering drawings, 
 
 ### Drawing Understanding and Benchmarks
 
+- **LED-BENCH: A Benchmark for Large-format Engineering Drawing Understanding** — Evaluates fine-grained understanding and distributed-evidence reasoning over large mechanical, architectural, and transportation drawings. *Ke Li, Tianyi Wang, Enning You et al., arXiv 2026*. [[2610.19571](https://arxiv.org/abs/2610.19571)]
 - **CrossProjection: Geometric Grounding Beyond Viewpoint Change in Architectural Drawings** — Audits whether vision-language models preserve component identity and explicitly localize geometry across plans, sections, and elevations. *Kaho Li, Pengyu Zeng, Yuqin Dai et al., arXiv 2026*. [[2608.00473](https://arxiv.org/abs/2608.00473)]
 - **Benchmarking Deep Learning Approaches for AEC Engineering Drawing Layout Detection and Information Extraction** — Benchmarks layout detection and information extraction on structured AEC engineering drawings. *Tianyang Huang, Alessio Lombardi, Ahmed Elnagar et al., EC3 2026*. [[2607.18997](https://arxiv.org/abs/2607.18997)]
 - **MechVQA: Benchmarking and Enhancing Multimodal LLMs on Comprehensive Mechanical Drawing Understanding** — Benchmarks recognition, reasoning, and judgment on 3.3K mechanical drawings and 21K question-answer pairs. *Qian Kou, Xiaofeng Shi, Yulin Li et al., ICML 2026*. [[2605.30794](https://arxiv.org/abs/2605.30794)]
@@ -296,6 +297,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Autoregressive Sequence Models
 
+- **Bidirectional Query-Driven Generation of Parametric CAD Sketch** — Completes partial parametric sketches with bidirectional context, confidence-guided expansion, and executable-instruction validation. *Yang Liu, Daxuan Ren, Yijie Ding et al., CVPR 2026*. [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Bidirectional_Query-Driven_Generation_of_Parametric_CAD_Sketch_CVPR_2026_paper.html)]
 - **AGDC: Autoregressive Generation of Variable-Length Sequences with Joint Discrete and Continuous Spaces** — Proposes autoregressive generation handling variable-length sequences in joint discrete-continuous parameter spaces. *Yeonsang Shin, Insoo Kim, Bongkeun Kim et al., arXiv 2026*. [[2601.05680](https://arxiv.org/abs/2601.05680)]
 - **Position: You Can't Manufacture a NeRF** — Argues that implicit neural representations are insufficient for downstream CAD manufacturing workflows. *Kimmel et al., ICML 2025*.
 - **CAD-SIGNet: CAD Language Inference from Point Clouds using Layer-wise Sketch Instance Guided Attention** — Infers CAD modeling sequences from point clouds using sketch-instance-guided attention layers. *Mohammad Sadil Khan, Elona Dupont, Sk Aziz Ali et al., CVPR 2024*. [[2402.17678](https://arxiv.org/abs/2402.17678)]
@@ -318,6 +320,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### LLM and VLM-Based Generation
 
+- **ReliCAD: From Uncertain LLM Generation to Reliable Parametric CAD Modeling** — Combines explicit design specifications, constraint-aware instructions, CAD-kernel execution, and evidence-guided verification and repair. *Peng Zheng, Xintong Dong, Chuanyang Li et al., arXiv 2026*. [[2609.22325](https://arxiv.org/abs/2609.22325)]
 - **Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling** — Combines visual reasoning with ID-based geometry selection, coordinate conversion, and deterministic CAD kernel operations. *Xi Cheng, Chenxi Zhai, Hang Cheng et al., arXiv 2026*. [[2609.22688](https://arxiv.org/abs/2609.22688)]
 - **CIT-CAD: Constraint Intent Tree-based CAD Code Generation and Verification** — Represents construction intent as explicit constraints that guide CadQuery generation, detect violations, and localize repairs. *Yali Du, Hui Sun, San-Zhuo Xi et al., arXiv 2026*. [[2609.07434](https://arxiv.org/abs/2609.07434)]
 - **VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence** — Maps text, renders, engineering drawings, and photographs to executable CAD programs and uses a domain harness for assembly mating and placement. *Guanlin Li, Zhichao Huang, Huimu Yu et al., arXiv 2026*. [[2609.03811](https://arxiv.org/abs/2609.03811)]
@@ -344,22 +347,26 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Reinforcement Learning-Enhanced Generation
 
+- **DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents** — Learns CAD action policies through a domain-native harness, trajectory-derived supervision, and geometry-grounded online reinforcement learning. *Yufeng Peng, Yixin Zhang, Ziyi Liu et al., arXiv 2026*. [[2610.21755](https://arxiv.org/abs/2610.21755)]
+- **State-CAD: Precise and iterative CAD modeling with structured state representation and reinforcement learning** — Combines an updatable geometry-and-topology state representation with reinforcement learning for iterative CAD refinement. *Dawei Lin, Yuanning Liu, Computer-Aided Design 2026*. [[Paper](https://doi.org/10.1016/j.cad.2026.104128)]
 - **ConCAD: Constraint-Aware Image-to-CAD Generation with Dual-Granularity Rewards** — Combines code-level constraint and execution-level geometry rewards for image-to-CAD generation with analytic B-rep constraint evaluation. *Chenxi Zhai, Xi Cheng, Hang Cheng et al., arXiv 2026*. [[2609.34494](https://arxiv.org/abs/2609.34494)]
 - **RA-CAD: Learning Post-Execution Critique for State-Aware Text-to-CAD Generation** — Trains an agent to turn execution feedback into outcome-aligned critiques and iterative CAD code revisions. *Shuhao Yan, Changhao He, Peng Hu et al., arXiv 2026*. [[2608.05714](https://arxiv.org/abs/2608.05714)]
-- **CME-CAD** — Heterogeneous collaborative multi-expert reinforcement learning framework for CAD code generation. *Zhang et al., arXiv 2025*. [[2512.23333](https://arxiv.org/abs/2512.23333)]
+- **CME-CAD: Heterogeneous Collaborative Multi-Expert Reinforcement Learning for CAD Code Generation** — Heterogeneous collaborative multi-expert reinforcement learning framework for CAD code generation. *Ke Niu, Haiyang Yu, Zhuofan Chen et al., CVPR 2026*. [[2512.23333](https://arxiv.org/abs/2512.23333)]
 - **ReCAD** — Reinforcement learning enhanced parametric CAD model generation with vision-language models. *Jiahao Li, Yusheng Luo, Yunzhong Lou et al., AAAI 2026 (Oral)*. [[2512.06328](https://arxiv.org/abs/2512.06328)]
 - **CAD-RL** — Multimodal chain-of-thought reinforcement learning for precise CAD code generation from intent. *Ke Niu, Haiyang Yu, Zhuofan Chen et al., arXiv 2025*. [[2508.10118](https://arxiv.org/abs/2508.10118)]
 - **Memory-Augmented Reinforcement Learning Agent for CAD Generation** — Generates CAD models with a memory-augmented reinforcement learning agent for advanced manufacturing. *Xiaolong et al., arXiv 2026*. [[2605.19748](https://arxiv.org/abs/2605.19748)]
 
 ### B-Rep and CSG Generation
 
+- **BrepForge: Factorized B-rep Synthesis via Wireframe Composition and Boundary-Conditioned Surface Instantiation** — Factorizes B-rep synthesis into structural wireframe composition and boundary-conditioned surface construction. *Jing Li, Yihang Fu, Falai Chen, SIGGRAPH 2026*. [[2605.19411](https://arxiv.org/abs/2605.19411)]
+- **BRepFacetGen: Reverse Engineering B-Reps By Generative Face Segmentation** — Models ambiguous CAD face decomposition generatively to reconstruct B-reps from continuous geometric representations. *Ka-Hei Hui, Vikas Thamizharasan, Pradeep Kumar Jayaraman et al., ECCV 2026*. [[Paper](https://doi.org/10.1007/978-3-032-37258-1_35)]
 - **HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation** — Jointly predicts B-rep geometry and topology with topology-aware encoding and differentiable manifold constraints. *Junhao Hou, Chenqi Luo, Pufan Wang et al., CVPR 2026*. [[2608.16485](https://arxiv.org/abs/2608.16485)] [[Code](https://github.com/1nnoh/HiFi-BRep)]
 - **Towards Valid B-Rep Generation: Training-Free Wireframe Anomaly Detection and Repair** — Detects and repairs geometric and topological anomalies in intermediate wireframes before they produce invalid B-reps. *Jingyu Wu, Youcheng Cai, Tengyu Luo et al., arXiv 2026*. [[2608.04955](https://arxiv.org/abs/2608.04955)]
 - **TG-Diff: Coupling Discrete Topology Diffusion and Topology-conditioned Geometry Diffusions for B-Rep Generation** — Couples surface-adjacency diffusion with topology-conditioned parametric surface generation. *MingZe Sun, Haiyong Jiang, Bingchen Yang et al., arXiv 2026*. [[2607.21928](https://arxiv.org/abs/2607.21928)]
 - **Autoregressive B-Rep Shape Generation with Parametric Surfaces** — Generates B-reps with native surface types and continuous parameters before topology recovery. *Dafei Qin, Rui Xu, Zeyu Shen et al., SIGGRAPH 2026*. [[2607.17093](https://arxiv.org/abs/2607.17093)]
 - **HiDiGen** — Hierarchical diffusion model for B-Rep generation with explicit topological constraints. *Shurui Liu, Weide Chen, Ancong Wu, arXiv 2026*. [[2604.02847](https://arxiv.org/abs/2604.02847)]
 - **BrepARG** — Autoregressive B-Rep generation using a holistic token sequence representation. *Jiahao Li, Yunpeng Bai, Yongkang Dai et al., CVPR 2026*. [[2601.16771](https://arxiv.org/abs/2601.16771)]
-- **Flatten The Complex** — Joint B-Rep generation via compositional k-cell particles flattening complex topology. *Junran Lu, Yuanqi Li, Hengji Li et al., arXiv 2026*. [[2601.17733](https://arxiv.org/abs/2601.17733)]
+- **Flatten The Complex: Joint B-Rep Generation via Compositional k-Cell Particles** — Joint B-Rep generation via compositional k-cell particles flattening complex topology. *Junran Lu, Yuanqi Li, Hengji Li et al., SIGGRAPH 2026*. [[2601.17733](https://arxiv.org/abs/2601.17733)]
 - **Topology-First B-Rep Meshing** — Prioritizes topological structure before geometry in B-Rep mesh generation. *Zhou et al., arXiv 2026*. [[2604.02141](https://arxiv.org/abs/2604.02141)]
 - **DTGBrepGen** — Decouples topology and geometry into separate stages for B-Rep generation. *Jing Li, Yihang Fu, Falai Chen, arXiv 2025*. [[2503.13110](https://arxiv.org/abs/2503.13110)]
 - **AutoBrep** — Autoregressive B-Rep generation unifying topology and geometry in a single model. *Xiang Xu, Pradeep Kumar Jayaraman, Joseph G. Lambourne et al., SIGGRAPH Asia 2025*. [[2512.03018](https://arxiv.org/abs/2512.03018)]
@@ -374,6 +381,9 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Point Cloud to CAD
 
+- **CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use** — Coordinates learned proposals, geometric tools, numerical optimization, and executed feedback to reconstruct parametric programs from meshes. *Gennadiy Savrasov, Maksim Elistratov, Nikita Gavrilov et al., arXiv 2026*. [[2610.09127](https://arxiv.org/abs/2610.09127)]
+- **PrimitiveCAD: An LLM-Based Point-to-CAD Reconstruction with Primitive-Aware Tokenization and Operation Alignment** — Preserves reconstruction features through primitive-aware point tokens, CAD-operation alignment, and feature-line reinforcement rewards. *Jian Gao, Kailin Bi, Jiamin Xu et al., arXiv 2026*. [[2610.08698](https://arxiv.org/abs/2610.08698)]
+- **StepCAD: Mesh-to-CAD Code Generation via LLM Policy and Geometry-Guided Search** — Combines a state-conditioned CAD policy with geometry-guided program search and introduces the ARCADE-1.5M program dataset. *Ghadi Nehme, Faez Ahmed, arXiv 2026*. [[2610.03799](https://arxiv.org/abs/2610.03799)]
 - **CADENA: Stepwise CAD Reverse Engineering** — Reconstructs a mesh as an editable CAD program one operation at a time while comparing each intermediate geometry with the target. *Soslan Kabisov, Gennadiy Savrasov, Maksim Elistratov et al., arXiv 2026*. [[2608.00799](https://arxiv.org/abs/2608.00799)] [[Code](https://github.com/zhemdi/cadena)]
 - **CADReasoner** — Iterative program editing approach for CAD reverse engineering from point clouds. *Soslan Kabisov, Vsevolod Kirichuk, Andrey Volkov et al., CVPR 2026*. [[2603.29847](https://arxiv.org/abs/2603.29847)]
 - **Fast Curvature Regularization of Neural SDFs for CAD Models** — Accelerates curvature regularization of neural signed distance fields for CAD geometry. *Kang et al., arXiv 2025*. [[2506.16627](https://arxiv.org/abs/2506.16627)]
@@ -391,13 +401,16 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Image to CAD
 
+- **UniBRep: Learning Unified Geometry and Topology for Image-conditioned B-Rep Generation** — Recovers explicit B-reps from images using a feature-mesh intermediate representation and geometry-guided surface and topology construction. *Haiyang Ying, Allen Tu, Jiaye Wu et al., arXiv 2026*. [[2610.04092](https://arxiv.org/abs/2610.04092)]
+- **CADForge: Agentic Single-View CAD Reconstruction with Explicit Geometry Reasoning** — Decomposes images into components, reasons about geometric constraints, and refines CadQuery programs with review and reusable tool memory. *Keyang Lu, Zhifei Yang, Tianao Dong et al., arXiv 2026*. [[2610.04262](https://arxiv.org/abs/2610.04262)]
+- **Look Where You Can: Active View Selection for CAD Reconstruction under Occlusion** — Learns feasible view selection jointly with CadQuery generation to reconstruct scene-embedded objects under occlusion. *Kartik Bali, Mahish Guru, Yiderigun Borjigin et al., arXiv 2026*. [[2610.11954](https://arxiv.org/abs/2610.11954)]
 - **RealCAD: Towards Real-World Image-to-CAD Reconstruction under Domain Shift and Parameter Bias** — Reconstructs editable CAD command sequences from real photographs while correcting parameter bias, with the paired OpenRealCAD dataset. *Yihe Sun, Ziyu Lu, Kaihua Tang et al., arXiv 2026*. [[2608.30617](https://arxiv.org/abs/2608.30617)] [[Code](https://github.com/sunyh39/RealCAD)]
 - **IterCAD: Iterative Program Repair for CAD Code Generation from Orthographic Views** — Generates parametric CAD code from dimensioned orthographic drawings through repeated visual comparison and program repair. *Yuchuan Wu, Ke Niu, Haiyang Yu et al., ACM MM 2026*. [[2608.24020](https://arxiv.org/abs/2608.24020)]
 - **Spline-Based Boundary Representations for Sparse View Reconstruction and Simulation Using Isogeometric Analysis** — Reconstructs watertight multi-patch B-spline boundary representations from sparse images for CAD and simulation workflows. *Davor Dobrota, Vsevolod Skorokhodov, Chenghao Xu et al., arXiv 2026*. [[2607.26234](https://arxiv.org/abs/2607.26234)]
 - **Ortho2CAD: 3D CAD generation from orthographic drawings using vision language models** — Converts raster orthographic drawings into editable CadQuery code using supervised fine-tuning and geometry-grounded reinforcement learning. *Aditya Joglekar, Amit Regmi, Kenji Shimada et al., arXiv 2026*. [[2607.08891](https://arxiv.org/abs/2607.08891)]
 - **SOV-CAD: Stepwise Orthographic Views Guided CAD Modeling Sequence Reconstruction** — Reconstructs CAD sequences with stepwise orthographic feedback and offline reinforcement learning. *Zhaopeng Feng, Chen Zhi, Xuhong Zhang et al., arXiv 2026*. [[2607.04119](https://arxiv.org/abs/2607.04119)]
 - **GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback** — Converts kernel feedback from successful and near-miss programs into image-to-CAD training data. *Giorgio Giannone, Anna Clare Doris, Amin Heyrani Nobari et al., arXiv 2026*. [[2603.27448](https://arxiv.org/abs/2603.27448)]
-- **BrepGaussian** — Reconstructs B-rep CAD models from multi-view images using Gaussian splatting representations. *Wang et al., arXiv 2025*. [[2602.21105](https://arxiv.org/abs/2602.21105)]
+- **BrepGaussian: CAD reconstruction from Multi-View Images with Gaussian Splatting** — Reconstructs B-rep CAD models from multi-view images using Gaussian splatting representations. *Jiaxing Yu, Dongyang Ren, Hangyu Xu et al., CVPR 2026*. [[2602.21105](https://arxiv.org/abs/2602.21105)]
 - **ProcGen3D** — Learns neural procedural graph representations for image-to-3D reconstruction. *Gao et al., arXiv 2025*. [[2511.07142](https://arxiv.org/abs/2511.07142)]
 - **GACO-CAD** — Generates geometry-augmented and conciseness-optimized CAD models from a single image. *Wang et al., arXiv 2025*. [[2510.17157](https://arxiv.org/abs/2510.17157)]
 - **View2CAD** — Reconstructs view-centric CAD models from single RGB-D scans. *Noeckel et al., arXiv 2025*. [[2504.04000](https://arxiv.org/abs/2504.04000)]
@@ -424,6 +437,8 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### CAD Editing
 
+- **CAD-Refiner: A Unified Framework for CAD Generation and Iterative Editing** — Unifies multimodal CAD generation and editing through topology graphs, sequence injection, and geometry-aware feedback. *Meng Yuan, Dawei Lin, Hongxia Xie et al., CVPR 2026*. [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Yuan_CAD-Refiner_A_Unified_Framework_for_CAD_Generation_and_Iterative_Editing_CVPR_2026_paper.html)]
+- **Mind-CAD: An interpretable multimodal framework for image-guided CAD DSL generation and editing** — Supports interpretable image-guided CAD DSL generation and instruction-driven editing with a modular reasoning framework. *Meng Yuan, Dawei Lin, Hongxia Xie et al., Computer-Aided Design 2026*. [[Paper](https://doi.org/10.1016/j.cad.2026.104126)]
 - **AgenticCADedit: A Stateful, Tool-Mediated Agentic Approach to Multimodal 3D CAD Editing** — Edits persistent CAD state through incremental actions with geometry inspection, highlighted selections, and operation-level rollback. *Saptarshi Neil Sinha, Mika Silvan Goschke, Paul Julius Kühn et al., arXiv 2026*. [[2609.29621](https://arxiv.org/abs/2609.29621)]
 - **TraceCAD: Trace-Guided Repair for Agentic CAD Generation** — Preserves requirements, modeling steps, failures, and repair outcomes to localize and validate bounded CAD program edits. *Fengxiao Fan, Jingzhe Ni, Fan Sang et al., arXiv 2026*. [[2608.03062](https://arxiv.org/abs/2608.03062)]
 - **ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation** — Distills expert CATIA workflows into an agent that produces editable native B-reps. *Yunhan Xu, Qifeng Wu, Xunjin Li et al., arXiv 2026*. [[2607.05750](https://arxiv.org/abs/2607.05750)]
@@ -475,6 +490,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Multi-Modal CAD Generation
 
+- **Rethinking Human Intent-to-CAD: Parametric CAD Model Generation via Cooperative Multi-Task Alignment and Spatial-Aware Reinforcement Learning** — Introduces HiCAD sketch-text-code data and combines multi-task alignment with spatial-aware reinforcement learning for intent-to-CAD generation. *Qingwang Zhang, Jiahao Li, Xiangdong Zhou, arXiv 2026*. [[2610.15681](https://arxiv.org/abs/2610.15681)]
 - **MIRAGE-CAD: Construction-Mediated Multimodal Generation of Executable CAD Programs** — Converts text, images, point clouds, or STEP/B-Rep geometry into construction plans and OpenCASCADE-executable Python CAD programs. *Jizong Zhan, arXiv 2026*. [[2608.28669](https://arxiv.org/abs/2608.28669)] [[Code](https://github.com/Cad-Kernel/MIRAGE-CAD)]
 - **Captioning and Generating 3D Content via Multi-modal Large Language Models** — Leverages multi-modal LLMs to jointly caption and generate 3D content. *Authors, arXiv 2026*. [[2601.21798](https://arxiv.org/abs/2601.21798)]
 - **Text-Image Conditioned 3D Generation** — Generates 3D assets conditioned on both text and image inputs. *Authors, arXiv 2026*. [[2603.21295](https://arxiv.org/abs/2603.21295)]
@@ -555,12 +571,14 @@ Representation learning, feature recognition, retrieval, and semantic understand
 
 ### Shape Classification
 
+- **PP-Brep: Few-Shot B-rep Classification with Hybrid Graph Representation** — Studies few-shot CAD classification using a hybrid graph representation of B-rep geometry. *Jiacheng Hao, Chunying Liu, Hao Guo et al., CVPR 2026*. [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Hao_PP-Brep_Few-Shot_B-rep_Classification_with_Hybrid_Graph_Representation_CVPR_2026_paper.html)]
 - **KDH-CAD: Knowledge-data hybrid CAD learning under data scarcity** — Combines foundation-model and textbook knowledge for low-label mechanical CAD classification. *Ziqin Gao, Zhijie Yang, Qiang Zou, arXiv 2026*. [[2606.01702](https://arxiv.org/abs/2606.01702)]
 - **CSTNet: Constraint-Aware Feature Learning for Parametric Point Cloud** — Learns geometric constraint features from parametric point clouds for CAD shape classification. *Cheng Cheng, Changqing Zou, Ruowei Wang et al., ICCV 2025*. [[2411.07747](https://arxiv.org/abs/2411.07747)]
 - **CAD 3D Model Classification by Graph Neural Networks: A New Approach Based on STEP Format** — Classifies CAD models using graph neural networks applied directly to STEP file representations. *Lorenzo Mandelli, Stefano Berretti, arXiv 2022*. [[2210.16815](https://arxiv.org/abs/2210.16815)]
 
 ### B-Rep Segmentation
 
+- **A Real-World CAD Segmentation Benchmark: Comparing Rule-Based and Learning-Based Approaches through Hole Detection** — Compares rule-based and learned hole detection on human-annotated engineering CAD and tests cross-domain generalization. *Kai Schütte, Edgar Heinert, Matthias Rottmann, arXiv 2026*. [[2610.13466](https://arxiv.org/abs/2610.13466)]
 - **Geometry-Conditioned Instance Segmentation for Industrial Objects** — Proposes geometry-conditioned methods for instance segmentation of industrial CAD objects. *Li et al., arXiv 2026*. [[2602.20551](https://arxiv.org/abs/2602.20551)]
 - **Repurposing 3D Generative Model for Part Segmentation** — Repurposes pretrained 3D generative models to perform part segmentation tasks. *Wu et al., arXiv 2026*. [[2603.16869](https://arxiv.org/abs/2603.16869)]
 - **A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering** — Releases more than 10 million multimodal annotations over more than one million CAD models for scan-, sketch-, text-, and B-rep-learning tasks. *Pritham K. Jena, Bhavika Baburaj, Tushar Anand et al., arXiv 2026*. [[2603.12605](https://arxiv.org/abs/2603.12605)]
@@ -577,7 +595,7 @@ Representation learning, feature recognition, retrieval, and semantic understand
 
 ### Assembly Understanding
 
-- **Linkify: Learning from Interface-Augmented Assembly Graphs** — Learns context-aware part retrieval from corrected contact geometry in assembly graphs. *Anushrut Jignasu, Daniele Grandi, arXiv 2026*. [[2607.01205](https://arxiv.org/abs/2607.01205)]
+- **Linkify: Learning from Interface-Augmented Assembly Graphs** — Learns context-aware part retrieval from corrected contact geometry in assembly graphs. *Anushrut Jignasu, Daniele Grandi, Computer-Aided Design 2026*. [[2607.01205](https://arxiv.org/abs/2607.01205)]
 - **DYNAMO: Dependency-Aware Deep Learning Framework for Articulated Assembly Motion Prediction** — Predicts articulated motion in mechanical assemblies using dependency-aware deep learning. *Authors, arXiv 2025*. [[2509.12430](https://arxiv.org/abs/2509.12430)]
 - **Generative 3D Part Assembly via Part-Whole-Hierarchy Message Passing** — Generates 3D part assemblies using hierarchical message passing between parts and wholes. *Bi'an Du, Jianxin Ma, Junyi Zhu et al., arXiv 2024*. [[2402.17464](https://arxiv.org/abs/2402.17464)]
 - **DiffAssemble: A Unified Graph-Diffusion Model for 2D and 3D Reassembly** — Unifies 2D and 3D reassembly tasks with a graph-diffusion generative model. *Scarpellini et al., arXiv 2024*. [[2402.19302](https://arxiv.org/abs/2402.19302)]
@@ -720,6 +738,8 @@ Design for manufacturing, additive manufacturing, assembly planning, and CAD/CAM
 
 ### Assembly Planning and Tolerance
 
+- **Automated Assembly Instruction Generation from CAD Models Using Grounded Large Language Models: A Human-in-the-Loop Framework** — Explores STEP-grounded assembly manuals using a typed product graph, deterministic ordering, and human review in a six-part case study. *Aaron Dsouza, Mohammed Azeez Khan, Ashutosh Mishra et al., arXiv 2026*. [[2610.11896](https://arxiv.org/abs/2610.11896)]
+- **CAD-Based Relation Learning and Geometric-Symbolic Planning for Robotic Assembly** — Combines learned CAD relation extraction, human verification, and geometric-symbolic reasoning for robotic assembly and disassembly planning. *Fabian Harlacher, Christian Friedrich, arXiv 2026*. [[2609.17263](https://arxiv.org/abs/2609.17263)]
 - **Learning-Based Strategy for Composite Robot Assembly Skill Adaptation** — Learns transferable assembly skills for composite robot systems via strategy adaptation. *Authors, arXiv preprint 2026*. [[2604.06949](https://arxiv.org/abs/2604.06949)]
 - **Connector-Aware General Robotic Assembly from Instruction Manuals via Vision-Language Models** — Uses vision-language models to interpret instruction manuals for connector-aware robotic assembly. *Authors, arXiv preprint 2025*. [[2510.16344](https://arxiv.org/abs/2510.16344)]
 - **AssemMate: Graph-Based LLM for Robotic Assembly Assistance** — Leverages graph-based large language models to provide step-by-step robotic assembly guidance. *Authors, arXiv preprint 2025*. [[2509.11617](https://arxiv.org/abs/2509.11617)]
@@ -805,6 +825,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Dataset Papers
 
+- **CADLoop: An Equivariant-Aware Skill-Grounded Loop for CAD Data Curation** — Repairs near-miss CAD programs through symbolic geometric constraints and AST edits to curate verified program-geometry pairs. *Haozhe Zhang, Miaomiao Chen, Kaichen Liu, CVPR Workshops 2026*. [[Paper](https://openaccess.thecvf.com/content/CVPR2026W/NeXD/html/Zhang_CADLoop_An_Equivariant-Aware_Skill-Grounded_Loop_for_CAD_Data_Curation_CVPRW_2026_paper.html)]
+- **ABC-1M: Autodesk Deduplicated Solids** — Releases processed ABC solids with geometry and topology attributes and explicit train, validation, and test splits for CAD learning. *Autodesk AI Lab, Dataset Release 2026*. [[Dataset](https://huggingface.co/datasets/ADSKAILab/ABC-1M)]
 - **A Synthetic 3D Gear Dataset for Manufacturing Quality Inspection (MFGNet-Gear)** — Releases 24,000 paired meshes and point clouds across 12 parametric gear designs and four quality classes, with a reproducible defect-generation pipeline. *Ruo-Syuan Mei, Chenhui Shao, arXiv 2026*. [[2607.16288](https://arxiv.org/abs/2607.16288)]
 - **FllumaOne: A Code-Native Multimodal CAD Dataset with Executable Programs and Kernel-Validated Feature Histories** — Releases 100K executable, kernel-validated CAD programs aligned with feature histories, STEP geometry, renders, and text. *Jizong Zhan, arXiv 2026*. [[2606.17696](https://arxiv.org/abs/2606.17696)] [[Code](https://github.com/Cad-Kernel/FllumaOne-100K)]
 - **Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data** — Synthesizes a million-scale dataset of interpretable CAD programs using agentic methods without real data. *Willis et al., arXiv 2026*. [[2604.24479](https://arxiv.org/abs/2604.24479)]
@@ -840,7 +862,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **ShapeNet: An Information-Rich 3D Model Repository** — Provides a richly annotated large-scale repository of 3D shapes organized by WordNet taxonomy. *Chang et al., arXiv 2015*. [[1512.03012](https://arxiv.org/abs/1512.03012)]
 - **3D ShapeNets: A Deep Representation for Volumetric Shapes** — Introduces a large-scale 3D shape dataset and a deep volumetric representation for recognition. *Wu et al., CVPR 2015*. [[1406.5670](https://arxiv.org/abs/1406.5670)]
 - **SESYD: A Synthetic Document Database for Performance Evaluation** — Provides synthetic engineering drawing symbols and diagrams for document recognition benchmarking. *Delalandre et al., DAS 2010*. [[Paper](https://doi.org/10.1007/s10032-010-0120-x)]
-- **CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design with Large Language Models** — Provides a large CAD-program dataset and framework enabling vision-language models to generate complex design histories. *Pyatov et al., arXiv 2026*. [[2605.01925](https://arxiv.org/abs/2605.01925)]
+- **CADFS: A Big CAD Program Dataset and Framework for Computer-Aided Design with Large Language Models** — Provides a large CAD-program dataset and framework enabling vision-language models to generate complex design histories. *Vladislav Pyatov, Gleb Bobrovskikh, Saveliy Galochkin et al., CVPR 2026*. [[2605.01925](https://arxiv.org/abs/2605.01925)]
 
 ### Evaluation Metrics
 
@@ -853,6 +875,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Benchmark Challenges
 
+- **CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design** — Evaluates GUI agents on 200 FreeCAD tasks with executable checks over saved geometry, constraints, manufacturing state, and simulation outputs. *Zihan Dong, Yuanzhe Liu, Zhiyuan Ma et al., arXiv 2026*. [[2609.16251](https://arxiv.org/abs/2609.16251)]
+- **ECCV 2026 CAD Challenge: Render + TechDraw to STEP BRep** — Pairs renders and engineering views with STEP targets and supplies public inputs, evaluation examples, and a hosted challenge evaluator. *ECCV CAD Challenge organizers, Workshop Challenge 2026*. [[Dataset](https://huggingface.co/datasets/jingwei-xu-00/eccv2026-cad-challenge-data)]
 - **Can It Actually Work? Synthesizing Functional CAD Mechanisms** — Introduces FunCAD-Harness and FunCADBench to verify generated mechanisms through candidate-specific physical simulation tests. *Wenqian Zhang, Yangyi Huang, Zigeng Xu et al., arXiv 2026*. [[2610.26861](https://arxiv.org/abs/2610.26861)]
 - **EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?** — Benchmarks professional engineering agents across CAD, CAE, CAM, BIM, EDA, and DCC using artifact-centric domain verifiers. *Hongcheng Gao, Hailong Qu, Yu Lei et al., arXiv 2026*. [[2609.37686](https://arxiv.org/abs/2609.37686)]
 - **ParamCAD-AgentBench** — Releases an executable long-horizon benchmark with 2,409 kernel-validated parametric CAD models and 4,818 paired language-agent tasks across core and challenge splits. *ParamCAD-AgentBench contributors, GitHub 2026*. [[Benchmark](https://github.com/Fasuiker/ParamCAD-AgentBench)]
@@ -878,6 +902,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Commercial CAD with AI Features
 
+- **Onshape AI Advisor** — Provides in-workspace conversational CAD guidance, including an iPhone and iPad interface released in October 2026. *Onshape / PTC, Technical Platform 2026*. [[Product](https://www.onshape.com/en/resource-center/what-is-new/propagate-configuration-inputs-references-persistent-center-mass-indicator-assemblies-ar-view-android)]
+- **NX X Manufacturing AI Make Machining Suggestion** — Adds geometry-driven generative machining suggestions alongside history-based strategies in the NX 2606 CAM workflow. *Siemens Digital Industries Software, Technical Platform 2026*. [[Product](https://blogs.sw.siemens.com/nx-manufacturing/whats-new-in-nx-for-manufacturing-2606-june-2026/)]
 - **SOLIDWORKS Design AI Virtual Companions** — Embeds AURA and LEO in SOLIDWORKS for parametric CAD generation, assembly planning, legacy B-rep conversion, drawing generation, and model-error diagnosis. *Dassault Systèmes, Technical Platform 2026*. [[Paper](https://www.solidworks.com/product/solidworks-design/ai-overview)]
 - **Onshape Labs FeatureScript MCP Server** — Connects AI clients to Onshape's native FeatureScript workflow to generate, execute, test, and refine reusable parametric CAD features from natural language. *Onshape / PTC, Technical Platform 2026*. [[Paper](https://www.onshape.com/en/blog/featurescript-mcp-server-enables-text-code-cad)]
 - **PTC Creo 13 AI Assistant** — Adds an embedded conversational assistant for contextual CAD guidance and workflow support inside Creo 13. *PTC, Technical Platform 2026*. [[Paper](https://www.ptc.com/en/news/2026/ptc-brings-ai-powered-guidance-to-the-design-environment-with-creo-13)]
@@ -899,6 +925,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### AI-Native CAD Platforms
 
+- **nurb** — Provides agent-assisted B-rep modeling, parameter controls, printability checks, and STEP/3MF export under the FSL-1.1-MIT source-available license. *Ordinary Systems, Source-Available Platform 2026*. [[Project](https://github.com/Shpigford/nurb)]
 - **Backflip AI** — Converts 3D scans, STL files, and meshes into editable parametric CAD models with feature trees, including an available Autodesk Fusion add-in. *Backflip, Technical Platform 2026*. [[Paper](https://www.backflip.ai/)]
 - **DraftAid** — Automates production-ready 2D fabrication drawings from 3D CAD models while applying company templates, dimensioning rules, and drafting standards. *DraftAid, Technical Platform 2026*. [[Paper](https://draftaid.io/)]
 - **Luphra** — Beta AI-assisted CAD platform that develops designs from text, photos, or sketches through chat, offers STL and available STEP solid-geometry exports (without implying native feature history), and quotes eligible physical prints; generated designs require human review. *Luphra, Technical Platform 2026*. [[Product](https://www.luphra.com/)]
@@ -911,6 +938,9 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Open-Source Tools and Frameworks
 
+- **agentcad (jdilla1277)** — Provides a local build123d CLI and MCP server with STEP export, rendering, geometry metrics, validation, and version comparison. *James Dillard, GitHub 2026*. [[Project](https://github.com/jdilla1277/agentcad)]
+- **AgentCAD (n3r)** — Offers agent-first build123d modeling, validated assemblies, structured execution feedback, a browser UI, and an MCP interface. *n3r contributors, GitHub 2026*. [[Project](https://github.com/n3r/AgentCAD)]
+- **AgentSCAD** — Generates editable OpenSCAD programs from natural language with a local workspace, geometry checks, and STL export. *Kevoyuan contributors, GitHub 2026*. [[Project](https://github.com/Kevoyuan/AgentSCAD)]
 - **build123d-mcp** — Exposes iterative build123d/OpenCascade modeling, rendering, inspection, repair, measurement, and STEP/STL/SVG/DXF export to AI clients through MCP. *Paul Fremantle, GitHub 2026*. [[Project](https://github.com/pzfreo/build123d-mcp)]
 - **MAC (Multi-Agent CAD)** — Implements a four-agent build123d pipeline with structured state transfer, executable geometry checks, repair loops, and a reproducible feature benchmark. *Tsinghua University IEI Lab, GitHub 2026*. [[Paper](https://github.com/Pan-Chera/Multi-Agent-CAD)]
 - **Text23D Mechanical** — Provides a local conversational CAD workspace with CadQuery and FreeCAD backends, editable artifacts, provider adapters, and streamed agent execution. *Text23D, GitHub 2026*. [[Paper](https://github.com/zqf3229294/Text23D)]
@@ -924,7 +954,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **Text-to-CAD Generation** — Infuses visual feedback into large language models for text-to-CAD generation. *Wang et al., arXiv preprint 2025*. [[2501.19054](https://arxiv.org/abs/2501.19054)]
 - **Autodesk and Model Context Protocol** — Makes MCP enterprise-ready for connecting AI agents to CAD design data. *Autodesk, Technical Blog 2025*. [[Paper](https://www.autodesk.com/autodesk-university/class/Equip-AI-with-Access-to-Your-Design-Data-and-Projects-Model-Context-Protocol-Autodesk-Platform-Services-2025)]
 - **FreecadMCP** — Model Context Protocol server enabling AI-driven parametric design in FreeCAD. *bonninr (open-source), GitHub 2025*. [[Paper](https://github.com/bonninr/freecad_mcp)]
-- **CAD Skills** — Agent skills framework for parametric CAD generation via the build123d library. *earthtojake (open-source), GitHub 2025*. [[Paper](https://github.com/earthtojake/text-to-cad)]
+- **text-to-cad** — Provides local agent workflows for STEP/GLB/STL/3MF generation, engineering drawings, and manufacturing checks through build123d. *earthtojake contributors, GitHub 2026*. [[Project](https://github.com/earthtojake/text-to-cad)]
 - **CADAM** — Open-source text-to-CAD web application powered by OpenSCAD-WASM. *Adam-CAD (open-source), GitHub 2026*. [[Paper](https://github.com/Adam-CAD/CADAM)]
 - **HiCAD** — Parametric 3D CAD modeling platform integrating JSCAD with multi-LLM support for AI-driven design. *MrXujiang, GitHub 2025*. [[Paper](https://github.com/MrXujiang/HiCAD)]
 - **CQAsk** — LLM-powered CAD generation tool that produces 3D models using CadQuery from natural language. *OpenOrion, GitHub 2024*. [[Paper](https://github.com/OpenOrion/CQAsk)]
@@ -938,7 +968,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **CodeToCAD** — Vendor-agnostic framework enabling code-based CAD automation across multiple modeling backends. *CodeToCAD, GitHub 2024*. [[Paper](https://github.com/CodeToCAD/CodeToCAD)]
 - **Curated Code CAD** — Comprehensive curated list of code-based CAD tools, languages, and frameworks. *Irev-Dev, GitHub 2024*. [[Paper](https://github.com/Irev-Dev/curated-code-cad)]
 - **The Power of Small LLMs in Geometry Generation for Physical Simulations** — Demonstrates small language models can effectively generate geometry for physical simulation workflows. *Ossama Shafiq, Bahman Ghiassi, Alessio Alexiadis, arXiv 2025*. [[2503.18178](https://arxiv.org/abs/2503.18178)]
-- **DreamCAD** — Scales multi-modal CAD generation using differentiable parametric surface representations. *Mohammad Sadil Khan, Muhammad Usama, Rolandos Alexandros Potamias et al., arXiv 2026*. [[2603.05607](https://arxiv.org/abs/2603.05607)]
+- **DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces** — Scales multi-modal CAD generation using differentiable parametric surface representations. *Mohammad Sadil Khan, Muhammad Usama, Rolandos Alexandros Potamias et al., ECCV 2026*. [[2603.05607](https://arxiv.org/abs/2603.05607)]
 - **Generating Human-AI Collaborative Design Sequence for 3D Assets** — Proposes differentiable operation graphs to model human-AI collaborative 3D design sequences. *Xiaoyang Huang, Bingbing Ni, Wenjun Zhang, arXiv 2025*. [[2508.17645](https://arxiv.org/abs/2508.17645)]
 - **A Solver-Aided Hierarchical Language for LLM-Driven CAD Design** — Introduces a solver-aided hierarchical language enabling LLMs to produce constraint-satisfying CAD designs. *Benjamin T. Jones, Felix Hahnlein, Zihan Zhang et al., arXiv 2025*. [[2502.09819](https://arxiv.org/abs/2502.09819)]
 - **Generative Parametric Design: A Framework for Real-time Geometry Generation and On-the-fly Multiparametric Approximation** — Proposes a framework for real-time parametric geometry generation with on-the-fly multiparametric approximation. *Mohammed El Fallaki Idrissi, Jad Mounayer, Sebastian Rodriguez et al., arXiv 2025*. [[2512.11748](https://arxiv.org/abs/2512.11748)]
@@ -990,9 +1020,9 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 613 | `README.md` list entries |
-| Deduplicated registry records | 645 | `research/papers/*.jsonl` |
-| Registry records dated 2024-2026 | 503 | `research/papers/*.jsonl` |
+| Markdown catalog entries | 643 | `README.md` list entries |
+| Deduplicated registry records | 675 | `research/papers/*.jsonl` |
+| Registry records dated 2024-2026 | 533 | `research/papers/*.jsonl` |
 
 Use these terms explicitly when citing counts. Do not collapse them into an undefined "papers" total.
 
@@ -1003,6 +1033,8 @@ The subsequent incremental review is documented in
 [catalog_increment_review_2026-10-23.md](research/catalog_audit/catalog_increment_review_2026-10-23.md).
 
 ---
+
+The expanded multi-source review is documented in [cad_expanded_review_2026-10-23.md](research/catalog_audit/cad_expanded_review_2026-10-23.md).
 
 ## License
 
