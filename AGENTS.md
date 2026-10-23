@@ -16,16 +16,16 @@ Optimize for evidence, reproducibility, and small diffs.
 
 | Artifact | Purpose | Notes |
 |---|---|---|
-| `README.md` | Public catalog and human navigation | Contains 644 Markdown catalog entries. |
-| `research/papers/*.jsonl` | Machine-readable registry | Deduplicates to 676 unique records in the current snapshot. |
+| `README.md` | Public catalog and human navigation | Contains 658 Markdown catalog entries. |
+| `research/papers/*.jsonl` | Machine-readable registry | Deduplicates to 690 unique records in the current snapshot. |
 | `research/catalog_audit/` | Catalog confidence audit | Documents per-entry verification status and manual source checks. |
 
 ## Data Confidence Contract
 
 - Use exact counts only when they are directly reproducible from local files or a cited external source.
 - Do not describe the catalog with an undefined rounded paper count. Use:
-  - `644 Markdown catalog entries`
-  - `676 deduplicated JSONL registry records`
+  - `658 Markdown catalog entries`
+  - `690 deduplicated JSONL registry records`
 - Do not introduce projected counts, inferred percentages, or market/workflow statistics without a source and a note about the denominator.
 - If a number comes from an individual paper and has not been independently checked, phrase it as a reported result.
 

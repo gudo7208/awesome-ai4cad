@@ -1,9 +1,9 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 644
-deduplicated_registry_records: 676
-registry_records_2024_2026: 534
+catalog_entries: 658
+deduplicated_registry_records: 690
+registry_records_2024_2026: 548
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
 validation: "python3 scripts/validate_catalog.py"
 -->
@@ -12,8 +12,8 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-644_entries-blue)
-![Registry](https://img.shields.io/badge/Registry-676_unique_records-green)
+![Catalog](https://img.shields.io/badge/Catalog-658_entries-blue)
+![Registry](https://img.shields.io/badge/Registry-690_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
@@ -202,6 +202,7 @@ AI methods for interpreting, analyzing, and generating 2D engineering drawings, 
 
 ### Compliance Checking
 
+- **Ishigaki-IDS: An Open-Weight Verifier-Aware Model for Information Delivery Specification Drafting in Building Information Modeling** — Generates BIM requirement specifications as IDS XML using domain training and external-validator rewards; the linked 8B model has gated file access. *Ryo Kanazawa, Koyo Hidaka, Teppei Miyamoto et al., arXiv 2026*. [[2606.08545](https://arxiv.org/abs/2606.08545)] [[Model](https://huggingface.co/ONESTRUCTION/Ishigaki-IDS-8B)]
 - **Automated Facility Enumeration for Building Compliance Checking using Door Detection and Large Language Models** — Combines door detection with LLMs to automate facility enumeration for building code compliance. *Licheng Zhang, Bach Le, Naveed Akhtar et al., arXiv 2025*. [[2509.17283](https://arxiv.org/abs/2509.17283)]
 - **Automatic Building Code Review** — Automates building code review processes using AI-driven analysis of architectural plans. *Authors, arXiv 2025*. [[2510.02634](https://arxiv.org/abs/2510.02634)]
 - **DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent** — Uses an LLM autonomous agent to automatically generate design rule checking code. *Chen-Chia Chang, Chia-Tung Ho, Yaguang Li et al., ISPD 2025*. [[2412.05311](https://arxiv.org/abs/2412.05311)]
@@ -320,13 +321,14 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### LLM and VLM-Based Generation
 
+- **A Dual-Head Self-Reflective Framework for Text-to-CAD Generation** — Separates topological tokens from numerical parameters and combines B-rep-aware constrained CadQuery decoding with symbolic repair feedback. *Yusong Qiao, Dong Yu, Expert Systems with Applications 2026*. [[Paper](https://doi.org/10.1016/j.eswa.2026.134693)]
 - **ReliCAD: From Uncertain LLM Generation to Reliable Parametric CAD Modeling** — Combines explicit design specifications, constraint-aware instructions, CAD-kernel execution, and evidence-guided verification and repair. *Peng Zheng, Xintong Dong, Chuanyang Li et al., arXiv 2026*. [[2609.22325](https://arxiv.org/abs/2609.22325)]
 - **Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling** — Combines visual reasoning with ID-based geometry selection, coordinate conversion, and deterministic CAD kernel operations. *Xi Cheng, Chenxi Zhai, Hang Cheng et al., arXiv 2026*. [[2609.22688](https://arxiv.org/abs/2609.22688)]
 - **CIT-CAD: Constraint Intent Tree-based CAD Code Generation and Verification** — Represents construction intent as explicit constraints that guide CadQuery generation, detect violations, and localize repairs. *Yali Du, Hui Sun, San-Zhuo Xi et al., arXiv 2026*. [[2609.07434](https://arxiv.org/abs/2609.07434)]
 - **VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence** — Maps text, renders, engineering drawings, and photographs to executable CAD programs and uses a domain harness for assembly mating and placement. *Guanlin Li, Zhichao Huang, Huimu Yu et al., arXiv 2026*. [[2609.03811](https://arxiv.org/abs/2609.03811)]
 - **ExpConCAD: Experience-Guided Text-to-CAD Generation from Shape Descriptions with Implicit Spatial Constraints** — Recovers construction structure and retrieves prior design experience to complete spatial constraints omitted from text descriptions. *Jingyao Liu, Jinkang Tang, Chen Huang et al., arXiv 2026*. [[2608.24760](https://arxiv.org/abs/2608.24760)]
 - **Test-Time Scaling for CAD Generation via Verifier-Free Consensus Selection** — Selects a parametric CAD program by geometric or topological agreement within a sampled candidate pool without a separate verifier. *Aaron Haag, Altay Kacan, Bertram Fuchs et al., arXiv 2026*. [[2608.09706](https://arxiv.org/abs/2608.09706)]
-- **IndustryForge-27B: A Domain-Enhanced Multimodal Foundation Model for Industrial CAD** — Fine-tunes a multimodal model across CAD visual reasoning, parametric code, assemblies, and industrial software APIs. *Nianchen Deng, Jiaxin Ai, Tao Hu et al., arXiv 2026*. [[2607.28050](https://arxiv.org/abs/2607.28050)]
+- **IndustryForge-27B: A Domain-Enhanced Multimodal Foundation Model for Industrial CAD** — Fine-tunes a multimodal model across CAD visual reasoning, parametric code, assemblies, and industrial software APIs. *Nianchen Deng, Jiaxin Ai, Tao Hu et al., arXiv 2026*. [[2607.28050](https://arxiv.org/abs/2607.28050)] [[Model](https://huggingface.co/Nianchen/IndustryForge-27B)]
 - **HierCAD: Hierarchical Text-to-CAD Design via Structure Alignment and Parameter Grounding** — Aligns object structures and grounds part parameters for hierarchical text-to-CAD generation. *Jimin Xu, Tianbao Wang, Tao Jin et al., arXiv 2026*. [[2607.11339](https://arxiv.org/abs/2607.11339)]
 - **Foundation Models for Automatic CAD Generation** — Benchmarks foundation models and iterative critique on mechanical CAD generation tasks. *J. de Curtò, Victoria Guillén, I. de Zarzà, Springer Advances in Global Applied Artificial Intelligence 2026*. [[2607.05573](https://arxiv.org/abs/2607.05573)]
 - **Arko-T: A Foundation Model for Text-to-Structured 3D Generation** — Maps text directly to executable parametric CAD programs with design-state supervision. *Liang Wang, Zhaoyang Xi, Zekai Xiang et al., arXiv 2026*. [[2606.30429](https://arxiv.org/abs/2606.30429)]
@@ -358,6 +360,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### B-Rep and CSG Generation
 
+- **Text2CSG: Generating CAD models from natural language via constructive solid geometry** — Generates interpretable CSG construction trees from text using a structure-aware Transformer with hierarchical supervision and validity constraints. *Luo Zhang, Gaochao Song, Haocong Rao et al., Computer-Aided Design 2026*. [[Paper](https://doi.org/10.1016/j.cad.2026.104127)]
 - **BrepForge: Factorized B-rep Synthesis via Wireframe Composition and Boundary-Conditioned Surface Instantiation** — Factorizes B-rep synthesis into structural wireframe composition and boundary-conditioned surface construction. *Jing Li, Yihang Fu, Falai Chen, SIGGRAPH 2026*. [[2605.19411](https://arxiv.org/abs/2605.19411)]
 - **BRepFacetGen: Reverse Engineering B-Reps By Generative Face Segmentation** — Models ambiguous CAD face decomposition generatively to reconstruct B-reps from continuous geometric representations. *Ka-Hei Hui, Vikas Thamizharasan, Pradeep Kumar Jayaraman et al., ECCV 2026*. [[Paper](https://doi.org/10.1007/978-3-032-37258-1_35)]
 - **HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation** — Jointly predicts B-rep geometry and topology with topology-aware encoding and differentiable manifold constraints. *Junhao Hou, Chenqi Luo, Pufan Wang et al., CVPR 2026*. [[2608.16485](https://arxiv.org/abs/2608.16485)] [[Code](https://github.com/1nnoh/HiFi-BRep)]
@@ -490,6 +493,7 @@ Methods for generating parametric 3D CAD models from various inputs including te
 
 ### Multi-Modal CAD Generation
 
+- **BIMVLM: A vision-language model for iterative generation of component BIM models** — Uses multimodal inputs and iterative modeling-action prediction to generate structured component BIM models. *Hao Zhang, Junwei Yan, Quan Liu et al., Expert Systems with Applications 2026*. [[Paper](https://doi.org/10.1016/j.eswa.2026.131765)]
 - **Rethinking Human Intent-to-CAD: Parametric CAD Model Generation via Cooperative Multi-Task Alignment and Spatial-Aware Reinforcement Learning** — Introduces HiCAD sketch-text-code data and combines multi-task alignment with spatial-aware reinforcement learning for intent-to-CAD generation. *Qingwang Zhang, Jiahao Li, Xiangdong Zhou, arXiv 2026*. [[2610.15681](https://arxiv.org/abs/2610.15681)]
 - **MIRAGE-CAD: Construction-Mediated Multimodal Generation of Executable CAD Programs** — Converts text, images, point clouds, or STEP/B-Rep geometry into construction plans and OpenCASCADE-executable Python CAD programs. *Jizong Zhan, arXiv 2026*. [[2608.28669](https://arxiv.org/abs/2608.28669)] [[Code](https://github.com/Cad-Kernel/MIRAGE-CAD)]
 - **Captioning and Generating 3D Content via Multi-modal Large Language Models** — Leverages multi-modal LLMs to jointly caption and generate 3D content. *Authors, arXiv 2026*. [[2601.21798](https://arxiv.org/abs/2601.21798)]
@@ -525,6 +529,7 @@ Representation learning, feature recognition, retrieval, and semantic understand
 
 ### Multi-Modal CAD Representations
 
+- **Shape: A Self-Supervised 3D Geometry Foundation Model for Industrial CAD Analysis** — Learns dense CAD-mesh embeddings with masked geometric reconstruction, multi-resolution contrastive consistency, and per-region attribution. *Bayangmbe Mounmo, Sam Chien, Mile Mitrovic, arXiv 2026*. [[2604.22826](https://arxiv.org/abs/2604.22826)] [[Code](https://github.com/simd-ai/shape)]
 - **BRepCLIP: Contrastive Multimodal Pretraining on BRep Primitives for CAD Understanding** — Aligns native B-rep face and edge tokens with text and image embeddings. *Muhammad Usama, Didier Stricker, Mohammad Sadil Khan et al., arXiv 2026*. [[2606.05515](https://arxiv.org/abs/2606.05515)]
 - **CADCrafter** — Generates parametric CAD models from unconstrained single-view images via a multi-stage pipeline. *Yunlong Chen, Xiang Xu, Ganzhangqin Yuan et al., CVPR 2025*. [[2504.04753](https://arxiv.org/abs/2504.04753)]
 - **BrepLLM** — Enables large language models to natively understand boundary representation CAD geometry. *Liyuan Deng, Hao Guo, Yunpeng Bai et al., arXiv 2025*. [[2512.16413](https://arxiv.org/abs/2512.16413)]
@@ -875,6 +880,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Benchmark Challenges
 
+- **Ishigaki-IDS-Bench: A Benchmark for Generating Information Delivery Specification from BIM Information Requirements** — Evaluates BIM requirement-to-IDS generation on expert-authored bilingual tasks using external schema/vocabulary audits and facet-level content fidelity. *Ryo Kanazawa, Koyo Hidaka, Teppei Miyamoto et al., CIKM 2026 (accepted) 2026*. [[2605.22079](https://arxiv.org/abs/2605.22079)]
+- **Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra** — Studies CAD understanding, generation, editing, and evaluation, documenting gaps in geometric validity, parameter dependencies, and assembly mating. *Qiang Zou, Jiajun Shen, Zhijie Yang et al., arXiv 2026*. [[2610.24451](https://arxiv.org/abs/2610.24451)]
 - **CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design** — Evaluates GUI agents on 200 FreeCAD tasks with executable checks over saved geometry, constraints, manufacturing state, and simulation outputs. *Zihan Dong, Yuanzhe Liu, Zhiyuan Ma et al., arXiv 2026*. [[2609.16251](https://arxiv.org/abs/2609.16251)]
 - **ECCV 2026 CAD Challenge: Render + TechDraw to STEP BRep** — Pairs renders and engineering views with STEP targets and supplies public inputs, evaluation examples, and a hosted challenge evaluator. *ECCV CAD Challenge organizers, Workshop Challenge 2026*. [[Dataset](https://huggingface.co/datasets/jingwei-xu-00/eccv2026-cad-challenge-data)]
 - **Can It Actually Work? Synthesizing Functional CAD Mechanisms** — Introduces FunCAD-Harness and FunCADBench to verify generated mechanisms through candidate-specific physical simulation tests. *Wenqian Zhang, Yangyi Huang, Zigeng Xu et al., arXiv 2026*. [[2610.26861](https://arxiv.org/abs/2610.26861)]
@@ -925,6 +932,10 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### AI-Native CAD Platforms
 
+- **ClassCAD.ai** — Connects agents through MCP, scripts, skills, and rendering to a headless CAD engine with parametric history, geometric checks, and plan-dependent STEP export. *AWV Informatik, Technical Platform 2026*. [[Product](https://classcad.ai/)] [[Project](https://github.com/awv-informatik/classcad-ai)]
+- **Motif Design: Agent-Native BIM Modeling** — Embeds agents in a collaborative BIM model for parametric content generation, model editing, and documentation, with team-mediated access. *Motif, Technical Platform 2026*. [[Product](https://motif.io/design/ai)] [[Access](https://help.motif.io/articles/5348679184-motif-design-what-it-is-and-how-to-get-access)]
+- **BIMLOGIQ Argus: CAD-to-MEP and Parametric Revit Modeling** — Builds connected Revit MEP networks from DWG/DXF drawings and automates room layouts with post-generation geometry and connectivity checks. *BIMLOGIQ, Technical Platform 2026*. [[Product](https://bimlogiq.com/whats-new/september-2026)]
+- **Adam Parametric CAD Migrations** — Rebuilds parametric history in a destination CAD system with stepwise geometric verification and model-metadata transfer, subject to source/destination assessment. *Adam AI Labs, Technical Platform 2026*. [[Product](https://adam.new/migrations)]
 - **nurb** — Provides agent-assisted B-rep modeling, parameter controls, printability checks, and STEP/3MF export under the FSL-1.1-MIT source-available license. *Ordinary Systems, Source-Available Platform 2026*. [[Project](https://github.com/Shpigford/nurb)]
 - **Backflip AI** — Converts 3D scans, STL files, and meshes into editable parametric CAD models with feature trees, including an available Autodesk Fusion add-in. *Backflip, Technical Platform 2026*. [[Paper](https://www.backflip.ai/)]
 - **DraftAid** — Automates production-ready 2D fabrication drawings from 3D CAD models while applying company templates, dimensioning rules, and drafting standards. *DraftAid, Technical Platform 2026*. [[Paper](https://draftaid.io/)]
@@ -932,8 +943,8 @@ Major datasets and benchmarks used across the AI for CAD research community.
 - **Neural Concept: Physics- and Geometry-Aware AI Design Copilot for Engineering** — Accelerates engineering design with AI that understands physical constraints and 3D geometry. *Neural Concept, Technical Platform 2025*.
 - **Adam: AI-Native CAD Platform for Text-to-Parametric Design** — Generates editable parametric CAD models from natural language descriptions. *Adam (YC W25), Technical Platform 2025*.
 - **Leo AI: Large Mechanical Model for CAD-Aware Engineering Assistance** — Applies a domain-specific large model to assist mechanical engineers within CAD environments. *Leo AI, Technical Platform 2025*.
-- **Zoo.dev Text-to-CAD: Parametric CAD Generation via KCL Programming Language** — Converts text prompts into parametric CAD geometry using a code-first modeling language. *Zoo (formerly KittyCAD), Technical Platform 2024*.
-- **MecAgent: AI Copilot for Mechanical CAD Software Automation** — Automates repetitive mechanical CAD tasks through an AI-driven copilot interface. *MecAgent, Technical Platform 2024*.
+- **Zoo Design Studio and Zookeeper** — Creates, inspects, and edits parametric KCL/B-rep models through a conversational agent with geometry tools; KCL 3 improves modeling operations, while assembly constraints remain roadmap work. *Zoo, Technical Platform 2026*. [[Product](https://zoo.dev/zookeeper)] [[Research](https://zoo.dev/research/zookeeper)] [[Release](https://zoo.dev/blog/kcl-3)]
+- **MecAgent V2: AI Copilot for Mechanical CAD Software Automation** — Builds and edits native SOLIDWORKS feature trees from specifications or STEP files, supports assembly-context work, and runs drawing tasks in the background. *MecAgent, Technical Platform 2026*. [[Product](https://mecagent.com/user-guide)] [[Release](https://mecagent.com/release)]
 - **Luminary Cloud: Physics AI Factory for Real-Time Engineering Simulation** — Delivers GPU-accelerated physics simulation for real-time engineering design exploration. *Luminary Cloud, Technical Platform 2024*.
 
 ### Open-Source Tools and Frameworks
@@ -978,6 +989,9 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### Research on AI Tools and Deployment
 
+- **Introducing SGS-1** — Research preview reconstructing images and meshes as B-rep STEP parts for CAD editing, with limitations on thin structures, organic surfaces, and one-shot assemblies. *Spectral Labs, Technical Blog 2025*. [[Blog](https://www.spectrallabs.ai/research/SGS-1)] [[Demo](https://huggingface.co/spaces/spectral-labs/SGS-1)]
+- **A Turing Test for Physical Engineering** — Reports a CAD agent combining SGS-Mk2 with VLM orchestration and Quartz for part construction, editing, and constrained assembly tasks. *Spectral Labs, Technical Blog 2026*. [[Blog](https://www.spectrallabs.ai/research/cswp-turing-test)]
+- **Quartz: CAD Software Built for Machine Intelligence** — Describes a proprietary CAD execution and training environment with constrained parametric parts, mates, parallel agents, and demonstrated SOLIDWORKS/NX feature-tree translation. *Spectral Labs, Technical Blog 2026*. [[Blog](https://www.spectrallabs.ai/research/building-cad-for-machine-intelligence)]
 - **Introducing SKY-001: The First World Model for Engineering** — Research preview using hierarchical composition and a construction world model to generate visual CAD/BIM design plans; executable, editable CAD feature histories remain future work, and public code or weights are not verified. *Skyfall Research, Technical Blog 2026*. [[Project](https://skyfall.ai/sky-001)] [[Blog](https://skyfall.ai/blog/introducing-sky-001)]
 - **LLM-based Visual Code Completion for Aerospace Geometric Design** — Adds a ReAct-style Grasshopper copilot, Wingbuilder geometry library, and 18-task aerospace benchmark. *Hau Kit Yong, Robert Marsh, Edmar A. Silva et al., arXiv 2026*. [[2606.16806](https://arxiv.org/abs/2606.16806)]
 - **Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design** — Explores a metacognitive co-regulation loop for supervising agentic AI in engineering design tasks. *Xu et al., arXiv 2026*. [[2603.24768](https://arxiv.org/abs/2603.24768)]
@@ -1021,9 +1035,9 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 644 | `README.md` list entries |
-| Deduplicated registry records | 676 | `research/papers/*.jsonl` |
-| Registry records dated 2024-2026 | 534 | `research/papers/*.jsonl` |
+| Markdown catalog entries | 658 | `README.md` list entries |
+| Deduplicated registry records | 690 | `research/papers/*.jsonl` |
+| Registry records dated 2024-2026 | 548 | `research/papers/*.jsonl` |
 
 Use these terms explicitly when citing counts. Do not collapse them into an undefined "papers" total.
 
