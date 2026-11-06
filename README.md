@@ -1,7 +1,7 @@
 <!--
 repo: awesome-ai4cad
 scope: AI methods for Computer-Aided Design (2018-2026)
-catalog_entries: 658
+catalog_entries: 659
 deduplicated_registry_records: 690
 registry_records_2024_2026: 548
 entry_format: "Markdown list item with title, authors, venue/year, and a source link; arXiv links use the identifier as label"
@@ -12,7 +12,7 @@ validation: "python3 scripts/validate_catalog.py"
 
 > A curated catalog of papers, datasets, and resources on AI for Computer-Aided Design.
 
-![Catalog](https://img.shields.io/badge/Catalog-658_entries-blue)
+![Catalog](https://img.shields.io/badge/Catalog-659_entries-blue)
 ![Registry](https://img.shields.io/badge/Registry-690_unique_records-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
@@ -932,6 +932,7 @@ Major datasets and benchmarks used across the AI for CAD research community.
 
 ### AI-Native CAD Platforms
 
+- **MST AI Engineer** — Generates native, editable SOLIDWORKS 3D assemblies from P&ID gas-line diagrams using PDM-approved parts and customer equipment rules, starting with semiconductor gas equipment; also offers 2D-drawing-to-3D-model and layout and connection modules. *MST, Technical Platform 2026*. [[Product](https://mst-us.ai/?source=awesome-ai4cad)]
 - **ClassCAD.ai** — Connects agents through MCP, scripts, skills, and rendering to a headless CAD engine with parametric history, geometric checks, and plan-dependent STEP export. *AWV Informatik, Technical Platform 2026*. [[Product](https://classcad.ai/)] [[Project](https://github.com/awv-informatik/classcad-ai)]
 - **Motif Design: Agent-Native BIM Modeling** — Embeds agents in a collaborative BIM model for parametric content generation, model editing, and documentation, with team-mediated access. *Motif, Technical Platform 2026*. [[Product](https://motif.io/design/ai)] [[Access](https://help.motif.io/articles/5348679184-motif-design-what-it-is-and-how-to-get-access)]
 - **BIMLOGIQ Argus: CAD-to-MEP and Parametric Revit Modeling** — Builds connected Revit MEP networks from DWG/DXF drawings and automates room layouts with post-generation geometry and connectivity checks. *BIMLOGIQ, Technical Platform 2026*. [[Product](https://bimlogiq.com/whats-new/september-2026)]
@@ -1035,7 +1036,7 @@ This repository intentionally separates three denominators:
 
 | Denominator | Current Count | Source |
 |---|---:|---|
-| Markdown catalog entries | 658 | `README.md` list entries |
+| Markdown catalog entries | 659 | `README.md` list entries |
 | Deduplicated registry records | 690 | `research/papers/*.jsonl` |
 | Registry records dated 2024-2026 | 548 | `research/papers/*.jsonl` |
 
